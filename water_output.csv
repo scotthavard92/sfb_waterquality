@@ -1,0 +1,2058 @@
+id,station_code,sample_date,analyte,result,unit
+1,Crown 2001 Shoreline Dr.,2010-05-03T00:00:00,Enterococcus,2,MPN/100 mL
+2,Crown 2001 Shoreline Dr.,2010-05-10T00:00:00,"Coliform, Total",20,MPN/100 mL
+3,Crown 2001 Shoreline Dr.,2010-05-24T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+4,Crown 2001 Shoreline Dr.,2010-06-01T00:00:00,"Coliform, Total",230,MPN/100 mL
+5,Crown 2001 Shoreline Dr.,2010-06-14T00:00:00,"Coliform, Total",860,MPN/100 mL
+6,Crown 2001 Shoreline Dr.,2010-06-21T00:00:00,Enterococcus,1,MPN/100 mL
+7,Crown 2001 Shoreline Dr.,2010-06-28T00:00:00,"Coliform, Fecal",27,MPN/100 mL
+8,Crown 2001 Shoreline Dr.,2010-07-12T00:00:00,Enterococcus,5,MPN/100 mL
+9,Crown 2001 Shoreline Dr.,2010-07-19T00:00:00,"Coliform, Total",340,MPN/100 mL
+10,Crown 2001 Shoreline Dr.,2010-07-26T00:00:00,"Coliform, Total",370,MPN/100 mL
+11,Crown 2001 Shoreline Dr.,2010-08-09T00:00:00,Enterococcus,8,MPN/100 mL
+12,Crown 2001 Shoreline Dr.,2010-08-16T00:00:00,"Coliform, Total",10,MPN/100 mL
+13,Crown 2001 Shoreline Dr.,2010-08-23T00:00:00,"Coliform, Total",10,MPN/100 mL
+14,Crown 2001 Shoreline Dr.,2010-08-23T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+15,Crown 2001 Shoreline Dr.,2010-09-07T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+16,Crown 2001 Shoreline Dr.,2010-09-14T00:00:00,Enterococcus,1,MPN/100 mL
+17,Crown 2001 Shoreline Dr.,2010-09-20T00:00:00,"Coliform, Fecal",19,MPN/100 mL
+18,Crown 2001 Shoreline Dr.,2010-09-27T00:00:00,"Coliform, Fecal",37,MPN/100 mL
+19,Crown 2001 Shoreline Dr.,2010-10-04T00:00:00,"Coliform, Total",320,MPN/100 mL
+20,Crown 2001 Shoreline Dr.,2010-10-04T00:00:00,"Coliform, Fecal",40,MPN/100 mL
+21,Crown 2001 Shoreline Dr.,2011-01-18T00:00:00,"Coliform, Total",500,MPN/100 mL
+22,Crown 2001 Shoreline Dr.,2011-01-18T00:00:00,Enterococcus,350,MPN/100 mL
+23,Crown 2001 Shoreline Dr.,2011-01-18T00:00:00,"Coliform, Fecal",370,MPN/100 mL
+24,Crown 2001 Shoreline Dr.,2011-01-21T00:00:00,"Coliform, Total",97,MPN/100 mL
+25,Crown 2001 Shoreline Dr.,2011-02-07T00:00:00,"Coliform, Total",31,MPN/100 mL
+26,Crown 2001 Shoreline Dr.,2011-02-22T00:00:00,"Coliform, Total",340,MPN/100 mL
+27,Crown 2001 Shoreline Dr.,2011-02-24T00:00:00,"Coliform, Total",270,MPN/100 mL
+28,Crown 2001 Shoreline Dr.,2011-03-07T00:00:00,"Coliform, Fecal",26,MPN/100 mL
+29,Crown 2001 Shoreline Dr.,2011-03-29T00:00:00,Enterococcus,18,MPN/100 mL
+30,Crown 2001 Shoreline Dr.,2011-03-29T00:00:00,"Coliform, Fecal",70,MPN/100 mL
+31,Crown 2001 Shoreline Dr.,2011-04-11T00:00:00,Enterococcus,1,MPN/100 mL
+32,Crown 2001 Shoreline Dr.,2011-05-02T00:00:00,Enterococcus,1,MPN/100 mL
+33,Crown 2001 Shoreline Dr.,2011-05-09T00:00:00,Enterococcus,190,MPN/100 mL
+34,Crown 2001 Shoreline Dr.,2011-05-16T00:00:00,Enterococcus,13,MPN/100 mL
+35,Crown 2001 Shoreline Dr.,2011-05-31T00:00:00,Enterococcus,3,MPN/100 mL
+36,Crown 2001 Shoreline Dr.,2011-06-06T00:00:00,"Coliform, Total",260,MPN/100 mL
+37,Crown 2001 Shoreline Dr.,2011-06-27T00:00:00,Enterococcus,1,MPN/100 mL
+38,Crown 2001 Shoreline Dr.,2011-07-06T00:00:00,"Coliform, Total",52,MPN/100 mL
+39,Crown 2001 Shoreline Dr.,2011-07-06T00:00:00,Enterococcus,1,MPN/100 mL
+40,Crown 2001 Shoreline Dr.,2011-07-06T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+41,Crown 2001 Shoreline Dr.,2011-07-11T00:00:00,"Coliform, Total",52,MPN/100 mL
+42,Crown 2001 Shoreline Dr.,2011-07-18T00:00:00,Enterococcus,7,MPN/100 mL
+43,Crown 2001 Shoreline Dr.,2011-07-18T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+44,Crown 2001 Shoreline Dr.,2011-07-25T00:00:00,"Coliform, Total",96,MPN/100 mL
+45,Crown 2001 Shoreline Dr.,2011-07-25T00:00:00,Enterococcus,3,MPN/100 mL
+46,Crown 2001 Shoreline Dr.,2011-07-25T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+47,Crown 2001 Shoreline Dr.,2011-08-08T00:00:00,"Coliform, Total",31,MPN/100 mL
+48,Crown 2001 Shoreline Dr.,2011-08-08T00:00:00,Enterococcus,2,MPN/100 mL
+49,Crown 2001 Shoreline Dr.,2011-08-15T00:00:00,"Coliform, Total",180,MPN/100 mL
+50,Crown 2001 Shoreline Dr.,2011-08-15T00:00:00,Enterococcus,23,MPN/100 mL
+51,Crown 2001 Shoreline Dr.,2011-08-22T00:00:00,Enterococcus,2,MPN/100 mL
+52,Crown 2001 Shoreline Dr.,2011-08-29T00:00:00,"Coliform, Fecal",110,MPN/100 mL
+53,Crown 2001 Shoreline Dr.,2011-09-19T00:00:00,"Coliform, Total",190,MPN/100 mL
+54,Crown 2001 Shoreline Dr.,2011-09-19T00:00:00,Enterococcus,6,MPN/100 mL
+55,Crown 2001 Shoreline Dr.,2011-09-19T00:00:00,"Coliform, Fecal",61,MPN/100 mL
+56,Crown 2001 Shoreline Dr.,2011-09-26T00:00:00,Enterococcus,1,MPN/100 mL
+57,Crown 2001 Shoreline Dr.,2011-09-26T00:00:00,"Coliform, Fecal",10,MPN/100 mL
+58,Crown 2001 Shoreline Dr.,2011-10-11T00:00:00,"Coliform, Total",660,MPN/100 mL
+59,Crown 2001 Shoreline Dr.,2011-10-17T00:00:00,Enterococcus,1,MPN/100 mL
+60,Crown 2001 Shoreline Dr.,2011-10-24T00:00:00,"Coliform, Total",210,MPN/100 mL
+61,Crown 2001 Shoreline Dr.,2011-10-24T00:00:00,Enterococcus,1,MPN/100 mL
+62,Crown 2001 Shoreline Dr.,2011-11-28T00:00:00,"Coliform, Total",20,MPN/100 mL
+63,Crown 2001 Shoreline Dr.,2010-05-17T00:00:00,"Coliform, Fecal",9,MPN/100 mL
+64,Crown 2001 Shoreline Dr.,2010-05-24T00:00:00,"Coliform, Total",10,MPN/100 mL
+65,Crown 2001 Shoreline Dr.,2011-12-12T00:00:00,"Coliform, Total",52,MPN/100 mL
+66,Crown 2001 Shoreline Dr.,2011-12-27T00:00:00,"Coliform, Total",31,MPN/100 mL
+67,Crown 2001 Shoreline Dr.,2011-12-27T00:00:00,"Coliform, Fecal",21,MPN/100 mL
+68,Crown 2001 Shoreline Dr.,2012-01-09T00:00:00,Enterococcus,25,MPN/100 mL
+69,Crown 2001 Shoreline Dr.,2012-01-09T00:00:00,"Coliform, Fecal",37,MPN/100 mL
+70,Crown 2001 Shoreline Dr.,2010-06-07T00:00:00,Enterococcus,1,MPN/100 mL
+71,Crown 2001 Shoreline Dr.,2010-06-21T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+72,Crown 2001 Shoreline Dr.,2010-06-28T00:00:00,Enterococcus,3,MPN/100 mL
+73,Crown 2001 Shoreline Dr.,2010-07-06T00:00:00,"Coliform, Total",190,MPN/100 mL
+74,Crown 2001 Shoreline Dr.,2010-07-26T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+75,Crown 2001 Shoreline Dr.,2012-01-23T00:00:00,"Coliform, Fecal",120,MPN/100 mL
+76,Crown 2001 Shoreline Dr.,2012-02-07T00:00:00,"Coliform, Total",650,MPN/100 mL
+77,Crown 2001 Shoreline Dr.,2012-02-08T00:00:00,"Coliform, Total",75,MPN/100 mL
+78,Crown 2001 Shoreline Dr.,2012-02-08T00:00:00,"Coliform, Fecal",28,MPN/100 mL
+79,Crown 2001 Shoreline Dr.,2012-02-21T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+80,Crown 2001 Shoreline Dr.,2010-08-02T00:00:00,"Coliform, Total",160,MPN/100 mL
+81,Crown 2001 Shoreline Dr.,2010-08-09T00:00:00,"Coliform, Total",86,MPN/100 mL
+82,Crown 2001 Shoreline Dr.,2010-08-09T00:00:00,"Coliform, Fecal",44,MPN/100 mL
+83,Crown 2001 Shoreline Dr.,2010-08-16T00:00:00,Enterococcus,1,MPN/100 mL
+84,Crown 2001 Shoreline Dr.,2010-08-30T00:00:00,Enterococcus,6,MPN/100 mL
+85,Crown 2001 Shoreline Dr.,2012-03-06T00:00:00,"Coliform, Total",580,MPN/100 mL
+86,Crown 2001 Shoreline Dr.,2012-03-20T00:00:00,"Coliform, Fecal",17,MPN/100 mL
+87,Crown 2001 Shoreline Dr.,2012-04-03T00:00:00,"Coliform, Total",40,MPN/100 mL
+88,Crown 2001 Shoreline Dr.,2012-04-10T00:00:00,"Coliform, Total",1100,MPN/100 mL
+89,Crown 2001 Shoreline Dr.,2012-04-17T00:00:00,"Coliform, Fecal",9,MPN/100 mL
+90,Crown 2001 Shoreline Dr.,2010-09-07T00:00:00,Enterococcus,2,MPN/100 mL
+91,Crown 2001 Shoreline Dr.,2010-09-27T00:00:00,"Coliform, Total",160,MPN/100 mL
+92,Crown 2001 Shoreline Dr.,2010-10-04T00:00:00,Enterococcus,7,MPN/100 mL
+93,Crown 2001 Shoreline Dr.,2010-10-12T00:00:00,Enterococcus,2,MPN/100 mL
+94,Crown 2001 Shoreline Dr.,2010-10-12T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+95,Crown 2001 Shoreline Dr.,2010-12-06T00:00:00,"Coliform, Total",2500,MPN/100 mL
+96,Crown 2001 Shoreline Dr.,2010-12-06T00:00:00,"Coliform, Fecal",150,MPN/100 mL
+97,Crown 2001 Shoreline Dr.,2011-01-03T00:00:00,"Coliform, Fecal",28,MPN/100 mL
+98,Crown 2001 Shoreline Dr.,2011-02-22T00:00:00,"Coliform, Fecal",140,MPN/100 mL
+99,Crown 2001 Shoreline Dr.,2011-03-07T00:00:00,Enterococcus,15,MPN/100 mL
+100,Crown 2001 Shoreline Dr.,2012-05-08T00:00:00,Enterococcus,22,MPN/100 mL
+101,Crown 2001 Shoreline Dr.,2012-05-22T00:00:00,Enterococcus,2,MPN/100 mL
+102,Crown 2001 Shoreline Dr.,2012-06-05T00:00:00,"Coliform, Total",340,MPN/100 mL
+103,Crown 2001 Shoreline Dr.,2012-06-12T00:00:00,"Coliform, Total",52,MPN/100 mL
+104,Crown 2001 Shoreline Dr.,2012-06-12T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+105,Crown 2001 Shoreline Dr.,2011-03-21T00:00:00,Enterococcus,170,MPN/100 mL
+106,Crown 2001 Shoreline Dr.,2011-03-29T00:00:00,"Coliform, Total",460,MPN/100 mL
+107,Crown 2001 Shoreline Dr.,2011-04-18T00:00:00,"Coliform, Total",86,MPN/100 mL
+108,Crown 2001 Shoreline Dr.,2011-04-18T00:00:00,Enterococcus,5,MPN/100 mL
+109,Crown 2001 Shoreline Dr.,2011-05-02T00:00:00,"Coliform, Total",31,MPN/100 mL
+110,Crown 2001 Shoreline Dr.,2011-05-16T00:00:00,"Coliform, Total",250,MPN/100 mL
+111,Crown 2001 Shoreline Dr.,2011-05-23T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+112,Crown 2001 Shoreline Dr.,2011-05-31T00:00:00,"Coliform, Total",200,MPN/100 mL
+113,Crown 2001 Shoreline Dr.,2011-06-06T00:00:00,"Coliform, Fecal",60,MPN/100 mL
+114,Crown 2001 Shoreline Dr.,2011-06-13T00:00:00,"Coliform, Total",41,MPN/100 mL
+115,Crown 2001 Shoreline Dr.,2012-06-19T00:00:00,"Coliform, Fecal",160,MPN/100 mL
+116,Crown 2001 Shoreline Dr.,2012-07-10T00:00:00,Enterococcus,1,MPN/100 mL
+117,Crown 2001 Shoreline Dr.,2012-07-17T00:00:00,Enterococcus,1,MPN/100 mL
+118,Crown 2001 Shoreline Dr.,2012-07-24T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+119,Crown 2001 Shoreline Dr.,2012-08-22T00:00:00,Enterococcus,5,MPN/100 mL
+120,Crown 2001 Shoreline Dr.,2011-06-13T00:00:00,Enterococcus,3,MPN/100 mL
+121,Crown 2001 Shoreline Dr.,2011-06-20T00:00:00,"Coliform, Total",41,MPN/100 mL
+122,Crown 2001 Shoreline Dr.,2011-07-18T00:00:00,"Coliform, Total",10,MPN/100 mL
+123,Crown 2001 Shoreline Dr.,2011-08-22T00:00:00,"Coliform, Total",10,MPN/100 mL
+124,Crown 2001 Shoreline Dr.,2011-08-29T00:00:00,"Coliform, Total",370,MPN/100 mL
+125,Crown 2001 Shoreline Dr.,2012-09-11T00:00:00,"Coliform, Fecal",44,MPN/100 mL
+126,Crown 2001 Shoreline Dr.,2012-09-17T00:00:00,Enterococcus,390,MPN/100 mL
+127,Crown 2001 Shoreline Dr.,2012-09-17T00:00:00,"Coliform, Fecal",710,MPN/100 mL
+128,Crown 2001 Shoreline Dr.,2012-09-20T00:00:00,Enterococcus,35,MPN/100 mL
+129,Crown 2001 Shoreline Dr.,2012-09-24T00:00:00,"Coliform, Total",20,MPN/100 mL
+130,Crown 2001 Shoreline Dr.,2011-09-06T00:00:00,"Coliform, Total",86,MPN/100 mL
+131,Crown 2001 Shoreline Dr.,2011-09-06T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+132,Crown 2001 Shoreline Dr.,2011-09-12T00:00:00,Enterococcus,3,MPN/100 mL
+133,Crown 2001 Shoreline Dr.,2011-09-12T00:00:00,"Coliform, Fecal",25,MPN/100 mL
+134,Crown 2001 Shoreline Dr.,2011-09-26T00:00:00,"Coliform, Total",86,MPN/100 mL
+135,Crown 2001 Shoreline Dr.,2011-10-03T00:00:00,"Coliform, Total",140,MPN/100 mL
+136,Crown 2001 Shoreline Dr.,2011-10-03T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+137,Crown 2001 Shoreline Dr.,2011-10-17T00:00:00,"Coliform, Total",52,MPN/100 mL
+138,Crown 2001 Shoreline Dr.,2011-10-31T00:00:00,"Coliform, Total",31,MPN/100 mL
+139,Crown 2001 Shoreline Dr.,2011-10-31T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+140,Crown 2001 Shoreline Dr.,2012-10-01T00:00:00,"Coliform, Total",86,MPN/100 mL
+141,Crown 2001 Shoreline Dr.,2012-10-09T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+142,Crown 2001 Shoreline Dr.,2012-10-22T00:00:00,"Coliform, Total",1200,MPN/100 mL
+143,Crown 2001 Shoreline Dr.,2012-10-22T00:00:00,Enterococcus,170,MPN/100 mL
+144,Crown 2001 Shoreline Dr.,2012-10-25T00:00:00,"Coliform, Total",230,MPN/100 mL
+145,Crown 2001 Shoreline Dr.,2011-11-15T00:00:00,"Coliform, Fecal",260,MPN/100 mL
+146,Crown 2001 Shoreline Dr.,2012-01-09T00:00:00,"Coliform, Total",1800,MPN/100 mL
+147,Crown 2001 Shoreline Dr.,2012-01-23T00:00:00,"Coliform, Total",790,MPN/100 mL
+148,Crown 2001 Shoreline Dr.,2012-01-23T00:00:00,Enterococcus,59,MPN/100 mL
+149,Crown 2001 Shoreline Dr.,2012-02-07T00:00:00,"Coliform, Fecal",250,MPN/100 mL
+150,Crown 2001 Shoreline Dr.,2012-11-13T00:00:00,"Coliform, Total",98,MPN/100 mL
+151,Crown 2001 Shoreline Dr.,2012-11-13T00:00:00,"Coliform, Fecal",14,MPN/100 mL
+152,Crown 2001 Shoreline Dr.,2012-12-10T00:00:00,Enterococcus,3,MPN/100 mL
+153,Crown 2001 Shoreline Dr.,2013-01-14T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+154,Crown 2001 Shoreline Dr.,2013-02-13T00:00:00,"Coliform, Fecal",210,MPN/100 mL
+155,Crown 2001 Shoreline Dr.,2012-02-08T00:00:00,Enterococcus,14,MPN/100 mL
+156,Crown 2001 Shoreline Dr.,2012-02-09T00:00:00,"Coliform, Total",170,MPN/100 mL
+157,Crown 2001 Shoreline Dr.,2012-02-09T00:00:00,Enterococcus,62,MPN/100 mL
+158,Crown 2001 Shoreline Dr.,2012-03-08T00:00:00,"Coliform, Fecal",170,MPN/100 mL
+159,Crown 2001 Shoreline Dr.,2012-03-20T00:00:00,"Coliform, Total",31,MPN/100 mL
+160,Crown 2001 Shoreline Dr.,2013-04-02T00:00:00,"Coliform, Fecal",30,MPN/100 mL
+161,Crown 2001 Shoreline Dr.,2013-04-15T00:00:00,"Coliform, Total",290,MPN/100 mL
+162,Crown 2001 Shoreline Dr.,2013-04-15T00:00:00,Enterococcus,130,MPN/100 mL
+163,Crown 2001 Shoreline Dr.,2013-04-18T00:00:00,"Coliform, Total",50,MPN/100 mL
+164,Crown 2001 Shoreline Dr.,2013-04-18T00:00:00,Enterococcus,1,MPN/100 mL
+165,Crown 2001 Shoreline Dr.,2012-03-20T00:00:00,Enterococcus,3,MPN/100 mL
+166,Crown 2001 Shoreline Dr.,2012-04-03T00:00:00,"Coliform, Fecal",90,MPN/100 mL
+167,Crown 2001 Shoreline Dr.,2012-04-10T00:00:00,Enterococcus,90,MPN/100 mL
+168,Crown 2001 Shoreline Dr.,2012-04-17T00:00:00,"Coliform, Total",52,MPN/100 mL
+169,Crown 2001 Shoreline Dr.,2012-04-24T00:00:00,"Coliform, Fecal",21,MPN/100 mL
+170,Crown 2001 Shoreline Dr.,2013-04-22T00:00:00,"Coliform, Total",20,MPN/100 mL
+171,Crown 2001 Shoreline Dr.,2013-04-29T00:00:00,"Coliform, Fecal",18,MPN/100 mL
+172,Crown 2001 Shoreline Dr.,2013-05-13T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+173,Crown 2001 Shoreline Dr.,2013-05-20T00:00:00,"Coliform, Total",10,MPN/100 mL
+174,Crown 2001 Shoreline Dr.,2013-05-20T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+175,Crown 2001 Shoreline Dr.,2012-05-08T00:00:00,"Coliform, Total",110,MPN/100 mL
+176,Crown 2001 Shoreline Dr.,2012-05-15T00:00:00,"Coliform, Total",52,MPN/100 mL
+177,Crown 2001 Shoreline Dr.,2012-05-15T00:00:00,Enterococcus,2,MPN/100 mL
+178,Crown 2001 Shoreline Dr.,2012-05-15T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+179,Crown 2001 Shoreline Dr.,2012-05-22T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+180,Crown 2001 Shoreline Dr.,2013-05-30T00:00:00,Enterococcus,2,MPN/100 mL
+181,Crown 2001 Shoreline Dr.,2013-05-30T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+182,Crown 2001 Shoreline Dr.,2013-06-03T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+183,Crown 2001 Shoreline Dr.,2013-06-10T00:00:00,Enterococcus,2,MPN/100 mL
+184,Crown 2001 Shoreline Dr.,2013-06-17T00:00:00,Enterococcus,1,MPN/100 mL
+185,Crown 2001 Shoreline Dr.,2012-05-29T00:00:00,Enterococcus,1,MPN/100 mL
+186,Crown 2001 Shoreline Dr.,2012-05-29T00:00:00,"Coliform, Fecal",3,MPN/100 mL
+187,Crown 2001 Shoreline Dr.,2012-06-05T00:00:00,Enterococcus,2,MPN/100 mL
+188,Crown 2001 Shoreline Dr.,2012-06-12T00:00:00,Enterococcus,1,MPN/100 mL
+189,Crown 2001 Shoreline Dr.,2012-06-21T00:00:00,Enterococcus,5,MPN/100 mL
+190,Crown 2001 Shoreline Dr.,2013-06-26T00:00:00,Enterococcus,5,MPN/100 mL
+191,Crown 2001 Shoreline Dr.,2013-07-01T00:00:00,"Coliform, Total",31,MPN/100 mL
+192,Crown 2001 Shoreline Dr.,2013-07-01T00:00:00,"Coliform, Fecal",32,MPN/100 mL
+193,Crown 2001 Shoreline Dr.,2013-07-08T00:00:00,"Coliform, Total",170,MPN/100 mL
+194,Crown 2001 Shoreline Dr.,2013-07-15T00:00:00,"Coliform, Total",110,MPN/100 mL
+195,Crown 2001 Shoreline Dr.,2012-06-26T00:00:00,"Coliform, Total",63,MPN/100 mL
+196,Crown 2001 Shoreline Dr.,2012-07-03T00:00:00,"Coliform, Total",230,MPN/100 mL
+197,Crown 2001 Shoreline Dr.,2012-07-03T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+198,Crown 2001 Shoreline Dr.,2012-07-10T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+199,Crown 2001 Shoreline Dr.,2012-07-24T00:00:00,"Coliform, Total",160,MPN/100 mL
+200,Crown 2001 Shoreline Dr.,2013-07-15T00:00:00,Enterococcus,13,MPN/100 mL
+201,Crown 2001 Shoreline Dr.,2013-07-15T00:00:00,"Coliform, Fecal",25,MPN/100 mL
+202,Crown 2001 Shoreline Dr.,2013-08-05T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+203,Crown 2001 Shoreline Dr.,2013-08-13T00:00:00,"Coliform, Total",370,MPN/100 mL
+204,Crown 2001 Shoreline Dr.,2013-08-26T00:00:00,Enterococcus,6,MPN/100 mL
+205,Crown 2001 Shoreline Dr.,2012-07-24T00:00:00,Enterococcus,1,MPN/100 mL
+206,Crown 2001 Shoreline Dr.,2012-07-31T00:00:00,"Coliform, Total",290,MPN/100 mL
+207,Crown 2001 Shoreline Dr.,2012-08-22T00:00:00,"Coliform, Total",430,MPN/100 mL
+208,Crown 2001 Shoreline Dr.,2012-08-27T00:00:00,Enterococcus,3,MPN/100 mL
+209,Crown 2001 Shoreline Dr.,2012-08-27T00:00:00,"Coliform, Fecal",60,MPN/100 mL
+210,Crown 2001 Shoreline Dr.,2013-08-26T00:00:00,"Coliform, Fecal",44,MPN/100 mL
+211,Crown 2001 Shoreline Dr.,2013-09-03T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+212,Crown 2001 Shoreline Dr.,2013-09-16T00:00:00,Enterococcus,1,MPN/100 mL
+213,Crown 2001 Shoreline Dr.,2013-09-23T00:00:00,"Coliform, Fecal",200,MPN/100 mL
+214,Crown 2001 Shoreline Dr.,2013-09-30T00:00:00,"Coliform, Total",1200,MPN/100 mL
+215,Crown 2001 Shoreline Dr.,2013-10-21T00:00:00,"Coliform, Total",17000,MPN/100 mL
+216,Crown 2001 Shoreline Dr.,2013-10-21T00:00:00,Enterococcus,73,MPN/100 mL
+217,Crown 2001 Shoreline Dr.,2013-10-21T00:00:00,"Coliform, Fecal",2000,MPN/100 mL
+218,Crown 2001 Shoreline Dr.,2013-11-06T00:00:00,"Coliform, Total",130,MPN/100 mL
+219,Crown 2001 Shoreline Dr.,2013-11-06T00:00:00,Enterococcus,6,MPN/100 mL
+220,Crown 2001 Shoreline Dr.,2013-11-18T00:00:00,"Coliform, Fecal",46,MPN/100 mL
+221,Crown 2001 Shoreline Dr.,2013-12-16T00:00:00,Enterococcus,13,MPN/100 mL
+222,Crown 2001 Shoreline Dr.,2014-01-13T00:00:00,Enterococcus,1,MPN/100 mL
+223,Crown 2001 Shoreline Dr.,2014-01-27T00:00:00,"Coliform, Total",63,MPN/100 mL
+224,Crown 2001 Shoreline Dr.,2014-02-13T00:00:00,"Coliform, Fecal",14,MPN/100 mL
+225,Crown 2001 Shoreline Dr.,2014-02-24T00:00:00,Enterococcus,39,MPN/100 mL
+226,Crown 2001 Shoreline Dr.,2014-02-24T00:00:00,"Coliform, Fecal",100,MPN/100 mL
+227,Crown 2001 Shoreline Dr.,2014-03-10T00:00:00,Enterococcus,320,MPN/100 mL
+228,Crown 2001 Shoreline Dr.,2014-04-01T00:00:00,"Coliform, Total",560,MPN/100 mL
+229,Crown 2001 Shoreline Dr.,2014-04-07T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+230,Crown 2001 Shoreline Dr.,2012-09-04T00:00:00,Enterococcus,24,MPN/100 mL
+231,Crown 2001 Shoreline Dr.,2012-09-11T00:00:00,"Coliform, Total",620,MPN/100 mL
+232,Crown 2001 Shoreline Dr.,2012-09-20T00:00:00,"Coliform, Total",170,MPN/100 mL
+233,Crown 2001 Shoreline Dr.,2012-10-01T00:00:00,Enterococcus,1,MPN/100 mL
+234,Crown 2001 Shoreline Dr.,2012-10-09T00:00:00,Enterococcus,2,MPN/100 mL
+235,Crown 2001 Shoreline Dr.,2012-10-15T00:00:00,Enterococcus,17,MPN/100 mL
+236,Crown 2001 Shoreline Dr.,2012-10-29T00:00:00,Enterococcus,10,MPN/100 mL
+237,Crown 2001 Shoreline Dr.,2012-10-29T00:00:00,"Coliform, Fecal",28,MPN/100 mL
+238,Crown 2001 Shoreline Dr.,2012-11-13T00:00:00,Enterococcus,6,MPN/100 mL
+239,Crown 2001 Shoreline Dr.,2012-11-26T00:00:00,"Coliform, Total",85,MPN/100 mL
+240,Crown 2001 Shoreline Dr.,2014-04-28T00:00:00,"Coliform, Total",10,MPN/100 mL
+241,Crown 2001 Shoreline Dr.,2014-05-12T00:00:00,"Coliform, Fecal",37,MPN/100 mL
+242,Crown 2001 Shoreline Dr.,2014-05-19T00:00:00,"Coliform, Total",63,MPN/100 mL
+243,Crown 2001 Shoreline Dr.,2014-05-19T00:00:00,Enterococcus,2,MPN/100 mL
+244,Crown 2001 Shoreline Dr.,2014-05-27T00:00:00,"Coliform, Total",150,MPN/100 mL
+245,Crown 2001 Shoreline Dr.,2012-11-26T00:00:00,Enterococcus,5,MPN/100 mL
+246,Crown 2001 Shoreline Dr.,2013-01-14T00:00:00,"Coliform, Total",31,MPN/100 mL
+247,Crown 2001 Shoreline Dr.,2013-01-28T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+248,Crown 2001 Shoreline Dr.,2013-02-13T00:00:00,Enterococcus,1,MPN/100 mL
+249,Crown 2001 Shoreline Dr.,2013-02-25T00:00:00,"Coliform, Total",10,MPN/100 mL
+250,Crown 2001 Shoreline Dr.,2014-05-27T00:00:00,Enterococcus,25,MPN/100 mL
+251,Crown 2001 Shoreline Dr.,2014-05-27T00:00:00,"Coliform, Fecal",130,MPN/100 mL
+252,Crown 2001 Shoreline Dr.,2014-06-02T00:00:00,Enterococcus,1,MPN/100 mL
+253,Crown 2001 Shoreline Dr.,2014-06-02T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+254,Crown 2001 Shoreline Dr.,2014-06-09T00:00:00,"Coliform, Fecal",3,MPN/100 mL
+255,Crown 2001 Shoreline Dr.,2013-03-26T00:00:00,Enterococcus,11,MPN/100 mL
+256,Crown 2001 Shoreline Dr.,2013-04-02T00:00:00,Enterococcus,41,MPN/100 mL
+257,Crown 2001 Shoreline Dr.,2013-04-08T00:00:00,"Coliform, Total",3400,MPN/100 mL
+258,Crown 2001 Shoreline Dr.,2013-04-08T00:00:00,"Coliform, Fecal",100,MPN/100 mL
+259,Crown 2001 Shoreline Dr.,2013-04-15T00:00:00,"Coliform, Fecal",41,MPN/100 mL
+260,Crown 2001 Shoreline Dr.,2014-06-16T00:00:00,Enterococcus,2,MPN/100 mL
+261,Crown 2001 Shoreline Dr.,2014-06-16T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+262,Crown 2001 Shoreline Dr.,2014-06-30T00:00:00,"Coliform, Total",20,MPN/100 mL
+263,Crown 2001 Shoreline Dr.,2014-06-30T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+264,Crown 2001 Shoreline Dr.,2014-07-21T00:00:00,"Coliform, Total",110,MPN/100 mL
+265,Crown 2001 Shoreline Dr.,2013-04-22T00:00:00,Enterococcus,1,MPN/100 mL
+266,Crown 2001 Shoreline Dr.,2013-04-22T00:00:00,"Coliform, Fecal",14,MPN/100 mL
+267,Crown 2001 Shoreline Dr.,2013-05-06T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+268,Crown 2001 Shoreline Dr.,2013-05-13T00:00:00,"Coliform, Total",52,MPN/100 mL
+269,Crown 2001 Shoreline Dr.,2013-05-13T00:00:00,Enterococcus,2,MPN/100 mL
+270,Crown 2001 Shoreline Dr.,2013-05-20T00:00:00,Enterococcus,1,MPN/100 mL
+271,Crown 2001 Shoreline Dr.,2013-05-28T00:00:00,Enterococcus,130,MPN/100 mL
+272,Crown 2001 Shoreline Dr.,2013-05-28T00:00:00,"Coliform, Fecal",31,MPN/100 mL
+273,Crown 2001 Shoreline Dr.,2013-05-30T00:00:00,"Coliform, Total",41,MPN/100 mL
+274,Crown 2001 Shoreline Dr.,2013-06-03T00:00:00,"Coliform, Total",52,MPN/100 mL
+275,Crown 2001 Shoreline Dr.,2014-07-28T00:00:00,Enterococcus,21,MPN/100 mL
+276,Crown 2001 Shoreline Dr.,2014-07-28T00:00:00,"Coliform, Fecal",900,MPN/100 mL
+277,Crown 2001 Shoreline Dr.,2014-08-11T00:00:00,"Coliform, Total",370,MPN/100 mL
+278,Crown 2001 Shoreline Dr.,2014-08-11T00:00:00,Enterococcus,45,MPN/100 mL
+279,Crown 2001 Shoreline Dr.,2014-08-11T00:00:00,"Coliform, Fecal",350,MPN/100 mL
+280,Crown 2001 Shoreline Dr.,2014-08-25T00:00:00,"Coliform, Fecal",320,MPN/100 mL
+281,Crown 2001 Shoreline Dr.,2014-09-08T00:00:00,"Coliform, Total",270,MPN/100 mL
+282,Crown 2001 Shoreline Dr.,2014-09-08T00:00:00,Enterococcus,11,MPN/100 mL
+283,Crown 2001 Shoreline Dr.,2014-09-15T00:00:00,"Coliform, Total",120,MPN/100 mL
+284,Crown 2001 Shoreline Dr.,2014-10-14T00:00:00,"Coliform, Total",500,MPN/100 mL
+285,Crown 2001 Shoreline Dr.,2013-06-26T00:00:00,"Coliform, Total",63,MPN/100 mL
+286,Crown 2001 Shoreline Dr.,2013-07-01T00:00:00,Enterococcus,2,MPN/100 mL
+287,Crown 2001 Shoreline Dr.,2013-07-08T00:00:00,Enterococcus,2,MPN/100 mL
+288,Crown 2001 Shoreline Dr.,2013-07-08T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+289,Crown 2001 Shoreline Dr.,2013-07-22T00:00:00,Enterococcus,27,MPN/100 mL
+290,Crown 2001 Shoreline Dr.,2014-10-20T00:00:00,Enterococcus,460,MPN/100 mL
+291,Crown 2001 Shoreline Dr.,2014-11-10T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+292,Crown 2001 Shoreline Dr.,2014-12-08T00:00:00,"Coliform, Total",63,MPN/100 mL
+293,Crown 2001 Shoreline Dr.,2015-01-05T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+294,Crown 2001 Shoreline Dr.,2015-02-02T00:00:00,"Coliform, Total",41,MPN/100 mL
+295,Crown 2001 Shoreline Dr.,2013-07-29T00:00:00,"Coliform, Fecal",790,MPN/100 mL
+296,Crown 2001 Shoreline Dr.,2013-08-05T00:00:00,Enterococcus,1,MPN/100 mL
+297,Crown 2001 Shoreline Dr.,2013-08-19T00:00:00,Enterococcus,29,MPN/100 mL
+298,Crown 2001 Shoreline Dr.,2013-08-19T00:00:00,"Coliform, Fecal",93,MPN/100 mL
+299,Crown 2001 Shoreline Dr.,2013-09-10T00:00:00,Enterococcus,3,MPN/100 mL
+300,Crown 2001 Shoreline Dr.,2013-09-10T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+301,Crown 2001 Shoreline Dr.,2013-09-16T00:00:00,"Coliform, Total",460,MPN/100 mL
+302,Crown 2001 Shoreline Dr.,2013-09-23T00:00:00,Enterococcus,63,MPN/100 mL
+303,Crown 2001 Shoreline Dr.,2013-09-30T00:00:00,"Coliform, Fecal",67,MPN/100 mL
+304,Crown 2001 Shoreline Dr.,2013-10-07T00:00:00,Enterococcus,1,MPN/100 mL
+305,Crown 2001 Shoreline Dr.,2013-10-07T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+306,Crown 2001 Shoreline Dr.,2013-10-28T00:00:00,Enterococcus,17,MPN/100 mL
+307,Crown 2001 Shoreline Dr.,2013-11-04T00:00:00,Enterococcus,63,MPN/100 mL
+308,Crown 2001 Shoreline Dr.,2013-11-04T00:00:00,"Coliform, Fecal",660,MPN/100 mL
+309,Crown 2001 Shoreline Dr.,2013-12-02T00:00:00,Enterococcus,16,MPN/100 mL
+310,Crown 2001 Shoreline Dr.,2015-02-02T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+311,Crown 2001 Shoreline Dr.,2015-03-16T00:00:00,Enterococcus,160,MPN/100 mL
+312,Crown 2001 Shoreline Dr.,2015-03-16T00:00:00,"Coliform, Fecal",150,MPN/100 mL
+313,Crown 2001 Shoreline Dr.,2015-03-17T00:00:00,"Coliform, Fecal",200,MPN/100 mL
+314,Crown 2001 Shoreline Dr.,2015-04-06T00:00:00,"Coliform, Total",340,MPN/100 mL
+315,Crown 2001 Shoreline Dr.,2014-01-13T00:00:00,"Coliform, Total",10,MPN/100 mL
+316,Crown 2001 Shoreline Dr.,2014-01-27T00:00:00,Enterococcus,23,MPN/100 mL
+317,Crown 2001 Shoreline Dr.,2014-01-27T00:00:00,"Coliform, Fecal",35,MPN/100 mL
+318,Crown 2001 Shoreline Dr.,2014-02-13T00:00:00,Enterococcus,1,MPN/100 mL
+319,Crown 2001 Shoreline Dr.,2014-03-10T00:00:00,"Coliform, Total",2000,MPN/100 mL
+320,Crown 2001 Shoreline Dr.,2015-04-06T00:00:00,"Coliform, Fecal",30,MPN/100 mL
+321,Crown 2001 Shoreline Dr.,2015-04-20T00:00:00,"Coliform, Total",160,MPN/100 mL
+322,Crown 2001 Shoreline Dr.,2015-04-27T00:00:00,"Coliform, Total",75,MPN/100 mL
+323,Crown 2001 Shoreline Dr.,2015-05-11T00:00:00,Enterococcus,5,MPN/100 mL
+324,Crown 2001 Shoreline Dr.,2015-05-18T00:00:00,Enterococcus,8,MPN/100 mL
+325,Crown 2001 Shoreline Dr.,2014-03-10T00:00:00,"Coliform, Fecal",1900,MPN/100 mL
+326,Crown 2001 Shoreline Dr.,2014-03-12T00:00:00,Enterococcus,4,MPN/100 mL
+327,Crown 2001 Shoreline Dr.,2014-03-24T00:00:00,"Coliform, Total",41,MPN/100 mL
+328,Crown 2001 Shoreline Dr.,2014-04-01T00:00:00,Enterococcus,52,MPN/100 mL
+329,Crown 2001 Shoreline Dr.,2014-04-07T00:00:00,"Coliform, Total",63,MPN/100 mL
+330,Crown 2001 Shoreline Dr.,2015-05-18T00:00:00,"Coliform, Fecal",110,MPN/100 mL
+331,Crown 2001 Shoreline Dr.,2015-05-26T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+332,Crown 2001 Shoreline Dr.,2015-06-01T00:00:00,Enterococcus,3,MPN/100 mL
+333,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+334,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,"Coliform, Total",190,MPN/100 mL
+335,Crown 2001 Shoreline Dr.,2014-04-14T00:00:00,"Coliform, Total",41,MPN/100 mL
+336,Crown 2001 Shoreline Dr.,2014-04-14T00:00:00,"Coliform, Fecal",18,MPN/100 mL
+337,Crown 2001 Shoreline Dr.,2014-06-02T00:00:00,"Coliform, Total",20,MPN/100 mL
+338,Crown 2001 Shoreline Dr.,2014-06-09T00:00:00,Enterococcus,1,MPN/100 mL
+339,Crown 2001 Shoreline Dr.,2014-08-04T00:00:00,"Coliform, Total",340,MPN/100 mL
+340,Crown 2001 Shoreline Dr.,2015-06-15T00:00:00,"Coliform, Total",150,MPN/100 mL
+341,Crown 2001 Shoreline Dr.,2015-06-15T00:00:00,Enterococcus,2,MPN/100 mL
+342,Crown 2001 Shoreline Dr.,2015-06-15T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+343,Crown 2001 Shoreline Dr.,2015-06-22T00:00:00,Enterococcus,2,MPN/100 mL
+344,Crown 2001 Shoreline Dr.,2015-06-22T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+345,Crown 2001 Shoreline Dr.,2014-08-04T00:00:00,Enterococcus,1,MPN/100 mL
+346,Crown 2001 Shoreline Dr.,2014-08-04T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+347,Crown 2001 Shoreline Dr.,2014-08-18T00:00:00,Enterococcus,2,MPN/100 mL
+348,Crown 2001 Shoreline Dr.,2014-09-02T00:00:00,"Coliform, Fecal",90,MPN/100 mL
+349,Crown 2001 Shoreline Dr.,2014-09-08T00:00:00,"Coliform, Fecal",17,MPN/100 mL
+350,Crown 2001 Shoreline Dr.,2014-09-22T00:00:00,"Coliform, Total",10,MPN/100 mL
+351,Crown 2001 Shoreline Dr.,2014-09-22T00:00:00,Enterococcus,1,MPN/100 mL
+352,Crown 2001 Shoreline Dr.,2014-09-22T00:00:00,"Coliform, Fecal",9,MPN/100 mL
+353,Crown 2001 Shoreline Dr.,2014-10-06T00:00:00,"Coliform, Total",63,MPN/100 mL
+354,Crown 2001 Shoreline Dr.,2014-10-14T00:00:00,Enterococcus,10,MPN/100 mL
+355,Crown 2001 Shoreline Dr.,2014-10-22T00:00:00,"Coliform, Total",41,MPN/100 mL
+356,Crown 2001 Shoreline Dr.,2014-10-22T00:00:00,Enterococcus,1,MPN/100 mL
+357,Crown 2001 Shoreline Dr.,2014-11-10T00:00:00,"Coliform, Total",52,MPN/100 mL
+358,Crown 2001 Shoreline Dr.,2014-11-24T00:00:00,Enterococcus,11,MPN/100 mL
+359,Crown 2001 Shoreline Dr.,2015-01-05T00:00:00,"Coliform, Total",31,MPN/100 mL
+360,Crown 2001 Shoreline Dr.,2015-06-29T00:00:00,"Coliform, Total",270,MPN/100 mL
+361,Crown 2001 Shoreline Dr.,2015-07-06T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+362,Crown 2001 Shoreline Dr.,2015-07-27T00:00:00,"Coliform, Total",84,MPN/100 mL
+363,Crown 2001 Shoreline Dr.,2015-07-27T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+364,Crown 2001 Shoreline Dr.,2015-08-10T00:00:00,"Coliform, Total",260,MPN/100 mL
+365,Crown 2001 Shoreline Dr.,2015-03-02T00:00:00,Enterococcus,93,MPN/100 mL
+366,Crown 2001 Shoreline Dr.,2015-03-02T00:00:00,"Coliform, Fecal",180,MPN/100 mL
+367,Crown 2001 Shoreline Dr.,2015-03-18T00:00:00,Enterococcus,3,MPN/100 mL
+368,Crown 2001 Shoreline Dr.,2015-03-19T00:00:00,"Coliform, Total",52,MPN/100 mL
+369,Crown 2001 Shoreline Dr.,2015-04-13T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+370,Crown 2001 Shoreline Dr.,2015-08-17T00:00:00,Enterococcus,27,MPN/100 mL
+371,Crown 2001 Shoreline Dr.,2015-08-31T00:00:00,Enterococcus,16,MPN/100 mL
+372,Crown 2001 Shoreline Dr.,2015-09-10T00:00:00,Enterococcus,29,MPN/100 mL
+373,Crown 2001 Shoreline Dr.,2015-09-28T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+374,Crown 2001 Shoreline Dr.,2015-10-06T00:00:00,"Coliform, Total",10,MPN/100 mL
+375,Crown 2001 Shoreline Dr.,2015-04-14T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+376,Crown 2001 Shoreline Dr.,2015-04-20T00:00:00,Enterococcus,56,MPN/100 mL
+377,Crown 2001 Shoreline Dr.,2015-04-20T00:00:00,"Coliform, Fecal",19,MPN/100 mL
+378,Crown 2001 Shoreline Dr.,2015-05-04T00:00:00,Enterococcus,14,MPN/100 mL
+379,Crown 2001 Shoreline Dr.,2015-05-04T00:00:00,"Coliform, Fecal",10,MPN/100 mL
+380,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,Enterococcus,11,MPN/100 mL
+381,Crown 2001 Shoreline Dr.,2015-06-29T00:00:00,"Coliform, Fecal",18,MPN/100 mL
+382,Crown 2001 Shoreline Dr.,2015-07-27T00:00:00,Enterococcus,1,MPN/100 mL
+383,Crown 2001 Shoreline Dr.,2015-08-10T00:00:00,Enterococcus,7,MPN/100 mL
+384,Crown 2001 Shoreline Dr.,2015-08-10T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+385,Crown 2001 Shoreline Dr.,2015-10-19T00:00:00,"Coliform, Fecal",31,MPN/100 mL
+386,Crown 2001 Shoreline Dr.,2015-10-26T00:00:00,"Coliform, Total",540,MPN/100 mL
+387,Crown 2001 Shoreline Dr.,2015-10-26T00:00:00,Enterococcus,28,MPN/100 mL
+388,Crown 2001 Shoreline Dr.,2015-11-16T00:00:00,"Coliform, Total",260,MPN/100 mL
+389,Crown 2001 Shoreline Dr.,2015-12-14T00:00:00,"Coliform, Fecal",87,MPN/100 mL
+390,Crown 2001 Shoreline Dr.,2015-08-17T00:00:00,"Coliform, Fecal",38,MPN/100 mL
+391,Crown 2001 Shoreline Dr.,2015-08-24T00:00:00,"Coliform, Fecal",21,MPN/100 mL
+392,Crown 2001 Shoreline Dr.,2015-09-15T00:00:00,"Coliform, Fecal",63,MPN/100 mL
+393,Crown 2001 Shoreline Dr.,2015-09-27T00:00:00,"Coliform, Total",230,MPN/100 mL
+394,Crown 2001 Shoreline Dr.,2015-09-28T00:00:00,Enterococcus,1,MPN/100 mL
+395,Crown 2001 Shoreline Dr.,2015-10-19T00:00:00,Enterococcus,63,MPN/100 mL
+396,Crown 2001 Shoreline Dr.,2015-12-14T00:00:00,"Coliform, Total",550,MPN/100 mL
+397,Crown 2001 Shoreline Dr.,2016-02-16T00:00:00,Enterococcus,640,MPN/100 mL
+398,Crown 2001 Shoreline Dr.,2016-03-16T00:00:00,Enterococcus,33,cfu/100mL
+399,Crown 2001 Shoreline Dr.,2016-03-21T00:00:00,"Coliform, Total",190,MPN/100 mL
+400,Crown 2001 Shoreline Dr.,2015-12-28T00:00:00,"Coliform, Total",41,MPN/100 mL
+401,Crown 2001 Shoreline Dr.,2016-01-11T00:00:00,"Coliform, Total",96,MPN/100 mL
+402,Crown 2001 Shoreline Dr.,2016-02-16T00:00:00,"Coliform, Total",1100,MPN/100 mL
+403,Crown 2001 Shoreline Dr.,2016-02-22T00:00:00,Enterococcus,120,MPN/100 mL
+404,Crown 2001 Shoreline Dr.,2016-03-16T00:00:00,"Coliform, Total",1100,MPN/100 mL
+405,Crown 2001 Shoreline Dr.,2016-04-18T00:00:00,"Coliform, Total",24000,MPN/100 mL
+406,Crown 2001 Shoreline Dr.,2016-04-18T00:00:00,Enterococcus,53,cfu/100mL
+407,Crown 2001 Shoreline Dr.,2016-04-25T00:00:00,"Coliform, Total",2900,MPN/100 mL
+408,Crown 2001 Shoreline Dr.,2016-06-06T00:00:00,"Coliform, Total",660,MPN/100 mL
+409,Crown 2001 Shoreline Dr.,2016-06-08T00:00:00,"Coliform, Fecal",20,cfu/100mL
+410,Crown 2001 Shoreline Dr.,2016-04-04T00:00:00,"Coliform, Total",30,MPN/100 mL
+411,Crown 2001 Shoreline Dr.,2016-04-04T00:00:00,Enterococcus,7,cfu/100mL
+412,Crown 2001 Shoreline Dr.,2016-04-11T00:00:00,"Coliform, Total",63,MPN/100 mL
+413,Crown 2001 Shoreline Dr.,2016-04-11T00:00:00,Enterococcus,1,cfu/100mL
+414,Crown 2001 Shoreline Dr.,2016-04-18T00:00:00,"Coliform, Fecal",83,cfu/100mL
+415,Crown 2001 Shoreline Dr.,2016-06-13T00:00:00,"Coliform, Total",20000,MPN/100 mL
+416,Crown 2001 Shoreline Dr.,2016-06-15T00:00:00,"Coliform, Fecal",2,cfu/100mL
+417,Crown 2001 Shoreline Dr.,2016-06-27T00:00:00,"Coliform, Total",97,MPN/100 mL
+418,Crown 2001 Shoreline Dr.,2016-07-05T00:00:00,Enterococcus,9,cfu/100mL
+419,Crown 2001 Shoreline Dr.,2016-07-19T00:00:00,"Coliform, Fecal",45,cfu/100mL
+420,Crown 2001 Shoreline Dr.,2016-05-09T00:00:00,Enterococcus,7,cfu/100mL
+421,Crown 2001 Shoreline Dr.,2016-05-09T00:00:00,"Coliform, Fecal",63,cfu/100mL
+422,Crown 2001 Shoreline Dr.,2016-05-23T00:00:00,Enterococcus,29,cfu/100mL
+423,Crown 2001 Shoreline Dr.,2016-05-31T00:00:00,Enterococcus,1,cfu/100mL
+424,Crown 2001 Shoreline Dr.,2016-05-31T00:00:00,"Coliform, Fecal",3,cfu/100mL
+425,Crown 2001 Shoreline Dr.,2016-07-25T00:00:00,"Coliform, Total",240,MPN/100 mL
+426,Crown 2001 Shoreline Dr.,2016-08-01T00:00:00,Enterococcus,49,cfu/100mL
+427,Crown 2001 Shoreline Dr.,2016-08-08T00:00:00,"Coliform, Fecal",1000,cfu/100mL
+428,Crown 2001 Shoreline Dr.,2016-08-10T00:00:00,"Coliform, Total",4600,MPN/100 mL
+429,Crown 2001 Shoreline Dr.,2016-08-10T00:00:00,Enterococcus,19,cfu/100mL
+430,Crown 2001 Shoreline Dr.,2016-06-13T00:00:00,Enterococcus,5,cfu/100mL
+431,Crown 2001 Shoreline Dr.,2016-06-15T00:00:00,"Coliform, Total",3600,MPN/100 mL
+432,Crown 2001 Shoreline Dr.,2016-06-20T00:00:00,Enterococcus,12,cfu/100mL
+433,Crown 2001 Shoreline Dr.,2016-06-20T00:00:00,"Coliform, Fecal",21,cfu/100mL
+434,Crown 2001 Shoreline Dr.,2016-07-05T00:00:00,"Coliform, Total",4100,MPN/100 mL
+435,Crown 2001 Shoreline Dr.,2016-07-25T00:00:00,"Coliform, Fecal",28,cfu/100mL
+436,Crown 2001 Shoreline Dr.,2016-08-01T00:00:00,"Coliform, Fecal",41,cfu/100mL
+437,Crown 2001 Shoreline Dr.,2016-08-08T00:00:00,"Coliform, Total",5200,MPN/100 mL
+438,Crown 2001 Shoreline Dr.,2016-08-08T00:00:00,Enterococcus,160,cfu/100mL
+439,Crown 2001 Shoreline Dr.,2016-08-15T00:00:00,"Coliform, Fecal",22,cfu/100mL
+440,Crown 2001 Shoreline Dr.,2016-08-15T00:00:00,"Coliform, Total",13000,MPN/100 mL
+441,Crown 2001 Shoreline Dr.,2016-08-18T00:00:00,"Coliform, Fecal",22,cfu/100mL
+442,Crown 2001 Shoreline Dr.,2016-09-19T00:00:00,"Coliform, Total",73,MPN/100 mL
+443,Crown 2001 Shoreline Dr.,2016-10-03T00:00:00,Enterococcus,5,cfu/100mL
+444,Crown 2001 Shoreline Dr.,2016-10-11T00:00:00,"Coliform, Total",120,MPN/100 mL
+445,Crown 2001 Shoreline Dr.,2016-08-22T00:00:00,"Coliform, Total",1000,MPN/100 mL
+446,Crown 2001 Shoreline Dr.,2016-08-22T00:00:00,"Coliform, Fecal",150,cfu/100mL
+447,Crown 2001 Shoreline Dr.,2016-08-24T00:00:00,"Coliform, Total",2500,MPN/100 mL
+448,Crown 2001 Shoreline Dr.,2016-09-14T00:00:00,Enterococcus,23,cfu/100mL
+449,Crown 2001 Shoreline Dr.,2016-09-19T00:00:00,Enterococcus,17,cfu/100mL
+450,Crown 2001 Shoreline Dr.,2016-10-11T00:00:00,Enterococcus,5,cfu/100mL
+451,Crown 2001 Shoreline Dr.,2016-10-31T00:00:00,Enterococcus,31,cfu/100mL
+452,Crown 2001 Shoreline Dr.,2016-11-14T00:00:00,"Coliform, Total",230,MPN/100 mL
+453,Crown 2001 Shoreline Dr.,2016-11-14T00:00:00,Enterococcus,7,cfu/100mL
+454,Crown 2001 Shoreline Dr.,2016-11-14T00:00:00,"Coliform, Fecal",15,cfu/100mL
+455,Crown 2001 Shoreline Dr.,2016-09-26T00:00:00,Enterococcus,22,cfu/100mL
+456,Crown 2001 Shoreline Dr.,2016-10-11T00:00:00,"Coliform, Fecal",10,cfu/100mL
+457,Crown 2001 Shoreline Dr.,2016-10-17T00:00:00,"Coliform, Total",2000,MPN/100 mL
+458,Crown 2001 Shoreline Dr.,2016-10-17T00:00:00,"Coliform, Fecal",160,cfu/100mL
+459,Crown 2001 Shoreline Dr.,2016-10-24T00:00:00,Enterococcus,130,cfu/100mL
+460,Crown 2001 Shoreline Dr.,2016-11-29T00:00:00,"Coliform, Total",85,MPN/100 mL
+461,Crown 2001 Shoreline Dr.,2016-11-29T00:00:00,Enterococcus,17,cfu/100mL
+462,Crown 2001 Shoreline Dr.,2016-12-12T00:00:00,Enterococcus,80,cfu/100mL
+463,Crown 2001 Shoreline Dr.,2016-12-27T00:00:00,"Coliform, Total",30,MPN/100 mL
+464,Crown 2001 Shoreline Dr.,2017-01-17T00:00:00,"Coliform, Fecal",60,cfu/100mL
+465,Crown 2001 Shoreline Dr.,2017-01-09T00:00:00,"Coliform, Fecal",330,cfu/100mL
+466,Crown 2001 Shoreline Dr.,2017-02-14T00:00:00,"Coliform, Total",380,MPN/100 mL
+467,Crown 2001 Shoreline Dr.,2017-02-14T00:00:00,"Coliform, Fecal",150,cfu/100mL
+468,Crown 2001 Shoreline Dr.,2017-03-13T00:00:00,"Coliform, Total",340,MPN/100 mL
+469,Crown 2001 Shoreline Dr.,2017-04-03T00:00:00,Enterococcus,3,cfu/100mL
+470,Crown 2001 Shoreline Dr.,2017-04-03T00:00:00,"Coliform, Fecal",1,cfu/100mL
+471,Crown 2001 Shoreline Dr.,2017-04-11T00:00:00,"Coliform, Total",580,MPN/100 mL
+472,Crown 2001 Shoreline Dr.,2017-04-24T00:00:00,"Coliform, Fecal",35,cfu/100mL
+473,Crown 2001 Shoreline Dr.,2017-05-01T00:00:00,"Coliform, Fecal",1,cfu/100mL
+474,Crown 2001 Shoreline Dr.,2017-05-30T00:00:00,"Coliform, Fecal",9,cfu/100mL
+475,Crown 2001 Shoreline Dr.,2017-06-12T00:00:00,"Coliform, Total",140,MPN/100 mL
+476,Crown 2001 Shoreline Dr.,2017-06-19T00:00:00,"Coliform, Fecal",60,cfu/100mL
+477,Crown 2001 Shoreline Dr.,2017-07-03T00:00:00,Enterococcus,1,cfu/100mL
+478,Crown 2001 Shoreline Dr.,2017-07-31T00:00:00,"Coliform, Total",10,MPN/100 mL
+479,Crown 2001 Shoreline Dr.,2017-08-07T00:00:00,"Coliform, Total",220,MPN/100 mL
+480,Crown 2001 Shoreline Dr.,2017-08-07T00:00:00,"Coliform, Fecal",63,cfu/100mL
+481,Crown 2001 Shoreline Dr.,2017-08-14T00:00:00,"Coliform, Total",190,MPN/100 mL
+482,Crown 2001 Shoreline Dr.,2017-08-21T00:00:00,"Coliform, Total",110,MPN/100 mL
+483,Crown 2001 Shoreline Dr.,2017-08-21T00:00:00,Enterococcus,7,cfu/100mL
+484,Crown 2001 Shoreline Dr.,2017-09-05T00:00:00,"Coliform, Total",800,MPN/100 mL
+485,Crown 2001 Shoreline Dr.,2017-02-27T00:00:00,"Coliform, Total",960,MPN/100 mL
+486,Crown 2001 Shoreline Dr.,2017-03-27T00:00:00,"Coliform, Total",300,MPN/100 mL
+487,Crown 2001 Shoreline Dr.,2017-04-03T00:00:00,"Coliform, Total",52,MPN/100 mL
+488,Crown 2001 Shoreline Dr.,2017-04-11T00:00:00,"Coliform, Fecal",34,cfu/100mL
+489,Crown 2001 Shoreline Dr.,2017-04-17T00:00:00,"Coliform, Total",73,MPN/100 mL
+490,Crown 2001 Shoreline Dr.,2017-09-11T00:00:00,Enterococcus,1,cfu/100mL
+491,Crown 2001 Shoreline Dr.,2017-09-19T00:00:00,Enterococcus,6,cfu/100mL
+492,Crown 2001 Shoreline Dr.,2017-09-19T00:00:00,"Coliform, Fecal",27,cfu/100mL
+493,Crown 2001 Shoreline Dr.,2017-10-02T00:00:00,Enterococcus,5,cfu/100mL
+494,Crown 2001 Shoreline Dr.,2010-05-17T00:00:00,Enterococcus,8,MPN/100 mL
+495,Crown 2001 Shoreline Dr.,2017-04-17T00:00:00,Enterococcus,10,cfu/100mL
+496,Crown 2001 Shoreline Dr.,2017-04-24T00:00:00,"Coliform, Total",930,MPN/100 mL
+497,Crown 2001 Shoreline Dr.,2017-04-24T00:00:00,Enterococcus,45,cfu/100mL
+498,Crown 2001 Shoreline Dr.,2017-05-01T00:00:00,Enterococcus,1,cfu/100mL
+499,Crown 2001 Shoreline Dr.,2017-05-08T00:00:00,"Coliform, Fecal",49,cfu/100mL
+500,Crown 2001 Shoreline Dr.,2017-05-22T00:00:00,"Coliform, Total",890,MPN/100 mL
+501,Crown 2001 Shoreline Dr.,2017-05-22T00:00:00,"Coliform, Fecal",120,cfu/100mL
+502,Crown 2001 Shoreline Dr.,2017-06-12T00:00:00,Enterococcus,3,cfu/100mL
+503,Crown 2001 Shoreline Dr.,2017-06-12T00:00:00,"Coliform, Fecal",21,cfu/100mL
+504,Crown 2001 Shoreline Dr.,2017-06-19T00:00:00,Enterococcus,4,cfu/100mL
+505,Crown 2001 Shoreline Dr.,2017-06-26T00:00:00,"Coliform, Fecal",18,cfu/100mL
+506,Crown 2001 Shoreline Dr.,2017-07-03T00:00:00,"Coliform, Fecal",7,cfu/100mL
+507,Crown 2001 Shoreline Dr.,2017-07-31T00:00:00,"Coliform, Fecal",1,cfu/100mL
+508,Crown 2001 Shoreline Dr.,2017-08-21T00:00:00,"Coliform, Fecal",4,cfu/100mL
+509,Crown 2001 Shoreline Dr.,2017-08-28T00:00:00,Enterococcus,4,cfu/100mL
+510,Crown 2001 Shoreline Dr.,2017-10-30T00:00:00,"Coliform, Total",460,MPN/100 mL
+511,Crown 2001 Shoreline Dr.,2017-11-20T00:00:00,"Coliform, Total",63,MPN/100 mL
+512,Crown 2001 Shoreline Dr.,2017-11-20T00:00:00,"Coliform, Fecal",21,cfu/100mL
+513,Crown 2001 Shoreline Dr.,2017-12-04T00:00:00,"Coliform, Total",110,MPN/100 mL
+514,Crown 2001 Shoreline Dr.,2018-01-02T00:00:00,"Coliform, Total",10,MPN/100 mL
+515,Crown 2001 Shoreline Dr.,2018-01-02T00:00:00,"Coliform, Fecal",29,cfu/100mL
+516,Crown 2001 Shoreline Dr.,2018-01-16T00:00:00,"Coliform, Total",180,MPN/100 mL
+517,Crown 2001 Shoreline Dr.,2018-02-13T00:00:00,"Coliform, Fecal",35,cfu/100mL
+518,Crown 2001 Shoreline Dr.,2018-02-28T00:00:00,Enterococcus,12,cfu/100mL
+519,Crown 2001 Shoreline Dr.,2018-03-12T00:00:00,"Coliform, Fecal",140,cfu/100mL
+520,Crown 2001 Shoreline Dr.,2017-09-11T00:00:00,"Coliform, Total",500,MPN/100 mL
+521,Crown 2001 Shoreline Dr.,2017-09-25T00:00:00,"Coliform, Total",20,MPN/100 mL
+522,Crown 2001 Shoreline Dr.,2017-10-02T00:00:00,"Coliform, Total",120,MPN/100 mL
+523,Crown 2001 Shoreline Dr.,2017-10-02T00:00:00,"Coliform, Fecal",83,cfu/100mL
+524,Crown 2001 Shoreline Dr.,2017-10-10T00:00:00,"Coliform, Fecal",4,cfu/100mL
+525,Crown 2001 Shoreline Dr.,2018-03-26T00:00:00,"Coliform, Total",160,MPN/100 mL
+526,Crown 2001 Shoreline Dr.,2018-04-23T00:00:00,"Coliform, Total",97,MPN/100 mL
+527,Crown 2001 Shoreline Dr.,2018-04-30T00:00:00,"Coliform, Total",75,MPN/100 mL
+528,Crown 2001 Shoreline Dr.,2018-04-30T00:00:00,"Coliform, Fecal",62,cfu/100mL
+529,Crown 2001 Shoreline Dr.,2018-05-14T00:00:00,"Coliform, Total",120,MPN/100 mL
+530,Crown 2001 Shoreline Dr.,2017-10-16T00:00:00,Enterococcus,93,cfu/100mL
+531,Crown 2001 Shoreline Dr.,2017-10-16T00:00:00,"Coliform, Fecal",510,cfu/100mL
+532,Crown 2001 Shoreline Dr.,2017-10-24T00:00:00,Enterococcus,5,cfu/100mL
+533,Crown 2001 Shoreline Dr.,2017-10-30T00:00:00,Enterococcus,50,cfu/100mL
+534,Crown 2001 Shoreline Dr.,2017-11-20T00:00:00,Enterococcus,1,cfu/100mL
+535,Crown 2001 Shoreline Dr.,2018-05-14T00:00:00,Enterococcus,13,cfu/100mL
+536,Crown 2001 Shoreline Dr.,2018-05-14T00:00:00,"Coliform, Fecal",87,cfu/100mL
+537,Crown 2001 Shoreline Dr.,2018-05-21T00:00:00,Enterococcus,5,cfu/100mL
+538,Crown 2001 Shoreline Dr.,2018-05-29T00:00:00,"Coliform, Total",200,MPN/100 mL
+539,Crown 2001 Shoreline Dr.,2018-06-04T00:00:00,"Coliform, Total",340,MPN/100 mL
+540,Crown 2001 Shoreline Dr.,2017-12-04T00:00:00,Enterococcus,25,cfu/100mL
+541,Crown 2001 Shoreline Dr.,2018-01-16T00:00:00,Enterococcus,5,cfu/100mL
+542,Crown 2001 Shoreline Dr.,2018-01-16T00:00:00,"Coliform, Fecal",16,cfu/100mL
+543,Crown 2001 Shoreline Dr.,2018-03-12T00:00:00,"Coliform, Total",97,MPN/100 mL
+544,Crown 2001 Shoreline Dr.,2018-03-12T00:00:00,Enterococcus,73,cfu/100mL
+545,Crown 2001 Shoreline Dr.,2018-06-04T00:00:00,"Coliform, Fecal",5,cfu/100mL
+546,Crown 2001 Shoreline Dr.,2018-06-11T00:00:00,"Coliform, Fecal",11,cfu/100mL
+547,Crown 2001 Shoreline Dr.,2018-06-18T00:00:00,"Coliform, Total",41,MPN/100 mL
+548,Crown 2001 Shoreline Dr.,2018-06-18T00:00:00,Enterococcus,3,cfu/100mL
+549,Crown 2001 Shoreline Dr.,2018-07-02T00:00:00,"Coliform, Total",660,MPN/100 mL
+550,Crown 2001 Shoreline Dr.,2018-07-09T00:00:00,"Coliform, Fecal",18,cfu/100mL
+551,Crown 2001 Shoreline Dr.,2018-07-23T00:00:00,"Coliform, Total",140,MPN/100 mL
+552,Crown 2001 Shoreline Dr.,2018-08-13T00:00:00,"Coliform, Total",260,MPN/100 mL
+553,Crown 2001 Shoreline Dr.,2018-08-13T00:00:00,Enterococcus,16,cfu/100mL
+554,Crown 2001 Shoreline Dr.,2018-08-20T00:00:00,"Coliform, Total",110,MPN/100 mL
+555,Crown 2001 Shoreline Dr.,2018-03-26T00:00:00,Enterococcus,42,cfu/100mL
+556,Crown 2001 Shoreline Dr.,2018-03-26T00:00:00,"Coliform, Fecal",34,cfu/100mL
+557,Crown 2001 Shoreline Dr.,2018-04-02T00:00:00,"Coliform, Fecal",15,cfu/100mL
+558,Crown 2001 Shoreline Dr.,2018-04-09T00:00:00,"Coliform, Fecal",460,cfu/100mL
+559,Crown 2001 Shoreline Dr.,2018-04-11T00:00:00,"Coliform, Fecal",130,cfu/100mL
+560,Crown 2001 Shoreline Dr.,2018-08-27T00:00:00,Enterococcus,12,cfu/100mL
+561,Crown 2001 Shoreline Dr.,2018-08-27T00:00:00,"Coliform, Fecal",190,cfu/100mL
+562,Crown 2001 Shoreline Dr.,2018-09-11T00:00:00,"Coliform, Total",200,MPN/100 mL
+563,Crown 2001 Shoreline Dr.,2018-10-09T00:00:00,Enterococcus,3,cfu/100mL
+564,Crown 2001 Shoreline Dr.,2018-10-15T00:00:00,Enterococcus,1,cfu/100mL
+565,Crown 2001 Shoreline Dr.,2018-04-23T00:00:00,Enterococcus,18,cfu/100mL
+566,Crown 2001 Shoreline Dr.,2018-04-30T00:00:00,Enterococcus,48,cfu/100mL
+567,Crown 2001 Shoreline Dr.,2018-06-25T00:00:00,"Coliform, Total",290,MPN/100 mL
+568,Crown 2001 Shoreline Dr.,2018-06-25T00:00:00,Enterococcus,9,cfu/100mL
+569,Crown 2001 Shoreline Dr.,2018-06-25T00:00:00,"Coliform, Fecal",32,cfu/100mL
+570,Crown 2001 Shoreline Dr.,2018-10-22T00:00:00,"Coliform, Fecal",290,cfu/100mL
+571,Crown 2001 Shoreline Dr.,2018-10-29T00:00:00,"Coliform, Fecal",7,cfu/100mL
+572,Crown 2001 Shoreline Dr.,2018-11-07T00:00:00,"Coliform, Fecal",190,cfu/100mL
+573,Crown 2001 Shoreline Dr.,2018-12-03T00:00:00,"Coliform, Fecal",19,cfu/100mL
+574,Crown 2001 Shoreline Dr.,2018-12-17T00:00:00,"Coliform, Fecal",1100,cfu/100mL
+575,Crown 2001 Shoreline Dr.,2018-07-23T00:00:00,Enterococcus,2,cfu/100mL
+576,Crown 2001 Shoreline Dr.,2018-07-30T00:00:00,"Coliform, Total",96,MPN/100 mL
+577,Crown 2001 Shoreline Dr.,2018-08-06T00:00:00,"Coliform, Total",31,MPN/100 mL
+578,Crown 2001 Shoreline Dr.,2018-08-20T00:00:00,Enterococcus,1,cfu/100mL
+579,Crown 2001 Shoreline Dr.,2018-08-27T00:00:00,"Coliform, Total",500,MPN/100 mL
+580,Crown 2001 Shoreline Dr.,2018-12-19T00:00:00,Enterococcus,140,cfu/100mL
+581,Crown 2001 Shoreline Dr.,2019-01-22T00:00:00,Enterococcus,23,cfu/100mL
+582,Crown 2001 Shoreline Dr.,2019-01-22T00:00:00,"Coliform, Fecal",40,cfu/100mL
+583,Crown 2001 Shoreline Dr.,2019-02-07T00:00:00,"Coliform, Total",31,MPN/100 mL
+584,Crown 2001 Shoreline Dr.,2019-02-19T00:00:00,"Coliform, Total",150,MPN/100 mL
+585,Crown 2001 Shoreline Dr.,2018-09-04T00:00:00,"Coliform, Fecal",3,cfu/100mL
+586,Crown 2001 Shoreline Dr.,2018-09-17T00:00:00,"Coliform, Total",63,MPN/100 mL
+587,Crown 2001 Shoreline Dr.,2018-09-17T00:00:00,Enterococcus,17,cfu/100mL
+588,Crown 2001 Shoreline Dr.,2018-09-25T00:00:00,Enterococcus,47,cfu/100mL
+589,Crown 2001 Shoreline Dr.,2018-11-05T00:00:00,"Coliform, Total",1600,MPN/100 mL
+590,Crown 2001 Shoreline Dr.,2019-03-04T00:00:00,"Coliform, Fecal",66,cfu/100mL
+591,Crown 2001 Shoreline Dr.,2019-03-18T00:00:00,Enterococcus,100,cfu/100mL
+592,Crown 2001 Shoreline Dr.,2019-03-18T00:00:00,"Coliform, Fecal",490,cfu/100mL
+593,Crown 2001 Shoreline Dr.,2019-04-02T00:00:00,"Coliform, Fecal",610,cfu/100mL
+594,Crown 2001 Shoreline Dr.,2019-04-17T00:00:00,"Coliform, Total",85,MPN/100 mL
+595,Crown 2001 Shoreline Dr.,2019-04-22T00:00:00,Enterococcus,1,cfu/100mL
+596,Crown 2001 Shoreline Dr.,2019-05-13T00:00:00,Enterococcus,3,cfu/100mL
+597,Crown 2001 Shoreline Dr.,2019-05-13T00:00:00,"Coliform, Total",980,MPN/100 mL
+598,Crown 2001 Shoreline Dr.,2019-05-28T00:00:00,"Coliform, Total",330,MPN/100 mL
+599,Crown 2001 Shoreline Dr.,2019-06-17T00:00:00,Enterococcus,1,cfu/100mL
+600,Crown 2001 Shoreline Dr.,2019-06-17T00:00:00,"Coliform, Fecal",6,cfu/100mL
+601,Crown 2001 Shoreline Dr.,2019-07-01T00:00:00,Enterococcus,5,cfu/100mL
+602,Crown 2001 Shoreline Dr.,2019-07-08T00:00:00,Enterococcus,3,cfu/100mL
+603,Crown 2001 Shoreline Dr.,2019-07-08T00:00:00,"Coliform, Total",63,MPN/100 mL
+604,Crown 2001 Shoreline Dr.,2019-07-29T00:00:00,"Coliform, Fecal",19,cfu/100mL
+605,Crown 2001 Shoreline Dr.,2018-11-05T00:00:00,Enterococcus,110,cfu/100mL
+606,Crown 2001 Shoreline Dr.,2018-11-05T00:00:00,"Coliform, Fecal",680,cfu/100mL
+607,Crown 2001 Shoreline Dr.,2018-11-07T00:00:00,Enterococcus,37,cfu/100mL
+608,Crown 2001 Shoreline Dr.,2018-11-19T00:00:00,Enterococcus,8,cfu/100mL
+609,Crown 2001 Shoreline Dr.,2018-12-17T00:00:00,"Coliform, Total",17000,MPN/100 mL
+610,Crown 2001 Shoreline Dr.,2018-12-19T00:00:00,"Coliform, Fecal",140,cfu/100mL
+611,Crown 2001 Shoreline Dr.,2018-12-26T00:00:00,"Coliform, Total",130,MPN/100 mL
+612,Crown 2001 Shoreline Dr.,2019-01-14T00:00:00,Enterococcus,280,cfu/100mL
+613,Crown 2001 Shoreline Dr.,2019-01-14T00:00:00,"Coliform, Total",3900,MPN/100 mL
+614,Crown 2001 Shoreline Dr.,2019-02-04T00:00:00,"Coliform, Total",910,MPN/100 mL
+615,Crown 2001 Shoreline Dr.,2019-08-12T00:00:00,Enterococcus,9,cfu/100mL
+616,Crown 2001 Shoreline Dr.,2019-08-12T00:00:00,"Coliform, Total",150,MPN/100 mL
+617,Crown 2001 Shoreline Dr.,2019-08-19T00:00:00,"Coliform, Fecal",55,cfu/100mL
+618,Crown 2001 Shoreline Dr.,2019-09-03T00:00:00,Enterococcus,7,cfu/100mL
+619,Crown 2001 Shoreline Dr.,2019-09-03T00:00:00,"Coliform, Total",380,MPN/100 mL
+620,Crown 2001 Shoreline Dr.,2019-09-12T00:00:00,"Coliform, Total",540,MPN/100 mL
+621,Crown 2001 Shoreline Dr.,2019-10-07T00:00:00,"Coliform, Total",10,MPN/100 mL
+622,Crown 2001 Shoreline Dr.,2019-11-18T00:00:00,"Coliform, Total",31,MPN/100 mL
+623,Crown 2001 Shoreline Dr.,2019-12-02T00:00:00,"Coliform, Total",910,MPN/100 mL
+624,Crown 2001 Shoreline Dr.,2020-02-03T00:00:00,Enterococcus,58,cfu/100mL
+625,Crown 2001 Shoreline Dr.,2020-03-23T00:00:00,Enterococcus,90,cfu/100mL
+626,Crown 2001 Shoreline Dr.,2020-03-23T00:00:00,"Coliform, Total",190,MPN/100 mL
+627,Crown 2001 Shoreline Dr.,2020-04-06T00:00:00,Enterococcus,1,cfu/100mL
+628,Crown 2001 Shoreline Dr.,2020-04-13T00:00:00,"Coliform, Total",10,MPN/100 mL
+629,Crown 2001 Shoreline Dr.,2020-05-18T00:00:00,Enterococcus,1,cfu/100mL
+630,Crown 2001 Shoreline Dr.,2020-06-01T00:00:00,Enterococcus,2,cfu/100mL
+631,Crown 2001 Shoreline Dr.,2020-06-01T00:00:00,"Coliform, Total",150,MPN/100 mL
+632,Crown 2001 Shoreline Dr.,2020-06-15T00:00:00,Enterococcus,1,cfu/100mL
+633,Crown 2001 Shoreline Dr.,2020-06-15T00:00:00,"Coliform, Fecal",6,cfu/100mL
+634,Crown 2001 Shoreline Dr.,2020-06-22T00:00:00,"Coliform, Fecal",4,cfu/100mL
+635,Crown 2001 Shoreline Dr.,2020-06-29T00:00:00,"Coliform, Total",220,MPN/100 mL
+636,Crown 2001 Shoreline Dr.,2020-06-29T00:00:00,"Coliform, Fecal",3,cfu/100mL
+637,Crown 2001 Shoreline Dr.,2020-07-13T00:00:00,"Coliform, Total",270,MPN/100 mL
+638,Crown 2001 Shoreline Dr.,2020-07-13T00:00:00,"Coliform, Fecal",1,cfu/100mL
+639,Crown 2001 Shoreline Dr.,2020-08-03T00:00:00,Enterococcus,3,cfu/100mL
+640,Crown 2001 Shoreline Dr.,2020-09-08T00:00:00,"Coliform, Total",130,MPN/100 mL
+641,Crown 2001 Shoreline Dr.,2020-09-14T00:00:00,"Coliform, Fecal",27,cfu/100mL
+642,Crown 2001 Shoreline Dr.,2020-09-21T00:00:00,Enterococcus,2,cfu/100mL
+643,Crown 2001 Shoreline Dr.,2020-09-21T00:00:00,"Coliform, Fecal",11,cfu/100mL
+644,Crown 2001 Shoreline Dr.,2020-09-28T00:00:00,"Coliform, Fecal",4,cfu/100mL
+645,Crown 2001 Shoreline Dr.,2020-10-19T00:00:00,"Coliform, Total",1600,MPN/100 mL
+646,Crown 2001 Shoreline Dr.,2020-10-21T00:00:00,"Coliform, Total",30,MPN/100 mL
+647,Crown 2001 Shoreline Dr.,2020-10-21T00:00:00,"Coliform, Fecal",2,cfu/100mL
+648,Crown 2001 Shoreline Dr.,2020-11-02T00:00:00,Enterococcus,2,cfu/100mL
+649,Crown 2001 Shoreline Dr.,2020-12-14T00:00:00,"Coliform, Total",75,MPN/100 mL
+650,Crown 2001 Shoreline Dr.,2019-02-19T00:00:00,Enterococcus,10,cfu/100mL
+651,Crown 2001 Shoreline Dr.,2019-03-04T00:00:00,"Coliform, Total",380,MPN/100 mL
+652,Crown 2001 Shoreline Dr.,2019-04-15T00:00:00,"Coliform, Total",6500,MPN/100 mL
+653,Crown 2001 Shoreline Dr.,2019-04-17T00:00:00,Enterococcus,1,cfu/100mL
+654,Crown 2001 Shoreline Dr.,2019-04-17T00:00:00,"Coliform, Fecal",4,cfu/100mL
+655,Crown 2001 Shoreline Dr.,2019-04-22T00:00:00,"Coliform, Fecal",4,cfu/100mL
+656,Crown 2001 Shoreline Dr.,2019-05-06T00:00:00,Enterococcus,14,cfu/100mL
+657,Crown 2001 Shoreline Dr.,2019-05-06T00:00:00,"Coliform, Fecal",9,cfu/100mL
+658,Crown 2001 Shoreline Dr.,2019-05-20T00:00:00,Enterococcus,5,cfu/100mL
+659,Crown 2001 Shoreline Dr.,2019-05-28T00:00:00,Enterococcus,8,cfu/100mL
+660,Crown 2001 Shoreline Dr.,2020-12-14T00:00:00,"Coliform, Fecal",9,cfu/100mL
+661,Crown 2001 Shoreline Dr.,2021-01-11T00:00:00,"Coliform, Fecal",15,cfu/100mL
+662,Crown 2001 Shoreline Dr.,2021-01-25T00:00:00,Enterococcus,11,cfu/100mL
+663,Crown 2001 Shoreline Dr.,2021-01-25T00:00:00,"Coliform, Total",10,MPN/100 mL
+664,Crown 2001 Shoreline Dr.,2021-03-08T00:00:00,"Coliform, Fecal",160,cfu/100mL
+665,Crown 2001 Shoreline Dr.,2021-03-22T00:00:00,"Coliform, Total",41,MPN/100 mL
+666,Crown 2001 Shoreline Dr.,2021-04-05T00:00:00,Enterococcus,49,cfu/100mL
+667,Crown 2001 Shoreline Dr.,2021-04-05T00:00:00,"Coliform, Total",52,MPN/100 mL
+668,Crown 2001 Shoreline Dr.,2021-04-26T00:00:00,"Coliform, Fecal",2,cfu/100mL
+669,Crown 2001 Shoreline Dr.,2021-05-10T00:00:00,"Coliform, Total",98,MPN/100 mL
+670,Crown 2001 Shoreline Dr.,2021-05-24T00:00:00,"Coliform, Total",10,MPN/100 mL
+671,Crown 2001 Shoreline Dr.,2021-06-01T00:00:00,Enterococcus,1,cfu/100mL
+672,Crown 2001 Shoreline Dr.,2021-06-01T00:00:00,"Coliform, Total",10,MPN/100 mL
+673,Crown 2001 Shoreline Dr.,2019-06-10T00:00:00,Enterococcus,39,cfu/100mL
+674,Crown 2001 Shoreline Dr.,2019-06-24T00:00:00,"Coliform, Total",63,MPN/100 mL
+675,Crown 2001 Shoreline Dr.,2019-06-24T00:00:00,"Coliform, Fecal",22,cfu/100mL
+676,Crown 2001 Shoreline Dr.,2019-07-01T00:00:00,"Coliform, Total",260,MPN/100 mL
+677,Crown 2001 Shoreline Dr.,2019-07-15T00:00:00,"Coliform, Fecal",28,cfu/100mL
+678,Crown 2001 Shoreline Dr.,2019-07-22T00:00:00,"Coliform, Total",85,MPN/100 mL
+679,Crown 2001 Shoreline Dr.,2019-07-29T00:00:00,Enterococcus,3,cfu/100mL
+680,Crown 2001 Shoreline Dr.,2019-07-29T00:00:00,"Coliform, Total",260,MPN/100 mL
+681,Crown 2001 Shoreline Dr.,2019-08-05T00:00:00,"Coliform, Total",10,MPN/100 mL
+682,Crown 2001 Shoreline Dr.,2019-08-05T00:00:00,"Coliform, Fecal",9,cfu/100mL
+683,Crown 2001 Shoreline Dr.,2019-08-19T00:00:00,"Coliform, Total",110,MPN/100 mL
+684,Crown 2001 Shoreline Dr.,2019-08-26T00:00:00,"Coliform, Total",84,MPN/100 mL
+685,Crown 2001 Shoreline Dr.,2019-08-26T00:00:00,"Coliform, Fecal",12,cfu/100mL
+686,Crown 2001 Shoreline Dr.,2019-09-10T00:00:00,"Coliform, Total",210,MPN/100 mL
+687,Crown 2001 Shoreline Dr.,2019-09-12T00:00:00,Enterococcus,120,cfu/100mL
+688,Crown 2001 Shoreline Dr.,2019-09-16T00:00:00,"Coliform, Total",300,MPN/100 mL
+689,Crown 2001 Shoreline Dr.,2019-09-16T00:00:00,"Coliform, Fecal",120,cfu/100mL
+690,Crown 2001 Shoreline Dr.,2019-09-30T00:00:00,"Coliform, Fecal",56,cfu/100mL
+691,Crown 2001 Shoreline Dr.,2019-10-07T00:00:00,Enterococcus,1,cfu/100mL
+692,Crown 2001 Shoreline Dr.,2019-10-15T00:00:00,"Coliform, Fecal",170,cfu/100mL
+693,Crown 2001 Shoreline Dr.,2019-10-21T00:00:00,Enterococcus,2,cfu/100mL
+694,Crown 2001 Shoreline Dr.,2019-10-21T00:00:00,"Coliform, Fecal",6,cfu/100mL
+695,Crown 2001 Shoreline Dr.,2019-10-28T00:00:00,Enterococcus,6,cfu/100mL
+696,Crown 2001 Shoreline Dr.,2019-10-28T00:00:00,"Coliform, Fecal",7,cfu/100mL
+697,Crown 2001 Shoreline Dr.,2019-11-18T00:00:00,Enterococcus,3,cfu/100mL
+698,Crown 2001 Shoreline Dr.,2019-12-17T00:00:00,"Coliform, Fecal",8,cfu/100mL
+699,Crown 2001 Shoreline Dr.,2020-01-27T00:00:00,Enterococcus,2,cfu/100mL
+700,Crown 2001 Shoreline Dr.,2020-01-27T00:00:00,"Coliform, Total",30,MPN/100 mL
+701,Crown 2001 Shoreline Dr.,2020-02-03T00:00:00,"Coliform, Fecal",180,cfu/100mL
+702,Crown 2001 Shoreline Dr.,2020-02-24T00:00:00,Enterococcus,20,cfu/100mL
+703,Crown 2001 Shoreline Dr.,2020-03-11T00:00:00,Enterococcus,83,cfu/100mL
+704,Crown 2001 Shoreline Dr.,2020-04-06T00:00:00,"Coliform, Total",10,MPN/100 mL
+705,Crown 2001 Shoreline Dr.,2020-04-13T00:00:00,Enterococcus,7,cfu/100mL
+706,Crown 2001 Shoreline Dr.,2020-04-27T00:00:00,Enterococcus,1,cfu/100mL
+707,Crown 2001 Shoreline Dr.,2020-05-04T00:00:00,"Coliform, Total",250,MPN/100 mL
+708,Crown 2001 Shoreline Dr.,2020-05-26T00:00:00,"Coliform, Total",300,MPN/100 mL
+709,Crown 2001 Shoreline Dr.,2020-06-08T00:00:00,Enterococcus,8,cfu/100mL
+710,Crown 2001 Shoreline Dr.,2020-06-08T00:00:00,"Coliform, Total",520,MPN/100 mL
+711,Crown 2001 Shoreline Dr.,2020-07-06T00:00:00,"Coliform, Fecal",21,cfu/100mL
+712,Crown 2001 Shoreline Dr.,2020-07-13T00:00:00,Enterococcus,1,cfu/100mL
+713,Crown 2001 Shoreline Dr.,2020-07-20T00:00:00,"Coliform, Fecal",4,cfu/100mL
+714,Crown 2001 Shoreline Dr.,2020-08-03T00:00:00,"Coliform, Fecal",14,cfu/100mL
+715,Crown 2001 Shoreline Dr.,2020-08-10T00:00:00,"Coliform, Total",84,MPN/100 mL
+716,Crown 2001 Shoreline Dr.,2020-08-31T00:00:00,"Coliform, Total",75,MPN/100 mL
+717,Crown 2001 Shoreline Dr.,2020-08-31T00:00:00,"Coliform, Fecal",13,cfu/100mL
+718,Crown 2001 Shoreline Dr.,2020-09-08T00:00:00,Enterococcus,1,cfu/100mL
+719,Crown 2001 Shoreline Dr.,2020-09-16T00:00:00,Enterococcus,2,cfu/100mL
+720,Crown 2001 Shoreline Dr.,2020-09-21T00:00:00,"Coliform, Total",63,MPN/100 mL
+721,Crown 2001 Shoreline Dr.,2020-09-28T00:00:00,Enterococcus,1,cfu/100mL
+722,Crown 2001 Shoreline Dr.,2020-10-05T00:00:00,"Coliform, Total",52,MPN/100 mL
+723,Crown 2001 Shoreline Dr.,2020-10-13T00:00:00,Enterococcus,4,cfu/100mL
+724,Crown 2001 Shoreline Dr.,2020-10-13T00:00:00,"Coliform, Fecal",29,cfu/100mL
+725,Crown 2001 Shoreline Dr.,2020-10-26T00:00:00,"Coliform, Fecal",9,cfu/100mL
+726,Crown 2001 Shoreline Dr.,2020-11-02T00:00:00,"Coliform, Total",41,MPN/100 mL
+727,Crown 2001 Shoreline Dr.,2020-12-14T00:00:00,Enterococcus,5,cfu/100mL
+728,Crown 2001 Shoreline Dr.,2021-01-11T00:00:00,Enterococcus,6,cfu/100mL
+729,Crown 2001 Shoreline Dr.,2021-02-22T00:00:00,Enterococcus,1,cfu/100mL
+730,Crown 2001 Shoreline Dr.,2021-04-26T00:00:00,Enterococcus,1,cfu/100mL
+731,Crown 2001 Shoreline Dr.,2021-05-03T00:00:00,Enterococcus,3,cfu/100mL
+732,Crown 2001 Shoreline Dr.,2021-05-03T00:00:00,"Coliform, Total",10,MPN/100 mL
+733,Crown 2001 Shoreline Dr.,2021-05-24T00:00:00,Enterococcus,21,cfu/100mL
+734,Crown 2001 Shoreline Dr.,2010-05-17T00:00:00,Enterococcus,8,MPN/100 mL
+735,Crown 2001 Shoreline Dr.,2010-05-17T00:00:00,Enterococcus,8,MPN/100 mL
+736,Crown 2001 Shoreline Dr.,2014-09-02T00:00:00,"Coliform, Total",330,MPN/100 mL
+737,Crown 2001 Shoreline Dr.,2014-09-02T00:00:00,Enterococcus,6,MPN/100 mL
+738,Crown 2001 Shoreline Dr.,2014-10-01T00:00:00,Enterococcus,4,MPN/100 mL
+739,Crown 2001 Shoreline Dr.,2014-10-06T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+740,Crown 2001 Shoreline Dr.,2014-10-14T00:00:00,"Coliform, Fecal",72,MPN/100 mL
+741,Crown 2001 Shoreline Dr.,2014-10-20T00:00:00,"Coliform, Total",3400,MPN/100 mL
+742,Crown 2001 Shoreline Dr.,2014-10-27T00:00:00,Enterococcus,1,MPN/100 mL
+743,Crown 2001 Shoreline Dr.,2014-10-27T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+744,Crown 2001 Shoreline Dr.,2014-11-10T00:00:00,Enterococcus,1,MPN/100 mL
+745,Crown 2001 Shoreline Dr.,2014-12-08T00:00:00,Enterococcus,8,MPN/100 mL
+746,Crown 2001 Shoreline Dr.,2014-12-08T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+747,Crown 2001 Shoreline Dr.,2014-12-22T00:00:00,Enterococcus,9,MPN/100 mL
+748,Crown 2001 Shoreline Dr.,2015-01-20T00:00:00,"Coliform, Fecal",130,MPN/100 mL
+749,Crown 2001 Shoreline Dr.,2015-03-02T00:00:00,"Coliform, Total",560,MPN/100 mL
+750,Crown 2001 Shoreline Dr.,2015-03-16T00:00:00,"Coliform, Total",290,MPN/100 mL
+751,Crown 2001 Shoreline Dr.,2015-03-17T00:00:00,Enterococcus,320,MPN/100 mL
+752,Crown 2001 Shoreline Dr.,2015-03-18T00:00:00,"Coliform, Fecal",3,MPN/100 mL
+753,Crown 2001 Shoreline Dr.,2015-04-01T00:00:00,"Coliform, Total",10,MPN/100 mL
+754,Crown 2001 Shoreline Dr.,2015-04-01T00:00:00,Enterococcus,4,MPN/100 mL
+755,Crown 2001 Shoreline Dr.,2015-04-01T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+756,Crown 2001 Shoreline Dr.,2015-04-06T00:00:00,Enterococcus,8,MPN/100 mL
+757,Crown 2001 Shoreline Dr.,2015-04-13T00:00:00,"Coliform, Total",120,MPN/100 mL
+758,Crown 2001 Shoreline Dr.,2015-04-13T00:00:00,Enterococcus,3,MPN/100 mL
+759,Crown 2001 Shoreline Dr.,2015-04-14T00:00:00,"Coliform, Total",120,MPN/100 mL
+760,Crown 2001 Shoreline Dr.,2015-04-14T00:00:00,Enterococcus,3,MPN/100 mL
+761,Crown 2001 Shoreline Dr.,2015-04-27T00:00:00,Enterococcus,1,MPN/100 mL
+762,Crown 2001 Shoreline Dr.,2015-05-11T00:00:00,"Coliform, Total",30,MPN/100 mL
+763,Crown 2001 Shoreline Dr.,2015-05-11T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+764,Crown 2001 Shoreline Dr.,2015-06-01T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+765,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,"Coliform, Total",190,MPN/100 mL
+766,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,Enterococcus,11,MPN/100 mL
+767,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+768,Crown 2001 Shoreline Dr.,2015-07-13T00:00:00,"Coliform, Total",610,MPN/100 mL
+769,Crown 2001 Shoreline Dr.,2015-07-13T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+770,Crown 2001 Shoreline Dr.,2015-07-20T00:00:00,Enterococcus,22,MPN/100 mL
+771,Crown 2001 Shoreline Dr.,2015-08-03T00:00:00,Enterococcus,15,MPN/100 mL
+772,Crown 2001 Shoreline Dr.,2015-08-03T00:00:00,"Coliform, Fecal",190,MPN/100 mL
+773,Crown 2001 Shoreline Dr.,2015-08-24T00:00:00,"Coliform, Total",390,MPN/100 mL
+774,Crown 2001 Shoreline Dr.,2015-08-24T00:00:00,Enterococcus,21,MPN/100 mL
+775,Crown 2001 Shoreline Dr.,2015-08-31T00:00:00,"Coliform, Fecal",70,MPN/100 mL
+776,Crown 2001 Shoreline Dr.,2015-09-10T00:00:00,"Coliform, Total",520,MPN/100 mL
+777,Crown 2001 Shoreline Dr.,2015-09-15T00:00:00,"Coliform, Total",370,MPN/100 mL
+778,Crown 2001 Shoreline Dr.,2015-09-21T00:00:00,"Coliform, Fecal",39,MPN/100 mL
+779,Crown 2001 Shoreline Dr.,2015-09-27T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+780,Crown 2001 Shoreline Dr.,2015-09-28T00:00:00,"Coliform, Total",230,MPN/100 mL
+781,Crown 2001 Shoreline Dr.,2015-10-06T00:00:00,Enterococcus,1,MPN/100 mL
+782,Crown 2001 Shoreline Dr.,2015-10-06T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+783,Crown 2001 Shoreline Dr.,2015-10-13T00:00:00,Enterococcus,8,MPN/100 mL
+784,Crown 2001 Shoreline Dr.,2015-10-13T00:00:00,"Coliform, Fecal",37,MPN/100 mL
+785,Crown 2001 Shoreline Dr.,2015-10-26T00:00:00,"Coliform, Fecal",47,MPN/100 mL
+786,Crown 2001 Shoreline Dr.,2015-11-16T00:00:00,Enterococcus,12,MPN/100 mL
+787,Crown 2001 Shoreline Dr.,2015-11-23T00:00:00,"Coliform, Total",840,MPN/100 mL
+788,Crown 2001 Shoreline Dr.,2015-12-14T00:00:00,Enterococcus,7,MPN/100 mL
+789,Crown 2001 Shoreline Dr.,2015-12-28T00:00:00,Enterococcus,7,MPN/100 mL
+790,Crown 2001 Shoreline Dr.,2016-01-25T00:00:00,Enterococcus,130,MPN/100 mL
+791,Crown 2001 Shoreline Dr.,2016-03-07T00:00:00,"Coliform, Total",24000,MPN/100 mL
+792,Crown 2001 Shoreline Dr.,2016-03-07T00:00:00,Enterococcus,570,cfu/100mL
+793,Crown 2001 Shoreline Dr.,2016-03-21T00:00:00,Enterococcus,16,cfu/100mL
+794,Crown 2001 Shoreline Dr.,2016-04-04T00:00:00,"Coliform, Fecal",38,cfu/100mL
+795,Crown 2001 Shoreline Dr.,2016-04-25T00:00:00,Enterococcus,35,cfu/100mL
+796,Crown 2001 Shoreline Dr.,2016-05-02T00:00:00,"Coliform, Total",24000,MPN/100 mL
+797,Crown 2001 Shoreline Dr.,2016-05-16T00:00:00,"Coliform, Fecal",9,cfu/100mL
+798,Crown 2001 Shoreline Dr.,2016-05-23T00:00:00,"Coliform, Fecal",190,cfu/100mL
+799,Crown 2001 Shoreline Dr.,2016-06-06T00:00:00,Enterococcus,48,cfu/100mL
+800,Crown 2001 Shoreline Dr.,2016-06-06T00:00:00,"Coliform, Fecal",24,cfu/100mL
+801,Crown 2001 Shoreline Dr.,2016-06-08T00:00:00,"Coliform, Total",470,MPN/100 mL
+802,Crown 2001 Shoreline Dr.,2016-06-13T00:00:00,"Coliform, Fecal",16,cfu/100mL
+803,Crown 2001 Shoreline Dr.,2016-06-15T00:00:00,Enterococcus,1,cfu/100mL
+804,Crown 2001 Shoreline Dr.,2016-06-27T00:00:00,"Coliform, Fecal",1,cfu/100mL
+805,Crown 2001 Shoreline Dr.,2016-07-05T00:00:00,"Coliform, Fecal",10,cfu/100mL
+806,Crown 2001 Shoreline Dr.,2016-07-11T00:00:00,Enterococcus,1,cfu/100mL
+807,Crown 2001 Shoreline Dr.,2016-07-11T00:00:00,"Coliform, Fecal",58,cfu/100mL
+808,Crown 2001 Shoreline Dr.,2016-07-19T00:00:00,Enterococcus,12,cfu/100mL
+809,Crown 2001 Shoreline Dr.,2016-07-25T00:00:00,Enterococcus,2,cfu/100mL
+810,Crown 2001 Shoreline Dr.,2016-08-15T00:00:00,Enterococcus,53,cfu/100mL
+811,Crown 2001 Shoreline Dr.,2016-08-18T00:00:00,"Coliform, Total",1700,MPN/100 mL
+812,Crown 2001 Shoreline Dr.,2016-08-18T00:00:00,Enterococcus,24,cfu/100mL
+813,Crown 2001 Shoreline Dr.,2016-08-22T00:00:00,Enterococcus,210,cfu/100mL
+814,Crown 2001 Shoreline Dr.,2016-08-29T00:00:00,Enterococcus,3,cfu/100mL
+815,Crown 2001 Shoreline Dr.,2016-09-12T00:00:00,"Coliform, Total",580,MPN/100 mL
+816,Crown 2001 Shoreline Dr.,2016-09-14T00:00:00,"Coliform, Total",110,MPN/100 mL
+817,Crown 2001 Shoreline Dr.,2016-09-14T00:00:00,"Coliform, Fecal",15,cfu/100mL
+818,Crown 2001 Shoreline Dr.,2016-09-19T00:00:00,"Coliform, Fecal",20,cfu/100mL
+819,Crown 2001 Shoreline Dr.,2016-09-26T00:00:00,"Coliform, Fecal",130,cfu/100mL
+820,Crown 2001 Shoreline Dr.,2016-10-03T00:00:00,"Coliform, Total",160,MPN/100 mL
+821,Crown 2001 Shoreline Dr.,2016-10-17T00:00:00,Enterococcus,7,cfu/100mL
+822,Crown 2001 Shoreline Dr.,2016-10-24T00:00:00,"Coliform, Fecal",230,cfu/100mL
+823,Crown 2001 Shoreline Dr.,2016-10-31T00:00:00,"Coliform, Total",1900,MPN/100 mL
+824,Crown 2001 Shoreline Dr.,2016-12-12T00:00:00,"Coliform, Total",5000,MPN/100 mL
+825,Crown 2001 Shoreline Dr.,2017-01-09T00:00:00,Enterococcus,400,cfu/100mL
+826,Crown 2001 Shoreline Dr.,2017-01-17T00:00:00,Enterococcus,15,cfu/100mL
+827,Crown 2001 Shoreline Dr.,2017-02-14T00:00:00,Enterococcus,35,cfu/100mL
+828,Crown 2001 Shoreline Dr.,2017-02-27T00:00:00,Enterococcus,1,cfu/100mL
+829,Crown 2001 Shoreline Dr.,2017-02-27T00:00:00,"Coliform, Fecal",14,cfu/100mL
+830,Crown 2001 Shoreline Dr.,2017-03-13T00:00:00,Enterococcus,11,cfu/100mL
+831,Crown 2001 Shoreline Dr.,2017-04-11T00:00:00,Enterococcus,93,cfu/100mL
+832,Crown 2001 Shoreline Dr.,2017-05-08T00:00:00,"Coliform, Total",180,MPN/100 mL
+833,Crown 2001 Shoreline Dr.,2017-05-08T00:00:00,Enterococcus,3,cfu/100mL
+834,Crown 2001 Shoreline Dr.,2017-05-15T00:00:00,"Coliform, Total",430,MPN/100 mL
+835,Crown 2001 Shoreline Dr.,2017-05-15T00:00:00,Enterococcus,1,cfu/100mL
+836,Crown 2001 Shoreline Dr.,2017-05-30T00:00:00,"Coliform, Total",2900,MPN/100 mL
+837,Crown 2001 Shoreline Dr.,2017-06-05T00:00:00,Enterococcus,15,cfu/100mL
+838,Crown 2001 Shoreline Dr.,2017-06-05T00:00:00,"Coliform, Fecal",40,cfu/100mL
+839,Crown 2001 Shoreline Dr.,2017-07-03T00:00:00,"Coliform, Total",31,MPN/100 mL
+840,Crown 2001 Shoreline Dr.,2017-07-11T00:00:00,"Coliform, Total",4900,MPN/100 mL
+841,Crown 2001 Shoreline Dr.,2017-07-17T00:00:00,"Coliform, Fecal",23,cfu/100mL
+842,Crown 2001 Shoreline Dr.,2017-07-24T00:00:00,"Coliform, Total",74,MPN/100 mL
+843,Crown 2001 Shoreline Dr.,2017-07-31T00:00:00,Enterococcus,1,cfu/100mL
+844,Crown 2001 Shoreline Dr.,2017-08-14T00:00:00,Enterococcus,15,cfu/100mL
+845,Crown 2001 Shoreline Dr.,2017-08-14T00:00:00,"Coliform, Fecal",11,cfu/100mL
+846,Crown 2001 Shoreline Dr.,2017-08-28T00:00:00,"Coliform, Fecal",3,cfu/100mL
+847,Crown 2001 Shoreline Dr.,2017-09-19T00:00:00,"Coliform, Total",97,MPN/100 mL
+848,Crown 2001 Shoreline Dr.,2017-09-25T00:00:00,"Coliform, Fecal",2,cfu/100mL
+849,Crown 2001 Shoreline Dr.,2017-10-10T00:00:00,"Coliform, Total",31,MPN/100 mL
+850,Crown 2001 Shoreline Dr.,2017-10-16T00:00:00,"Coliform, Total",510,MPN/100 mL
+851,Crown 2001 Shoreline Dr.,2017-10-24T00:00:00,"Coliform, Fecal",25,cfu/100mL
+852,Crown 2001 Shoreline Dr.,2017-11-06T00:00:00,Enterococcus,16,cfu/100mL
+853,Crown 2001 Shoreline Dr.,2017-12-04T00:00:00,"Coliform, Fecal",160,cfu/100mL
+854,Crown 2001 Shoreline Dr.,2017-12-18T00:00:00,"Coliform, Total",30,MPN/100 mL
+855,Crown 2001 Shoreline Dr.,2018-01-02T00:00:00,Enterococcus,24,cfu/100mL
+856,Crown 2001 Shoreline Dr.,2018-02-13T00:00:00,"Coliform, Total",31,MPN/100 mL
+857,Crown 2001 Shoreline Dr.,2018-02-13T00:00:00,Enterococcus,47,cfu/100mL
+858,Crown 2001 Shoreline Dr.,2018-02-28T00:00:00,"Coliform, Fecal",15,cfu/100mL
+859,Crown 2001 Shoreline Dr.,2018-04-02T00:00:00,"Coliform, Total",120,MPN/100 mL
+860,Crown 2001 Shoreline Dr.,2018-04-02T00:00:00,Enterococcus,5,cfu/100mL
+861,Crown 2001 Shoreline Dr.,2018-04-16T00:00:00,"Coliform, Total",340,MPN/100 mL
+862,Crown 2001 Shoreline Dr.,2018-04-16T00:00:00,Enterococcus,44,cfu/100mL
+863,Crown 2001 Shoreline Dr.,2018-04-16T00:00:00,"Coliform, Fecal",37,cfu/100mL
+864,Crown 2001 Shoreline Dr.,2018-05-07T00:00:00,Enterococcus,6,cfu/100mL
+865,Crown 2001 Shoreline Dr.,2018-05-29T00:00:00,"Coliform, Fecal",57,cfu/100mL
+866,Crown 2001 Shoreline Dr.,2018-06-11T00:00:00,"Coliform, Total",63,MPN/100 mL
+867,Crown 2001 Shoreline Dr.,2018-06-18T00:00:00,"Coliform, Fecal",1,cfu/100mL
+868,Crown 2001 Shoreline Dr.,2018-07-02T00:00:00,"Coliform, Fecal",24,cfu/100mL
+869,Crown 2001 Shoreline Dr.,2018-07-09T00:00:00,"Coliform, Total",160,MPN/100 mL
+870,Crown 2001 Shoreline Dr.,2018-07-16T00:00:00,Enterococcus,10,cfu/100mL
+871,Crown 2001 Shoreline Dr.,2018-07-16T00:00:00,"Coliform, Fecal",33,cfu/100mL
+872,Crown 2001 Shoreline Dr.,2018-07-23T00:00:00,"Coliform, Fecal",37,cfu/100mL
+873,Crown 2001 Shoreline Dr.,2018-07-30T00:00:00,"Coliform, Fecal",27,cfu/100mL
+874,Crown 2001 Shoreline Dr.,2018-08-06T00:00:00,Enterococcus,1,cfu/100mL
+875,Crown 2001 Shoreline Dr.,2018-08-20T00:00:00,"Coliform, Fecal",7,cfu/100mL
+876,Crown 2001 Shoreline Dr.,2018-10-01T00:00:00,Enterococcus,2,cfu/100mL
+877,Crown 2001 Shoreline Dr.,2018-10-01T00:00:00,"Coliform, Fecal",14,cfu/100mL
+878,Crown 2001 Shoreline Dr.,2018-10-09T00:00:00,"Coliform, Total",96,MPN/100 mL
+879,Crown 2001 Shoreline Dr.,2018-10-15T00:00:00,"Coliform, Total",30,MPN/100 mL
+880,Crown 2001 Shoreline Dr.,2018-10-22T00:00:00,"Coliform, Total",320,MPN/100 mL
+881,Crown 2001 Shoreline Dr.,2018-10-29T00:00:00,Enterococcus,3,cfu/100mL
+882,Crown 2001 Shoreline Dr.,2018-11-19T00:00:00,"Coliform, Total",72,MPN/100 mL
+883,Crown 2001 Shoreline Dr.,2018-12-17T00:00:00,Enterococcus,200,cfu/100mL
+884,Crown 2001 Shoreline Dr.,2018-12-26T00:00:00,"Coliform, Fecal",77,cfu/100mL
+885,Crown 2001 Shoreline Dr.,2019-02-04T00:00:00,"Coliform, Fecal",160,cfu/100mL
+886,Crown 2001 Shoreline Dr.,2019-03-04T00:00:00,Enterococcus,15,cfu/100mL
+887,Crown 2001 Shoreline Dr.,2019-04-02T00:00:00,Enterococcus,160,cfu/100mL
+888,Crown 2001 Shoreline Dr.,2019-04-08T00:00:00,Enterococcus,1,cfu/100mL
+889,Crown 2001 Shoreline Dr.,2019-04-08T00:00:00,"Coliform, Total",41,MPN/100 mL
+890,Crown 2001 Shoreline Dr.,2019-04-08T00:00:00,"Coliform, Fecal",19,cfu/100mL
+891,Crown 2001 Shoreline Dr.,2019-04-15T00:00:00,Enterococcus,150,cfu/100mL
+892,Crown 2001 Shoreline Dr.,2019-04-29T00:00:00,Enterococcus,21,cfu/100mL
+893,Crown 2001 Shoreline Dr.,2019-04-29T00:00:00,"Coliform, Total",110,MPN/100 mL
+894,Crown 2001 Shoreline Dr.,2019-04-29T00:00:00,"Coliform, Fecal",25,cfu/100mL
+895,Crown 2001 Shoreline Dr.,2019-05-06T00:00:00,"Coliform, Total",110,MPN/100 mL
+896,Crown 2001 Shoreline Dr.,2019-05-28T00:00:00,"Coliform, Fecal",9,cfu/100mL
+897,Crown 2001 Shoreline Dr.,2019-06-03T00:00:00,"Coliform, Total",140,MPN/100 mL
+898,Crown 2001 Shoreline Dr.,2019-06-03T00:00:00,"Coliform, Fecal",7,cfu/100mL
+899,Crown 2001 Shoreline Dr.,2019-06-10T00:00:00,"Coliform, Total",1800,MPN/100 mL
+900,Crown 2001 Shoreline Dr.,2019-06-10T00:00:00,"Coliform, Fecal",62,cfu/100mL
+901,Crown 2001 Shoreline Dr.,2019-06-17T00:00:00,"Coliform, Total",98,MPN/100 mL
+902,Crown 2001 Shoreline Dr.,2019-07-01T00:00:00,"Coliform, Fecal",9,cfu/100mL
+903,Crown 2001 Shoreline Dr.,2019-07-15T00:00:00,"Coliform, Total",31,MPN/100 mL
+904,Crown 2001 Shoreline Dr.,2019-07-22T00:00:00,Enterococcus,1,cfu/100mL
+905,Crown 2001 Shoreline Dr.,2019-08-05T00:00:00,Enterococcus,13,cfu/100mL
+906,Crown 2001 Shoreline Dr.,2019-08-19T00:00:00,Enterococcus,54,cfu/100mL
+907,Crown 2001 Shoreline Dr.,2019-09-10T00:00:00,"Coliform, Fecal",60,cfu/100mL
+908,Crown 2001 Shoreline Dr.,2019-09-16T00:00:00,Enterococcus,7,cfu/100mL
+909,Crown 2001 Shoreline Dr.,2019-09-23T00:00:00,"Coliform, Total",20,MPN/100 mL
+910,Crown 2001 Shoreline Dr.,2019-09-23T00:00:00,"Coliform, Fecal",1,cfu/100mL
+911,Crown 2001 Shoreline Dr.,2019-09-30T00:00:00,Enterococcus,6,cfu/100mL
+912,Crown 2001 Shoreline Dr.,2019-09-30T00:00:00,"Coliform, Total",100,MPN/100 mL
+913,Crown 2001 Shoreline Dr.,2019-10-15T00:00:00,"Coliform, Total",460,MPN/100 mL
+914,Crown 2001 Shoreline Dr.,2019-10-28T00:00:00,"Coliform, Total",10,MPN/100 mL
+915,Crown 2001 Shoreline Dr.,2019-11-04T00:00:00,"Coliform, Total",10,MPN/100 mL
+916,Crown 2001 Shoreline Dr.,2019-11-04T00:00:00,"Coliform, Fecal",1,cfu/100mL
+917,Crown 2001 Shoreline Dr.,2019-12-17T00:00:00,Enterococcus,8,cfu/100mL
+918,Crown 2001 Shoreline Dr.,2019-12-17T00:00:00,"Coliform, Total",30,MPN/100 mL
+919,Crown 2001 Shoreline Dr.,2020-01-13T00:00:00,Enterococcus,80,cfu/100mL
+920,Crown 2001 Shoreline Dr.,2020-01-27T00:00:00,"Coliform, Fecal",15,cfu/100mL
+921,Crown 2001 Shoreline Dr.,2020-02-03T00:00:00,"Coliform, Total",330,MPN/100 mL
+922,Crown 2001 Shoreline Dr.,2020-02-24T00:00:00,"Coliform, Fecal",120,cfu/100mL
+923,Crown 2001 Shoreline Dr.,2020-03-09T00:00:00,Enterococcus,150,cfu/100mL
+924,Crown 2001 Shoreline Dr.,2020-03-09T00:00:00,"Coliform, Total",960,MPN/100 mL
+925,Crown 2001 Shoreline Dr.,2020-03-11T00:00:00,"Coliform, Fecal",1400,cfu/100mL
+926,Crown 2001 Shoreline Dr.,2020-03-23T00:00:00,"Coliform, Fecal",200,cfu/100mL
+927,Crown 2001 Shoreline Dr.,2020-04-06T00:00:00,"Coliform, Fecal",4,cfu/100mL
+928,Crown 2001 Shoreline Dr.,2020-04-13T00:00:00,"Coliform, Fecal",4,cfu/100mL
+929,Crown 2001 Shoreline Dr.,2020-04-27T00:00:00,"Coliform, Total",140,MPN/100 mL
+930,Crown 2001 Shoreline Dr.,2020-05-11T00:00:00,Enterococcus,15,cfu/100mL
+931,Crown 2001 Shoreline Dr.,2020-05-11T00:00:00,"Coliform, Total",130,MPN/100 mL
+932,Crown 2001 Shoreline Dr.,2020-05-11T00:00:00,"Coliform, Fecal",25,cfu/100mL
+933,Crown 2001 Shoreline Dr.,2020-05-18T00:00:00,"Coliform, Fecal",12,cfu/100mL
+934,Crown 2001 Shoreline Dr.,2020-05-26T00:00:00,"Coliform, Fecal",59,cfu/100mL
+935,Crown 2001 Shoreline Dr.,2020-05-27T00:00:00,Enterococcus,1,cfu/100mL
+936,Crown 2001 Shoreline Dr.,2020-06-01T00:00:00,"Coliform, Fecal",3,cfu/100mL
+937,Crown 2001 Shoreline Dr.,2020-06-22T00:00:00,"Coliform, Total",380,MPN/100 mL
+938,Crown 2001 Shoreline Dr.,2020-06-29T00:00:00,Enterococcus,2,cfu/100mL
+939,Crown 2001 Shoreline Dr.,2020-07-06T00:00:00,Enterococcus,22,cfu/100mL
+940,Crown 2001 Shoreline Dr.,2020-07-20T00:00:00,Enterococcus,7,cfu/100mL
+941,Crown 2001 Shoreline Dr.,2020-07-27T00:00:00,Enterococcus,6,cfu/100mL
+942,Crown 2001 Shoreline Dr.,2020-07-27T00:00:00,"Coliform, Fecal",14,cfu/100mL
+943,Crown 2001 Shoreline Dr.,2020-08-10T00:00:00,"Coliform, Fecal",4,cfu/100mL
+944,Crown 2001 Shoreline Dr.,2020-08-17T00:00:00,Enterococcus,2,cfu/100mL
+945,Crown 2001 Shoreline Dr.,2020-08-17T00:00:00,"Coliform, Fecal",48,cfu/100mL
+946,Crown 2001 Shoreline Dr.,2020-08-24T00:00:00,Enterococcus,1,cfu/100mL
+947,Crown 2001 Shoreline Dr.,2020-08-31T00:00:00,Enterococcus,3,cfu/100mL
+948,Crown 2001 Shoreline Dr.,2020-09-08T00:00:00,"Coliform, Fecal",3,cfu/100mL
+949,Crown 2001 Shoreline Dr.,2020-09-14T00:00:00,"Coliform, Total",75,MPN/100 mL
+950,Crown 2001 Shoreline Dr.,2020-09-28T00:00:00,"Coliform, Total",74,MPN/100 mL
+951,Crown 2001 Shoreline Dr.,2020-10-19T00:00:00,Enterococcus,110,cfu/100mL
+952,Crown 2001 Shoreline Dr.,2020-10-21T00:00:00,Enterococcus,2,cfu/100mL
+953,Crown 2001 Shoreline Dr.,2020-10-26T00:00:00,Enterococcus,1,cfu/100mL
+954,Crown 2001 Shoreline Dr.,2020-11-02T00:00:00,"Coliform, Fecal",5,cfu/100mL
+955,Crown 2001 Shoreline Dr.,2020-11-16T00:00:00,"Coliform, Total",41,MPN/100 mL
+956,Crown 2001 Shoreline Dr.,2020-11-16T00:00:00,"Coliform, Fecal",9,cfu/100mL
+957,Crown 2001 Shoreline Dr.,2021-02-10T00:00:00,"Coliform, Total",20,MPN/100 mL
+958,Crown 2001 Shoreline Dr.,2021-02-22T00:00:00,"Coliform, Fecal",6,cfu/100mL
+959,Crown 2001 Shoreline Dr.,2021-03-08T00:00:00,Enterococcus,77,cfu/100mL
+960,Crown 2001 Shoreline Dr.,2021-03-22T00:00:00,"Coliform, Fecal",4,cfu/100mL
+961,Crown 2001 Shoreline Dr.,2021-04-05T00:00:00,"Coliform, Fecal",20,cfu/100mL
+962,Crown 2001 Shoreline Dr.,2021-04-19T00:00:00,Enterococcus,8,cfu/100mL
+963,Crown 2001 Shoreline Dr.,2021-04-19T00:00:00,"Coliform, Total",140,MPN/100 mL
+964,Crown 2001 Shoreline Dr.,2021-04-19T00:00:00,"Coliform, Fecal",24,cfu/100mL
+965,Crown 2001 Shoreline Dr.,2021-06-01T00:00:00,"Coliform, Fecal",1,cfu/100mL
+966,Crown 2001 Shoreline Dr.,2010-05-03T00:00:00,"Coliform, Fecal",83,MPN/100 mL
+967,Crown 2001 Shoreline Dr.,2010-05-10T00:00:00,Enterococcus,1,MPN/100 mL
+968,Crown 2001 Shoreline Dr.,2010-05-10T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+969,Crown 2001 Shoreline Dr.,2010-05-17T00:00:00,"Coliform, Total",63,MPN/100 mL
+970,Crown 2001 Shoreline Dr.,2010-06-01T00:00:00,"Coliform, Fecal",9,MPN/100 mL
+971,Crown 2001 Shoreline Dr.,2010-06-14T00:00:00,Enterococcus,22,MPN/100 mL
+972,Crown 2001 Shoreline Dr.,2010-06-14T00:00:00,"Coliform, Fecal",34,MPN/100 mL
+973,Crown 2001 Shoreline Dr.,2010-06-21T00:00:00,"Coliform, Total",20,MPN/100 mL
+974,Crown 2001 Shoreline Dr.,2010-06-28T00:00:00,"Coliform, Total",200,MPN/100 mL
+975,Crown 2001 Shoreline Dr.,2010-07-12T00:00:00,"Coliform, Total",180,MPN/100 mL
+976,Crown 2001 Shoreline Dr.,2010-07-12T00:00:00,"Coliform, Fecal",15,MPN/100 mL
+977,Crown 2001 Shoreline Dr.,2010-07-19T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+978,Crown 2001 Shoreline Dr.,2010-08-02T00:00:00,"Coliform, Fecal",120,MPN/100 mL
+979,Crown 2001 Shoreline Dr.,2010-08-30T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+980,Crown 2001 Shoreline Dr.,2010-09-07T00:00:00,"Coliform, Total",2500,MPN/100 mL
+981,Crown 2001 Shoreline Dr.,2010-09-14T00:00:00,"Coliform, Fecal",15,MPN/100 mL
+982,Crown 2001 Shoreline Dr.,2010-09-20T00:00:00,Enterococcus,1,MPN/100 mL
+983,Crown 2001 Shoreline Dr.,2010-10-18T00:00:00,Enterococcus,2,MPN/100 mL
+984,Crown 2001 Shoreline Dr.,2010-10-18T00:00:00,"Coliform, Fecal",21,MPN/100 mL
+985,Crown 2001 Shoreline Dr.,2010-12-20T00:00:00,"Coliform, Total",8700,MPN/100 mL
+986,Crown 2001 Shoreline Dr.,2011-01-21T00:00:00,"Coliform, Fecal",23,MPN/100 mL
+987,Crown 2001 Shoreline Dr.,2011-02-22T00:00:00,Enterococcus,120,MPN/100 mL
+988,Crown 2001 Shoreline Dr.,2011-02-24T00:00:00,Enterococcus,24,MPN/100 mL
+989,Crown 2001 Shoreline Dr.,2011-03-21T00:00:00,"Coliform, Total",500,MPN/100 mL
+990,Crown 2001 Shoreline Dr.,2011-03-21T00:00:00,"Coliform, Fecal",310,MPN/100 mL
+991,Crown 2001 Shoreline Dr.,2011-04-05T00:00:00,Enterococcus,34,MPN/100 mL
+992,Crown 2001 Shoreline Dr.,2011-04-05T00:00:00,"Coliform, Fecal",360,MPN/100 mL
+993,Crown 2001 Shoreline Dr.,2011-04-11T00:00:00,"Coliform, Total",20,MPN/100 mL
+994,Crown 2001 Shoreline Dr.,2011-04-11T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+995,Crown 2001 Shoreline Dr.,2011-04-18T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+996,Crown 2001 Shoreline Dr.,2011-05-09T00:00:00,"Coliform, Total",1100,MPN/100 mL
+997,Crown 2001 Shoreline Dr.,2011-05-16T00:00:00,"Coliform, Fecal",56,MPN/100 mL
+998,Crown 2001 Shoreline Dr.,2011-05-31T00:00:00,"Coliform, Fecal",28,MPN/100 mL
+999,Crown 2001 Shoreline Dr.,2011-06-13T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+1000,Crown 2001 Shoreline Dr.,2011-06-20T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+1001,Crown 2001 Shoreline Dr.,2011-07-11T00:00:00,Enterococcus,2,MPN/100 mL
+1002,Crown 2001 Shoreline Dr.,2011-07-11T00:00:00,"Coliform, Fecal",3,MPN/100 mL
+1003,Crown 2001 Shoreline Dr.,2011-08-01T00:00:00,"Coliform, Total",540,MPN/100 mL
+1004,Crown 2001 Shoreline Dr.,2011-08-15T00:00:00,"Coliform, Fecal",28,MPN/100 mL
+1005,Crown 2001 Shoreline Dr.,2011-08-22T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1006,Crown 2001 Shoreline Dr.,2011-08-29T00:00:00,Enterococcus,19,MPN/100 mL
+1007,Crown 2001 Shoreline Dr.,2011-09-12T00:00:00,"Coliform, Total",990,MPN/100 mL
+1008,Crown 2001 Shoreline Dr.,2011-10-11T00:00:00,Enterococcus,6,MPN/100 mL
+1009,Crown 2001 Shoreline Dr.,2011-10-11T00:00:00,"Coliform, Fecal",290,MPN/100 mL
+1010,Crown 2001 Shoreline Dr.,2011-10-17T00:00:00,"Coliform, Fecal",3,MPN/100 mL
+1011,Crown 2001 Shoreline Dr.,2011-10-24T00:00:00,"Coliform, Fecal",25,MPN/100 mL
+1012,Crown 2001 Shoreline Dr.,2011-11-15T00:00:00,"Coliform, Total",890,MPN/100 mL
+1013,Crown 2001 Shoreline Dr.,2011-11-15T00:00:00,Enterococcus,73,MPN/100 mL
+1014,Crown 2001 Shoreline Dr.,2011-11-28T00:00:00,"Coliform, Fecal",10,MPN/100 mL
+1015,Crown 2001 Shoreline Dr.,2011-12-12T00:00:00,"Coliform, Fecal",62,MPN/100 mL
+1016,Crown 2001 Shoreline Dr.,2012-02-06T00:00:00,"Coliform, Total",10,MPN/100 mL
+1017,Crown 2001 Shoreline Dr.,2012-02-07T00:00:00,Enterococcus,240,MPN/100 mL
+1018,Crown 2001 Shoreline Dr.,2012-02-09T00:00:00,"Coliform, Fecal",170,MPN/100 mL
+1019,Crown 2001 Shoreline Dr.,2012-02-21T00:00:00,"Coliform, Total",30,MPN/100 mL
+1020,Crown 2001 Shoreline Dr.,2012-02-21T00:00:00,Enterococcus,2,MPN/100 mL
+1021,Crown 2001 Shoreline Dr.,2012-03-06T00:00:00,Enterococcus,350,MPN/100 mL
+1022,Crown 2001 Shoreline Dr.,2012-04-17T00:00:00,Enterococcus,7,MPN/100 mL
+1023,Crown 2001 Shoreline Dr.,2012-04-24T00:00:00,"Coliform, Total",130,MPN/100 mL
+1024,Crown 2001 Shoreline Dr.,2012-05-01T00:00:00,"Coliform, Total",41,MPN/100 mL
+1025,Crown 2001 Shoreline Dr.,2012-05-01T00:00:00,Enterococcus,5,MPN/100 mL
+1026,Crown 2001 Shoreline Dr.,2012-05-01T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1027,Crown 2001 Shoreline Dr.,2012-05-08T00:00:00,"Coliform, Fecal",23,MPN/100 mL
+1028,Crown 2001 Shoreline Dr.,2012-05-29T00:00:00,"Coliform, Total",10,MPN/100 mL
+1029,Crown 2001 Shoreline Dr.,2012-06-19T00:00:00,"Coliform, Total",140,MPN/100 mL
+1030,Crown 2001 Shoreline Dr.,2012-06-21T00:00:00,"Coliform, Total",180,MPN/100 mL
+1031,Crown 2001 Shoreline Dr.,2012-06-21T00:00:00,"Coliform, Fecal",20,MPN/100 mL
+1032,Crown 2001 Shoreline Dr.,2012-06-26T00:00:00,Enterococcus,3,MPN/100 mL
+1033,Crown 2001 Shoreline Dr.,2012-06-26T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1034,Crown 2001 Shoreline Dr.,2012-07-31T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+1035,Crown 2001 Shoreline Dr.,2012-08-06T00:00:00,Enterococcus,1,MPN/100 mL
+1036,Crown 2001 Shoreline Dr.,2012-08-06T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+1037,Crown 2001 Shoreline Dr.,2012-08-13T00:00:00,Enterococcus,3,MPN/100 mL
+1038,Crown 2001 Shoreline Dr.,2012-08-13T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1039,Crown 2001 Shoreline Dr.,2012-08-22T00:00:00,"Coliform, Fecal",43,MPN/100 mL
+1040,Crown 2001 Shoreline Dr.,2012-08-27T00:00:00,"Coliform, Total",430,MPN/100 mL
+1041,Crown 2001 Shoreline Dr.,2012-09-04T00:00:00,"Coliform, Fecal",240,MPN/100 mL
+1042,Crown 2001 Shoreline Dr.,2012-09-11T00:00:00,Enterococcus,1,MPN/100 mL
+1043,Crown 2001 Shoreline Dr.,2012-09-24T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+1044,Crown 2001 Shoreline Dr.,2012-10-01T00:00:00,"Coliform, Fecal",3,MPN/100 mL
+1045,Crown 2001 Shoreline Dr.,2012-10-15T00:00:00,"Coliform, Total",84,MPN/100 mL
+1046,Crown 2001 Shoreline Dr.,2012-10-25T00:00:00,Enterococcus,2,MPN/100 mL
+1047,Crown 2001 Shoreline Dr.,2012-11-26T00:00:00,"Coliform, Fecal",31,MPN/100 mL
+1048,Crown 2001 Shoreline Dr.,2012-12-17T00:00:00,"Coliform, Fecal",64,MPN/100 mL
+1049,Crown 2001 Shoreline Dr.,2013-01-14T00:00:00,Enterococcus,1,MPN/100 mL
+1050,Crown 2001 Shoreline Dr.,2013-01-28T00:00:00,"Coliform, Total",31,MPN/100 mL
+1051,Crown 2001 Shoreline Dr.,2013-02-25T00:00:00,Enterococcus,2,MPN/100 mL
+1052,Crown 2001 Shoreline Dr.,2013-03-11T00:00:00,"Coliform, Total",98,MPN/100 mL
+1053,Crown 2001 Shoreline Dr.,2013-03-11T00:00:00,"Coliform, Fecal",18,MPN/100 mL
+1054,Crown 2001 Shoreline Dr.,2013-03-26T00:00:00,"Coliform, Total",75,MPN/100 mL
+1055,Crown 2001 Shoreline Dr.,2013-04-02T00:00:00,"Coliform, Total",790,MPN/100 mL
+1056,Crown 2001 Shoreline Dr.,2013-04-29T00:00:00,"Coliform, Total",130,MPN/100 mL
+1057,Crown 2001 Shoreline Dr.,2013-05-06T00:00:00,"Coliform, Total",41,MPN/100 mL
+1058,Crown 2001 Shoreline Dr.,2013-05-06T00:00:00,Enterococcus,1,MPN/100 mL
+1059,Crown 2001 Shoreline Dr.,2013-06-10T00:00:00,"Coliform, Total",10,MPN/100 mL
+1060,Crown 2001 Shoreline Dr.,2013-06-17T00:00:00,"Coliform, Total",10,MPN/100 mL
+1061,Crown 2001 Shoreline Dr.,2013-06-17T00:00:00,"Coliform, Fecal",14,MPN/100 mL
+1062,Crown 2001 Shoreline Dr.,2013-07-29T00:00:00,"Coliform, Total",2800,MPN/100 mL
+1063,Crown 2001 Shoreline Dr.,2013-08-13T00:00:00,"Coliform, Fecal",180,MPN/100 mL
+1064,Crown 2001 Shoreline Dr.,2013-09-03T00:00:00,"Coliform, Total",440,MPN/100 mL
+1065,Crown 2001 Shoreline Dr.,2013-09-16T00:00:00,"Coliform, Fecal",40,MPN/100 mL
+1066,Crown 2001 Shoreline Dr.,2013-09-23T00:00:00,"Coliform, Total",600,MPN/100 mL
+1067,Crown 2001 Shoreline Dr.,2013-09-30T00:00:00,Enterococcus,14,MPN/100 mL
+1068,Crown 2001 Shoreline Dr.,2013-10-15T00:00:00,"Coliform, Total",640,MPN/100 mL
+1069,Crown 2001 Shoreline Dr.,2013-10-15T00:00:00,Enterococcus,2,MPN/100 mL
+1070,Crown 2001 Shoreline Dr.,2013-10-15T00:00:00,"Coliform, Fecal",40,MPN/100 mL
+1071,Crown 2001 Shoreline Dr.,2013-10-23T00:00:00,"Coliform, Total",63,MPN/100 mL
+1072,Crown 2001 Shoreline Dr.,2013-10-23T00:00:00,"Coliform, Fecal",21,MPN/100 mL
+1073,Crown 2001 Shoreline Dr.,2013-10-28T00:00:00,"Coliform, Fecal",140,MPN/100 mL
+1074,Crown 2001 Shoreline Dr.,2013-11-06T00:00:00,"Coliform, Fecal",83,MPN/100 mL
+1075,Crown 2001 Shoreline Dr.,2013-11-18T00:00:00,Enterococcus,14,MPN/100 mL
+1076,Crown 2001 Shoreline Dr.,2013-12-16T00:00:00,"Coliform, Fecal",9,MPN/100 mL
+1077,Crown 2001 Shoreline Dr.,2014-01-13T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+1078,Crown 2001 Shoreline Dr.,2014-02-13T00:00:00,"Coliform, Total",41,MPN/100 mL
+1079,Crown 2001 Shoreline Dr.,2014-03-12T00:00:00,"Coliform, Total",10,MPN/100 mL
+1080,Crown 2001 Shoreline Dr.,2014-04-01T00:00:00,"Coliform, Fecal",67,MPN/100 mL
+1081,Crown 2001 Shoreline Dr.,2014-04-28T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1082,Crown 2001 Shoreline Dr.,2014-05-12T00:00:00,"Coliform, Total",260,MPN/100 mL
+1083,Crown 2001 Shoreline Dr.,2014-05-12T00:00:00,Enterococcus,83,MPN/100 mL
+1084,Crown 2001 Shoreline Dr.,2014-06-16T00:00:00,"Coliform, Total",230,MPN/100 mL
+1085,Crown 2001 Shoreline Dr.,2014-06-30T00:00:00,Enterococcus,1,MPN/100 mL
+1086,Crown 2001 Shoreline Dr.,2014-07-07T00:00:00,Enterococcus,10,MPN/100 mL
+1087,Crown 2001 Shoreline Dr.,2014-07-07T00:00:00,"Coliform, Fecal",46,MPN/100 mL
+1088,Crown 2001 Shoreline Dr.,2014-07-14T00:00:00,"Coliform, Total",360,MPN/100 mL
+1089,Crown 2001 Shoreline Dr.,2014-07-14T00:00:00,Enterococcus,34,MPN/100 mL
+1090,Crown 2001 Shoreline Dr.,2014-07-14T00:00:00,"Coliform, Fecal",16,MPN/100 mL
+1091,Crown 2001 Shoreline Dr.,2014-07-21T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1092,Crown 2001 Shoreline Dr.,2014-09-15T00:00:00,Enterococcus,1,MPN/100 mL
+1093,Crown 2001 Shoreline Dr.,2014-09-15T00:00:00,"Coliform, Fecal",43,MPN/100 mL
+1094,Crown 2001 Shoreline Dr.,2014-09-29T00:00:00,"Coliform, Total",7300,MPN/100 mL
+1095,Crown 2001 Shoreline Dr.,2014-09-29T00:00:00,Enterococcus,19,MPN/100 mL
+1096,Crown 2001 Shoreline Dr.,2014-09-29T00:00:00,"Coliform, Fecal",700,MPN/100 mL
+1097,Crown 2001 Shoreline Dr.,2014-10-01T00:00:00,"Coliform, Total",420,MPN/100 mL
+1098,Crown 2001 Shoreline Dr.,2014-10-01T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+1099,Crown 2001 Shoreline Dr.,2014-10-06T00:00:00,Enterococcus,1,MPN/100 mL
+1100,Crown 2001 Shoreline Dr.,2014-10-20T00:00:00,"Coliform, Fecal",860,MPN/100 mL
+1101,Crown 2001 Shoreline Dr.,2014-10-22T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1102,Crown 2001 Shoreline Dr.,2014-10-27T00:00:00,"Coliform, Total",160,MPN/100 mL
+1103,Crown 2001 Shoreline Dr.,2014-11-24T00:00:00,"Coliform, Total",930,MPN/100 mL
+1104,Crown 2001 Shoreline Dr.,2014-11-24T00:00:00,"Coliform, Fecal",26,MPN/100 mL
+1105,Crown 2001 Shoreline Dr.,2014-12-22T00:00:00,"Coliform, Total",230,MPN/100 mL
+1106,Crown 2001 Shoreline Dr.,2014-12-22T00:00:00,"Coliform, Fecal",48,MPN/100 mL
+1107,Crown 2001 Shoreline Dr.,2015-01-05T00:00:00,Enterococcus,3,MPN/100 mL
+1108,Crown 2001 Shoreline Dr.,2015-01-20T00:00:00,"Coliform, Total",240,MPN/100 mL
+1109,Crown 2001 Shoreline Dr.,2015-01-20T00:00:00,Enterococcus,450,MPN/100 mL
+1110,Crown 2001 Shoreline Dr.,2015-02-02T00:00:00,Enterococcus,1,MPN/100 mL
+1111,Crown 2001 Shoreline Dr.,2015-03-17T00:00:00,"Coliform, Total",560,MPN/100 mL
+1112,Crown 2001 Shoreline Dr.,2015-03-18T00:00:00,"Coliform, Total",10,MPN/100 mL
+1113,Crown 2001 Shoreline Dr.,2015-03-19T00:00:00,Enterococcus,36,MPN/100 mL
+1114,Crown 2001 Shoreline Dr.,2015-03-19T00:00:00,"Coliform, Fecal",22,MPN/100 mL
+1115,Crown 2001 Shoreline Dr.,2015-04-27T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1116,Crown 2001 Shoreline Dr.,2015-05-04T00:00:00,"Coliform, Total",220,MPN/100 mL
+1117,Crown 2001 Shoreline Dr.,2015-05-18T00:00:00,"Coliform, Total",150,MPN/100 mL
+1118,Crown 2001 Shoreline Dr.,2015-05-26T00:00:00,"Coliform, Total",10,MPN/100 mL
+1119,Crown 2001 Shoreline Dr.,2015-05-26T00:00:00,Enterococcus,8,MPN/100 mL
+1120,Crown 2001 Shoreline Dr.,2015-06-01T00:00:00,"Coliform, Total",10,MPN/100 mL
+1121,Crown 2001 Shoreline Dr.,2015-06-22T00:00:00,"Coliform, Total",20,MPN/100 mL
+1122,Crown 2001 Shoreline Dr.,2015-06-29T00:00:00,Enterococcus,25,MPN/100 mL
+1123,Crown 2001 Shoreline Dr.,2015-07-06T00:00:00,"Coliform, Total",1500,MPN/100 mL
+1124,Crown 2001 Shoreline Dr.,2015-07-06T00:00:00,Enterococcus,17,MPN/100 mL
+1125,Crown 2001 Shoreline Dr.,2015-07-13T00:00:00,Enterococcus,10,MPN/100 mL
+1126,Crown 2001 Shoreline Dr.,2015-07-20T00:00:00,"Coliform, Total",1300,MPN/100 mL
+1127,Crown 2001 Shoreline Dr.,2015-07-20T00:00:00,"Coliform, Fecal",35,MPN/100 mL
+1128,Crown 2001 Shoreline Dr.,2015-08-03T00:00:00,"Coliform, Total",490,MPN/100 mL
+1129,Crown 2001 Shoreline Dr.,2015-08-17T00:00:00,"Coliform, Total",1100,MPN/100 mL
+1130,Crown 2001 Shoreline Dr.,2015-08-31T00:00:00,"Coliform, Total",1600,MPN/100 mL
+1131,Crown 2001 Shoreline Dr.,2015-09-10T00:00:00,"Coliform, Fecal",63,MPN/100 mL
+1132,Crown 2001 Shoreline Dr.,2015-09-15T00:00:00,Enterococcus,33,MPN/100 mL
+1133,Crown 2001 Shoreline Dr.,2015-09-21T00:00:00,"Coliform, Total",120,MPN/100 mL
+1134,Crown 2001 Shoreline Dr.,2015-09-21T00:00:00,Enterococcus,19,MPN/100 mL
+1135,Crown 2001 Shoreline Dr.,2015-09-27T00:00:00,Enterococcus,1,MPN/100 mL
+1136,Crown 2001 Shoreline Dr.,2015-10-13T00:00:00,"Coliform, Total",3300,MPN/100 mL
+1137,Crown 2001 Shoreline Dr.,2015-10-19T00:00:00,"Coliform, Total",1200,MPN/100 mL
+1138,Crown 2001 Shoreline Dr.,2015-11-16T00:00:00,"Coliform, Fecal",65,MPN/100 mL
+1139,Crown 2001 Shoreline Dr.,2015-11-23T00:00:00,Enterococcus,63,MPN/100 mL
+1140,Crown 2001 Shoreline Dr.,2015-11-23T00:00:00,"Coliform, Fecal",320,MPN/100 mL
+1141,Crown 2001 Shoreline Dr.,2015-12-28T00:00:00,"Coliform, Fecal",10,MPN/100 mL
+1142,Crown 2001 Shoreline Dr.,2016-01-11T00:00:00,Enterococcus,10,MPN/100 mL
+1143,Crown 2001 Shoreline Dr.,2016-01-11T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+1144,Crown 2001 Shoreline Dr.,2016-01-25T00:00:00,"Coliform, Total",820,MPN/100 mL
+1145,Crown 2001 Shoreline Dr.,2016-01-25T00:00:00,"Coliform, Fecal",350,MPN/100 mL
+1146,Crown 2001 Shoreline Dr.,2016-02-16T00:00:00,"Coliform, Fecal",1000,MPN/100 mL
+1147,Crown 2001 Shoreline Dr.,2016-02-22T00:00:00,"Coliform, Total",330,MPN/100 mL
+1148,Crown 2001 Shoreline Dr.,2016-02-22T00:00:00,"Coliform, Fecal",470,MPN/100 mL
+1149,Crown 2001 Shoreline Dr.,2016-03-07T00:00:00,"Coliform, Fecal",760,cfu/100mL
+1150,Crown 2001 Shoreline Dr.,2016-03-16T00:00:00,"Coliform, Fecal",110,cfu/100mL
+1151,Crown 2001 Shoreline Dr.,2016-03-21T00:00:00,"Coliform, Fecal",140,cfu/100mL
+1152,Crown 2001 Shoreline Dr.,2016-04-11T00:00:00,"Coliform, Fecal",3,cfu/100mL
+1153,Crown 2001 Shoreline Dr.,2016-04-25T00:00:00,"Coliform, Fecal",50,cfu/100mL
+1154,Crown 2001 Shoreline Dr.,2016-05-02T00:00:00,Enterococcus,6,cfu/100mL
+1155,Crown 2001 Shoreline Dr.,2016-05-02T00:00:00,"Coliform, Fecal",14,cfu/100mL
+1156,Crown 2001 Shoreline Dr.,2016-05-09T00:00:00,"Coliform, Total",14000,MPN/100 mL
+1157,Crown 2001 Shoreline Dr.,2016-05-16T00:00:00,"Coliform, Total",1400,MPN/100 mL
+1158,Crown 2001 Shoreline Dr.,2016-05-16T00:00:00,Enterococcus,1,cfu/100mL
+1159,Crown 2001 Shoreline Dr.,2016-05-23T00:00:00,"Coliform, Total",2900,MPN/100 mL
+1160,Crown 2001 Shoreline Dr.,2016-05-31T00:00:00,"Coliform, Total",770,MPN/100 mL
+1161,Crown 2001 Shoreline Dr.,2016-06-08T00:00:00,Enterococcus,1,cfu/100mL
+1162,Crown 2001 Shoreline Dr.,2016-06-20T00:00:00,"Coliform, Total",6500,MPN/100 mL
+1163,Crown 2001 Shoreline Dr.,2016-06-27T00:00:00,Enterococcus,1,cfu/100mL
+1164,Crown 2001 Shoreline Dr.,2016-07-11T00:00:00,"Coliform, Total",440,MPN/100 mL
+1165,Crown 2001 Shoreline Dr.,2021-03-22T00:00:00,Enterococcus,3,cfu/100mL
+1166,Crown 2001 Shoreline Dr.,2016-07-19T00:00:00,"Coliform, Total",230,MPN/100 mL
+1167,Crown 2001 Shoreline Dr.,2016-08-01T00:00:00,"Coliform, Total",290,MPN/100 mL
+1168,Crown 2001 Shoreline Dr.,2016-08-10T00:00:00,"Coliform, Fecal",50,cfu/100mL
+1169,Crown 2001 Shoreline Dr.,2016-08-24T00:00:00,Enterococcus,4,cfu/100mL
+1170,Crown 2001 Shoreline Dr.,2016-08-24T00:00:00,"Coliform, Fecal",8,cfu/100mL
+1171,Crown 2001 Shoreline Dr.,2016-08-29T00:00:00,"Coliform, Total",96,MPN/100 mL
+1172,Crown 2001 Shoreline Dr.,2016-08-29T00:00:00,"Coliform, Fecal",8,cfu/100mL
+1173,Crown 2001 Shoreline Dr.,2016-09-06T00:00:00,"Coliform, Total",73,MPN/100 mL
+1174,Crown 2001 Shoreline Dr.,2016-09-06T00:00:00,Enterococcus,1,cfu/100mL
+1175,Crown 2001 Shoreline Dr.,2016-09-06T00:00:00,"Coliform, Fecal",1,cfu/100mL
+1176,Crown 2001 Shoreline Dr.,2016-09-12T00:00:00,Enterococcus,4,cfu/100mL
+1177,Crown 2001 Shoreline Dr.,2016-09-12T00:00:00,"Coliform, Fecal",12,cfu/100mL
+1178,Crown 2001 Shoreline Dr.,2016-09-26T00:00:00,"Coliform, Total",1200,MPN/100 mL
+1179,Crown 2001 Shoreline Dr.,2016-10-03T00:00:00,"Coliform, Fecal",90,cfu/100mL
+1180,Crown 2001 Shoreline Dr.,2016-10-24T00:00:00,"Coliform, Total",610,MPN/100 mL
+1181,Crown 2001 Shoreline Dr.,2016-10-31T00:00:00,"Coliform, Fecal",220,cfu/100mL
+1182,Crown 2001 Shoreline Dr.,2016-11-29T00:00:00,"Coliform, Fecal",410,cfu/100mL
+1183,Crown 2001 Shoreline Dr.,2016-12-12T00:00:00,"Coliform, Fecal",210,cfu/100mL
+1184,Crown 2001 Shoreline Dr.,2016-12-27T00:00:00,Enterococcus,3,cfu/100mL
+1185,Crown 2001 Shoreline Dr.,2016-12-27T00:00:00,"Coliform, Fecal",14,cfu/100mL
+1186,Crown 2001 Shoreline Dr.,2017-01-09T00:00:00,"Coliform, Total",3000,MPN/100 mL
+1187,Crown 2001 Shoreline Dr.,2017-01-17T00:00:00,"Coliform, Total",520,MPN/100 mL
+1188,Crown 2001 Shoreline Dr.,2017-03-13T00:00:00,"Coliform, Fecal",110,cfu/100mL
+1189,Crown 2001 Shoreline Dr.,2017-03-27T00:00:00,Enterococcus,54,cfu/100mL
+1190,Crown 2001 Shoreline Dr.,2017-03-27T00:00:00,"Coliform, Fecal",110,cfu/100mL
+1191,Crown 2001 Shoreline Dr.,2017-04-17T00:00:00,"Coliform, Fecal",3.6,cfu/100mL
+1192,Crown 2001 Shoreline Dr.,2017-05-01T00:00:00,"Coliform, Total",10,MPN/100 mL
+1193,Crown 2001 Shoreline Dr.,2017-05-15T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1194,Crown 2001 Shoreline Dr.,2017-05-22T00:00:00,Enterococcus,58,cfu/100mL
+1195,Crown 2001 Shoreline Dr.,2017-05-30T00:00:00,Enterococcus,1,cfu/100mL
+1196,Crown 2001 Shoreline Dr.,2017-06-05T00:00:00,"Coliform, Total",200,MPN/100 mL
+1197,Crown 2001 Shoreline Dr.,2017-06-19T00:00:00,"Coliform, Total",500,MPN/100 mL
+1198,Crown 2001 Shoreline Dr.,2017-06-26T00:00:00,"Coliform, Total",6200,MPN/100 mL
+1199,Crown 2001 Shoreline Dr.,2017-06-26T00:00:00,Enterococcus,2,cfu/100mL
+1200,Crown 2001 Shoreline Dr.,2017-07-11T00:00:00,Enterococcus,4,cfu/100mL
+1201,Crown 2001 Shoreline Dr.,2017-07-11T00:00:00,"Coliform, Fecal",27,cfu/100mL
+1202,Crown 2001 Shoreline Dr.,2017-07-17T00:00:00,"Coliform, Total",2400,MPN/100 mL
+1203,Crown 2001 Shoreline Dr.,2017-07-17T00:00:00,Enterococcus,5,cfu/100mL
+1204,Crown 2001 Shoreline Dr.,2017-07-24T00:00:00,Enterococcus,44,cfu/100mL
+1205,Crown 2001 Shoreline Dr.,2017-07-24T00:00:00,"Coliform, Fecal",60,cfu/100mL
+1206,Crown 2001 Shoreline Dr.,2017-08-07T00:00:00,Enterococcus,4,cfu/100mL
+1207,Crown 2001 Shoreline Dr.,2017-08-28T00:00:00,"Coliform, Total",96,MPN/100 mL
+1208,Crown 2001 Shoreline Dr.,2017-09-05T00:00:00,Enterococcus,16,cfu/100mL
+1209,Crown 2001 Shoreline Dr.,2017-09-05T00:00:00,"Coliform, Fecal",190,cfu/100mL
+1210,Crown 2001 Shoreline Dr.,2017-09-11T00:00:00,"Coliform, Fecal",58,cfu/100mL
+1211,Crown 2001 Shoreline Dr.,2017-09-25T00:00:00,Enterococcus,2,cfu/100mL
+1212,Crown 2001 Shoreline Dr.,2017-10-10T00:00:00,Enterococcus,2,cfu/100mL
+1213,Crown 2001 Shoreline Dr.,2017-10-30T00:00:00,"Coliform, Fecal",260,cfu/100mL
+1214,Crown 2001 Shoreline Dr.,2017-11-06T00:00:00,"Coliform, Total",130,MPN/100 mL
+1215,Crown 2001 Shoreline Dr.,2017-11-06T00:00:00,"Coliform, Fecal",63,cfu/100mL
+1216,Crown 2001 Shoreline Dr.,2017-12-18T00:00:00,Enterococcus,12,cfu/100mL
+1217,Crown 2001 Shoreline Dr.,2017-12-18T00:00:00,"Coliform, Fecal",14,cfu/100mL
+1218,Crown 2001 Shoreline Dr.,2018-02-28T00:00:00,"Coliform, Total",2200,MPN/100 mL
+1219,Crown 2001 Shoreline Dr.,2018-04-09T00:00:00,"Coliform, Total",6100,MPN/100 mL
+1220,Crown 2001 Shoreline Dr.,2018-04-09T00:00:00,Enterococcus,140,cfu/100mL
+1221,Crown 2001 Shoreline Dr.,2018-04-11T00:00:00,"Coliform, Total",460,MPN/100 mL
+1222,Crown 2001 Shoreline Dr.,2018-04-11T00:00:00,Enterococcus,55,cfu/100mL
+1223,Crown 2001 Shoreline Dr.,2018-04-23T00:00:00,"Coliform, Fecal",49,cfu/100mL
+1224,Crown 2001 Shoreline Dr.,2018-05-07T00:00:00,"Coliform, Total",140,MPN/100 mL
+1225,Crown 2001 Shoreline Dr.,2018-05-07T00:00:00,"Coliform, Fecal",26,cfu/100mL
+1226,Crown 2001 Shoreline Dr.,2018-05-21T00:00:00,"Coliform, Total",52,MPN/100 mL
+1227,Crown 2001 Shoreline Dr.,2018-05-21T00:00:00,"Coliform, Fecal",6,cfu/100mL
+1228,Crown 2001 Shoreline Dr.,2018-05-29T00:00:00,Enterococcus,22,cfu/100mL
+1229,Crown 2001 Shoreline Dr.,2018-06-04T00:00:00,Enterococcus,4,cfu/100mL
+1230,Crown 2001 Shoreline Dr.,2018-06-11T00:00:00,Enterococcus,3,cfu/100mL
+1231,Crown 2001 Shoreline Dr.,2018-07-02T00:00:00,Enterococcus,2,cfu/100mL
+1232,Crown 2001 Shoreline Dr.,2018-07-09T00:00:00,Enterococcus,1,cfu/100mL
+1233,Crown 2001 Shoreline Dr.,2018-07-16T00:00:00,"Coliform, Total",130,MPN/100 mL
+1234,Crown 2001 Shoreline Dr.,2018-07-30T00:00:00,Enterococcus,4,cfu/100mL
+1235,Crown 2001 Shoreline Dr.,2018-08-06T00:00:00,"Coliform, Fecal",2,cfu/100mL
+1236,Crown 2001 Shoreline Dr.,2018-08-13T00:00:00,"Coliform, Fecal",39,cfu/100mL
+1237,Crown 2001 Shoreline Dr.,2018-09-04T00:00:00,"Coliform, Total",96,MPN/100 mL
+1238,Crown 2001 Shoreline Dr.,2018-09-04T00:00:00,Enterococcus,1,cfu/100mL
+1239,Crown 2001 Shoreline Dr.,2018-09-11T00:00:00,Enterococcus,5,cfu/100mL
+1240,Crown 2001 Shoreline Dr.,2018-09-11T00:00:00,"Coliform, Fecal",60,cfu/100mL
+1241,Crown 2001 Shoreline Dr.,2018-09-17T00:00:00,"Coliform, Fecal",20,cfu/100mL
+1242,Crown 2001 Shoreline Dr.,2018-09-25T00:00:00,"Coliform, Total",620,MPN/100 mL
+1243,Crown 2001 Shoreline Dr.,2018-09-25T00:00:00,"Coliform, Fecal",460,cfu/100mL
+1244,Crown 2001 Shoreline Dr.,2018-10-01T00:00:00,"Coliform, Total",210,MPN/100 mL
+1245,Crown 2001 Shoreline Dr.,2018-10-09T00:00:00,"Coliform, Fecal",61,cfu/100mL
+1246,Crown 2001 Shoreline Dr.,2018-10-15T00:00:00,"Coliform, Fecal",3,cfu/100mL
+1247,Crown 2001 Shoreline Dr.,2018-10-22T00:00:00,Enterococcus,28,cfu/100mL
+1248,Crown 2001 Shoreline Dr.,2018-10-29T00:00:00,"Coliform, Total",75,MPN/100 mL
+1249,Crown 2001 Shoreline Dr.,2018-11-07T00:00:00,"Coliform, Total",370,MPN/100 mL
+1250,Crown 2001 Shoreline Dr.,2018-11-19T00:00:00,"Coliform, Fecal",46,cfu/100mL
+1251,Crown 2001 Shoreline Dr.,2018-12-03T00:00:00,"Coliform, Total",190,cfu/100mL
+1252,Crown 2001 Shoreline Dr.,2018-12-03T00:00:00,Enterococcus,7,cfu/100mL
+1253,Crown 2001 Shoreline Dr.,2018-12-19T00:00:00,"Coliform, Total",2300,MPN/100 mL
+1254,Crown 2001 Shoreline Dr.,2018-12-26T00:00:00,Enterococcus,17,cfu/100mL
+1255,Crown 2001 Shoreline Dr.,2019-01-14T00:00:00,"Coliform, Fecal",780,cfu/100mL
+1256,Crown 2001 Shoreline Dr.,2019-01-22T00:00:00,"Coliform, Total",160,MPN/100 mL
+1257,Crown 2001 Shoreline Dr.,2019-02-04T00:00:00,Enterococcus,120,cfu/100mL
+1258,Crown 2001 Shoreline Dr.,2019-02-07T00:00:00,Enterococcus,6,cfu/100mL
+1259,Crown 2001 Shoreline Dr.,2019-02-07T00:00:00,"Coliform, Fecal",28,cfu/100mL
+1260,Crown 2001 Shoreline Dr.,2019-02-19T00:00:00,"Coliform, Fecal",53,cfu/100mL
+1261,Crown 2001 Shoreline Dr.,2019-03-18T00:00:00,"Coliform, Total",710,MPN/100 mL
+1262,Crown 2001 Shoreline Dr.,2019-04-02T00:00:00,"Coliform, Total",1500,MPN/100 mL
+1263,Crown 2001 Shoreline Dr.,2019-04-15T00:00:00,"Coliform, Fecal",190,cfu/100mL
+1264,Crown 2001 Shoreline Dr.,2019-04-22T00:00:00,"Coliform, Total",110,MPN/100 mL
+1265,Crown 2001 Shoreline Dr.,2019-05-13T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1266,Crown 2001 Shoreline Dr.,2019-05-20T00:00:00,"Coliform, Total",280,MPN/100 mL
+1267,Crown 2001 Shoreline Dr.,2019-05-20T00:00:00,"Coliform, Fecal",15,cfu/100mL
+1268,Crown 2001 Shoreline Dr.,2019-06-03T00:00:00,Enterococcus,20,cfu/100mL
+1269,Crown 2001 Shoreline Dr.,2019-06-24T00:00:00,Enterococcus,1,cfu/100mL
+1270,Crown 2001 Shoreline Dr.,2019-07-08T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1271,Crown 2001 Shoreline Dr.,2019-07-15T00:00:00,Enterococcus,7,cfu/100mL
+1272,Crown 2001 Shoreline Dr.,2019-07-22T00:00:00,"Coliform, Fecal",10,cfu/100mL
+1273,Crown 2001 Shoreline Dr.,2019-08-12T00:00:00,"Coliform, Fecal",58,cfu/100mL
+1274,Crown 2001 Shoreline Dr.,2019-08-26T00:00:00,Enterococcus,2,cfu/100mL
+1275,Crown 2001 Shoreline Dr.,2019-09-03T00:00:00,"Coliform, Fecal",34,cfu/100mL
+1276,Crown 2001 Shoreline Dr.,2019-09-12T00:00:00,"Coliform, Fecal",250,cfu/100mL
+1277,Crown 2001 Shoreline Dr.,2019-09-23T00:00:00,Enterococcus,2,cfu/100mL
+1278,Crown 2001 Shoreline Dr.,2019-10-07T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1279,Crown 2001 Shoreline Dr.,2019-10-15T00:00:00,Enterococcus,10,cfu/100mL
+1280,Crown 2001 Shoreline Dr.,2019-10-21T00:00:00,"Coliform, Total",10,MPN/100 mL
+1281,Crown 2001 Shoreline Dr.,2019-11-04T00:00:00,Enterococcus,1,cfu/100mL
+1282,Crown 2001 Shoreline Dr.,2019-11-18T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1283,Crown 2001 Shoreline Dr.,2019-12-02T00:00:00,Enterococcus,52,cfu/100mL
+1284,Crown 2001 Shoreline Dr.,2019-12-02T00:00:00,"Coliform, Fecal",10,cfu/100mL
+1285,Crown 2001 Shoreline Dr.,2020-01-13T00:00:00,"Coliform, Total",170,MPN/100 mL
+1286,Crown 2001 Shoreline Dr.,2020-01-13T00:00:00,"Coliform, Fecal",50,cfu/100mL
+1287,Crown 2001 Shoreline Dr.,2020-02-24T00:00:00,"Coliform, Total",220,MPN/100 mL
+1288,Crown 2001 Shoreline Dr.,2020-03-09T00:00:00,"Coliform, Fecal",580,cfu/100mL
+1289,Crown 2001 Shoreline Dr.,2020-03-11T00:00:00,"Coliform, Total",2500,MPN/100 mL
+1290,Crown 2001 Shoreline Dr.,2020-04-20T00:00:00,Enterococcus,2,cfu/100mL
+1291,Crown 2001 Shoreline Dr.,2020-04-20T00:00:00,"Coliform, Total",10,MPN/100 mL
+1292,Crown 2001 Shoreline Dr.,2020-04-20T00:00:00,"Coliform, Fecal",6,cfu/100mL
+1293,Crown 2001 Shoreline Dr.,2020-05-04T00:00:00,Enterococcus,5,cfu/100mL
+1294,Crown 2001 Shoreline Dr.,2020-05-04T00:00:00,"Coliform, Fecal",6,cfu/100mL
+1295,Crown 2001 Shoreline Dr.,2020-05-18T00:00:00,"Coliform, Total",430,MPN/100 mL
+1296,Crown 2001 Shoreline Dr.,2020-06-08T00:00:00,"Coliform, Fecal",15,cfu/100mL
+1297,Crown 2001 Shoreline Dr.,2020-06-15T00:00:00,"Coliform, Total",4600,MPN/100 mL
+1298,Crown 2001 Shoreline Dr.,2020-06-22T00:00:00,Enterococcus,1,cfu/100mL
+1299,Crown 2001 Shoreline Dr.,2020-07-06T00:00:00,"Coliform, Total",420,MPN/100 mL
+1300,Crown 2001 Shoreline Dr.,2020-07-20T00:00:00,"Coliform, Total",340,MPN/100 mL
+1301,Crown 2001 Shoreline Dr.,2020-07-27T00:00:00,"Coliform, Total",170,MPN/100 mL
+1302,Crown 2001 Shoreline Dr.,2020-08-03T00:00:00,"Coliform, Total",74,MPN/100 mL
+1303,Crown 2001 Shoreline Dr.,2020-08-10T00:00:00,Enterococcus,2,cfu/100mL
+1304,Crown 2001 Shoreline Dr.,2020-08-17T00:00:00,"Coliform, Total",310,MPN/100 mL
+1305,Crown 2001 Shoreline Dr.,2020-08-24T00:00:00,"Coliform, Total",120,MPN/100 mL
+1306,Crown 2001 Shoreline Dr.,2020-08-24T00:00:00,"Coliform, Fecal",1,cfu/100mL
+1307,Crown 2001 Shoreline Dr.,2020-09-14T00:00:00,Enterococcus,3,cfu/100mL
+1308,Crown 2001 Shoreline Dr.,2020-10-05T00:00:00,Enterococcus,3,cfu/100mL
+1309,Crown 2001 Shoreline Dr.,2020-10-05T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1310,Crown 2001 Shoreline Dr.,2020-10-13T00:00:00,"Coliform, Total",52,MPN/100 mL
+1311,Crown 2001 Shoreline Dr.,2020-10-19T00:00:00,"Coliform, Fecal",760,cfu/100mL
+1312,Crown 2001 Shoreline Dr.,2020-10-26T00:00:00,"Coliform, Total",41,MPN/100 mL
+1313,Crown 2001 Shoreline Dr.,2020-11-16T00:00:00,Enterococcus,4,cfu/100mL
+1314,Crown 2001 Shoreline Dr.,2021-01-11T00:00:00,"Coliform, Total",84,MPN/100 mL
+1315,Crown 2001 Shoreline Dr.,2021-01-25T00:00:00,"Coliform, Fecal",12,cfu/100mL
+1316,Crown 2001 Shoreline Dr.,2021-02-10T00:00:00,Enterococcus,6,cfu/100mL
+1317,Crown 2001 Shoreline Dr.,2021-02-10T00:00:00,"Coliform, Fecal",3,cfu/100mL
+1318,Crown 2001 Shoreline Dr.,2021-02-22T00:00:00,"Coliform, Total",10,MPN/100 mL
+1319,Crown 2001 Shoreline Dr.,2021-03-08T00:00:00,"Coliform, Total",110,MPN/100 mL
+1320,Crown 2001 Shoreline Dr.,2021-04-26T00:00:00,"Coliform, Total",10,MPN/100 mL
+1321,Crown 2001 Shoreline Dr.,2021-05-03T00:00:00,"Coliform, Fecal",1,cfu/100mL
+1322,Crown 2001 Shoreline Dr.,2021-05-10T00:00:00,Enterococcus,2,cfu/100mL
+1323,Crown 2001 Shoreline Dr.,2021-05-10T00:00:00,"Coliform, Fecal",46,cfu/100mL
+1324,Crown 2001 Shoreline Dr.,2021-05-24T00:00:00,"Coliform, Fecal",1,cfu/100mL
+1325,Crown 2001 Shoreline Dr.,2021-05-24T00:00:00,Enterococcus,21,cfu/100mL
+1326,Crown 2001 Shoreline Dr.,2021-05-03T00:00:00,"Coliform, Total",10,MPN/100 mL
+1327,Crown 2001 Shoreline Dr.,2021-05-03T00:00:00,Enterococcus,3,cfu/100mL
+1328,Crown 2001 Shoreline Dr.,2021-04-26T00:00:00,Enterococcus,1,cfu/100mL
+1329,Crown 2001 Shoreline Dr.,2021-02-22T00:00:00,Enterococcus,1,cfu/100mL
+1330,Crown 2001 Shoreline Dr.,2021-01-11T00:00:00,Enterococcus,6,cfu/100mL
+1331,Crown 2001 Shoreline Dr.,2020-12-14T00:00:00,Enterococcus,5,cfu/100mL
+1332,Crown 2001 Shoreline Dr.,2020-11-02T00:00:00,"Coliform, Total",41,MPN/100 mL
+1333,Crown 2001 Shoreline Dr.,2020-10-26T00:00:00,"Coliform, Fecal",9,cfu/100mL
+1334,Crown 2001 Shoreline Dr.,2020-10-13T00:00:00,"Coliform, Fecal",29,cfu/100mL
+1335,Crown 2001 Shoreline Dr.,2020-10-13T00:00:00,Enterococcus,4,cfu/100mL
+1336,Crown 2001 Shoreline Dr.,2020-10-05T00:00:00,"Coliform, Total",52,MPN/100 mL
+1337,Crown 2001 Shoreline Dr.,2020-09-28T00:00:00,Enterococcus,1,cfu/100mL
+1338,Crown 2001 Shoreline Dr.,2020-09-21T00:00:00,"Coliform, Total",63,MPN/100 mL
+1339,Crown 2001 Shoreline Dr.,2020-09-16T00:00:00,Enterococcus,2,cfu/100mL
+1340,Crown 2001 Shoreline Dr.,2020-09-08T00:00:00,Enterococcus,1,cfu/100mL
+1341,Crown 2001 Shoreline Dr.,2020-08-31T00:00:00,"Coliform, Fecal",13,cfu/100mL
+1342,Crown 2001 Shoreline Dr.,2020-08-31T00:00:00,"Coliform, Total",75,MPN/100 mL
+1343,Crown 2001 Shoreline Dr.,2020-08-10T00:00:00,"Coliform, Total",84,MPN/100 mL
+1344,Crown 2001 Shoreline Dr.,2020-08-03T00:00:00,"Coliform, Fecal",14,cfu/100mL
+1345,Crown 2001 Shoreline Dr.,2020-07-20T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1346,Crown 2001 Shoreline Dr.,2020-07-13T00:00:00,Enterococcus,1,cfu/100mL
+1347,Crown 2001 Shoreline Dr.,2020-07-06T00:00:00,"Coliform, Fecal",21,cfu/100mL
+1348,Crown 2001 Shoreline Dr.,2020-06-08T00:00:00,"Coliform, Total",520,MPN/100 mL
+1349,Crown 2001 Shoreline Dr.,2020-06-08T00:00:00,Enterococcus,8,cfu/100mL
+1350,Crown 2001 Shoreline Dr.,2020-05-26T00:00:00,"Coliform, Total",300,MPN/100 mL
+1351,Crown 2001 Shoreline Dr.,2020-05-04T00:00:00,"Coliform, Total",250,MPN/100 mL
+1352,Crown 2001 Shoreline Dr.,2020-04-27T00:00:00,Enterococcus,1,cfu/100mL
+1353,Crown 2001 Shoreline Dr.,2020-04-13T00:00:00,Enterococcus,7,cfu/100mL
+1354,Crown 2001 Shoreline Dr.,2020-04-06T00:00:00,"Coliform, Total",10,MPN/100 mL
+1355,Crown 2001 Shoreline Dr.,2020-03-11T00:00:00,Enterococcus,83,cfu/100mL
+1356,Crown 2001 Shoreline Dr.,2020-02-24T00:00:00,Enterococcus,20,cfu/100mL
+1357,Crown 2001 Shoreline Dr.,2020-02-03T00:00:00,"Coliform, Fecal",180,cfu/100mL
+1358,Crown 2001 Shoreline Dr.,2020-01-27T00:00:00,"Coliform, Total",30,MPN/100 mL
+1359,Crown 2001 Shoreline Dr.,2020-01-27T00:00:00,Enterococcus,2,cfu/100mL
+1360,Crown 2001 Shoreline Dr.,2019-12-17T00:00:00,"Coliform, Fecal",8,cfu/100mL
+1361,Crown 2001 Shoreline Dr.,2019-11-18T00:00:00,Enterococcus,3,cfu/100mL
+1362,Crown 2001 Shoreline Dr.,2019-10-28T00:00:00,"Coliform, Fecal",7,cfu/100mL
+1363,Crown 2001 Shoreline Dr.,2019-10-28T00:00:00,Enterococcus,6,cfu/100mL
+1364,Crown 2001 Shoreline Dr.,2019-10-21T00:00:00,"Coliform, Fecal",6,cfu/100mL
+1365,Crown 2001 Shoreline Dr.,2019-10-21T00:00:00,Enterococcus,2,cfu/100mL
+1366,Crown 2001 Shoreline Dr.,2019-10-15T00:00:00,"Coliform, Fecal",170,cfu/100mL
+1367,Crown 2001 Shoreline Dr.,2019-10-07T00:00:00,Enterococcus,1,cfu/100mL
+1368,Crown 2001 Shoreline Dr.,2019-09-30T00:00:00,"Coliform, Fecal",56,cfu/100mL
+1369,Crown 2001 Shoreline Dr.,2019-09-16T00:00:00,"Coliform, Fecal",120,cfu/100mL
+1370,Crown 2001 Shoreline Dr.,2019-09-16T00:00:00,"Coliform, Total",300,MPN/100 mL
+1371,Crown 2001 Shoreline Dr.,2019-09-12T00:00:00,Enterococcus,120,cfu/100mL
+1372,Crown 2001 Shoreline Dr.,2019-09-10T00:00:00,"Coliform, Total",210,MPN/100 mL
+1373,Crown 2001 Shoreline Dr.,2019-08-26T00:00:00,"Coliform, Fecal",12,cfu/100mL
+1374,Crown 2001 Shoreline Dr.,2019-08-26T00:00:00,"Coliform, Total",84,MPN/100 mL
+1375,Crown 2001 Shoreline Dr.,2019-08-19T00:00:00,"Coliform, Total",110,MPN/100 mL
+1376,Crown 2001 Shoreline Dr.,2019-08-05T00:00:00,"Coliform, Fecal",9,cfu/100mL
+1377,Crown 2001 Shoreline Dr.,2019-08-05T00:00:00,"Coliform, Total",10,MPN/100 mL
+1378,Crown 2001 Shoreline Dr.,2019-07-29T00:00:00,"Coliform, Total",260,MPN/100 mL
+1379,Crown 2001 Shoreline Dr.,2019-07-29T00:00:00,Enterococcus,3,cfu/100mL
+1380,Crown 2001 Shoreline Dr.,2019-07-22T00:00:00,"Coliform, Total",85,MPN/100 mL
+1381,Crown 2001 Shoreline Dr.,2019-07-15T00:00:00,"Coliform, Fecal",28,cfu/100mL
+1382,Crown 2001 Shoreline Dr.,2019-07-01T00:00:00,"Coliform, Total",260,MPN/100 mL
+1383,Crown 2001 Shoreline Dr.,2019-06-24T00:00:00,"Coliform, Fecal",22,cfu/100mL
+1384,Crown 2001 Shoreline Dr.,2019-06-24T00:00:00,"Coliform, Total",63,MPN/100 mL
+1385,Crown 2001 Shoreline Dr.,2019-06-10T00:00:00,Enterococcus,39,cfu/100mL
+1386,Crown 2001 Shoreline Dr.,2021-06-01T00:00:00,"Coliform, Total",10,MPN/100 mL
+1387,Crown 2001 Shoreline Dr.,2021-06-01T00:00:00,Enterococcus,1,cfu/100mL
+1388,Crown 2001 Shoreline Dr.,2021-05-24T00:00:00,"Coliform, Total",10,MPN/100 mL
+1389,Crown 2001 Shoreline Dr.,2021-05-10T00:00:00,"Coliform, Total",98,MPN/100 mL
+1390,Crown 2001 Shoreline Dr.,2021-04-26T00:00:00,"Coliform, Fecal",2,cfu/100mL
+1391,Crown 2001 Shoreline Dr.,2021-04-05T00:00:00,"Coliform, Total",52,MPN/100 mL
+1392,Crown 2001 Shoreline Dr.,2021-04-05T00:00:00,Enterococcus,49,cfu/100mL
+1393,Crown 2001 Shoreline Dr.,2021-03-22T00:00:00,"Coliform, Total",41,MPN/100 mL
+1394,Crown 2001 Shoreline Dr.,2021-03-08T00:00:00,"Coliform, Fecal",160,cfu/100mL
+1395,Crown 2001 Shoreline Dr.,2021-01-25T00:00:00,"Coliform, Total",10,MPN/100 mL
+1396,Crown 2001 Shoreline Dr.,2021-01-25T00:00:00,Enterococcus,11,cfu/100mL
+1397,Crown 2001 Shoreline Dr.,2021-01-11T00:00:00,"Coliform, Fecal",15,cfu/100mL
+1398,Crown 2001 Shoreline Dr.,2020-12-14T00:00:00,"Coliform, Fecal",9,cfu/100mL
+1399,Crown 2001 Shoreline Dr.,2019-05-28T00:00:00,Enterococcus,8,cfu/100mL
+1400,Crown 2001 Shoreline Dr.,2019-05-20T00:00:00,Enterococcus,5,cfu/100mL
+1401,Crown 2001 Shoreline Dr.,2019-05-06T00:00:00,"Coliform, Fecal",9,cfu/100mL
+1402,Crown 2001 Shoreline Dr.,2019-05-06T00:00:00,Enterococcus,14,cfu/100mL
+1403,Crown 2001 Shoreline Dr.,2019-04-22T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1404,Crown 2001 Shoreline Dr.,2019-04-17T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1405,Crown 2001 Shoreline Dr.,2019-04-17T00:00:00,Enterococcus,1,cfu/100mL
+1406,Crown 2001 Shoreline Dr.,2019-04-15T00:00:00,"Coliform, Total",6500,MPN/100 mL
+1407,Crown 2001 Shoreline Dr.,2019-03-04T00:00:00,"Coliform, Total",380,MPN/100 mL
+1408,Crown 2001 Shoreline Dr.,2019-02-19T00:00:00,Enterococcus,10,cfu/100mL
+1409,Crown 2001 Shoreline Dr.,2020-12-14T00:00:00,"Coliform, Total",75,MPN/100 mL
+1410,Crown 2001 Shoreline Dr.,2020-11-02T00:00:00,Enterococcus,2,cfu/100mL
+1411,Crown 2001 Shoreline Dr.,2020-10-21T00:00:00,"Coliform, Fecal",2,cfu/100mL
+1412,Crown 2001 Shoreline Dr.,2020-10-21T00:00:00,"Coliform, Total",30,MPN/100 mL
+1413,Crown 2001 Shoreline Dr.,2020-10-19T00:00:00,"Coliform, Total",1600,MPN/100 mL
+1414,Crown 2001 Shoreline Dr.,2020-09-28T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1415,Crown 2001 Shoreline Dr.,2020-09-21T00:00:00,"Coliform, Fecal",11,cfu/100mL
+1416,Crown 2001 Shoreline Dr.,2020-09-21T00:00:00,Enterococcus,2,cfu/100mL
+1417,Crown 2001 Shoreline Dr.,2020-09-14T00:00:00,"Coliform, Fecal",27,cfu/100mL
+1418,Crown 2001 Shoreline Dr.,2020-09-08T00:00:00,"Coliform, Total",130,MPN/100 mL
+1419,Crown 2001 Shoreline Dr.,2020-08-03T00:00:00,Enterococcus,3,cfu/100mL
+1420,Crown 2001 Shoreline Dr.,2020-07-13T00:00:00,"Coliform, Fecal",1,cfu/100mL
+1421,Crown 2001 Shoreline Dr.,2020-07-13T00:00:00,"Coliform, Total",270,MPN/100 mL
+1422,Crown 2001 Shoreline Dr.,2020-06-29T00:00:00,"Coliform, Fecal",3,cfu/100mL
+1423,Crown 2001 Shoreline Dr.,2020-06-29T00:00:00,"Coliform, Total",220,MPN/100 mL
+1424,Crown 2001 Shoreline Dr.,2020-06-22T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1425,Crown 2001 Shoreline Dr.,2020-06-15T00:00:00,"Coliform, Fecal",6,cfu/100mL
+1426,Crown 2001 Shoreline Dr.,2020-06-15T00:00:00,Enterococcus,1,cfu/100mL
+1427,Crown 2001 Shoreline Dr.,2020-06-01T00:00:00,"Coliform, Total",150,MPN/100 mL
+1428,Crown 2001 Shoreline Dr.,2020-06-01T00:00:00,Enterococcus,2,cfu/100mL
+1429,Crown 2001 Shoreline Dr.,2020-05-18T00:00:00,Enterococcus,1,cfu/100mL
+1430,Crown 2001 Shoreline Dr.,2020-04-13T00:00:00,"Coliform, Total",10,MPN/100 mL
+1431,Crown 2001 Shoreline Dr.,2020-04-06T00:00:00,Enterococcus,1,cfu/100mL
+1432,Crown 2001 Shoreline Dr.,2020-03-23T00:00:00,"Coliform, Total",190,MPN/100 mL
+1433,Crown 2001 Shoreline Dr.,2020-03-23T00:00:00,Enterococcus,90,cfu/100mL
+1434,Crown 2001 Shoreline Dr.,2020-02-03T00:00:00,Enterococcus,58,cfu/100mL
+1435,Crown 2001 Shoreline Dr.,2019-12-02T00:00:00,"Coliform, Total",910,MPN/100 mL
+1436,Crown 2001 Shoreline Dr.,2019-11-18T00:00:00,"Coliform, Total",31,MPN/100 mL
+1437,Crown 2001 Shoreline Dr.,2019-10-07T00:00:00,"Coliform, Total",10,MPN/100 mL
+1438,Crown 2001 Shoreline Dr.,2019-09-12T00:00:00,"Coliform, Total",540,MPN/100 mL
+1439,Crown 2001 Shoreline Dr.,2019-09-03T00:00:00,"Coliform, Total",380,MPN/100 mL
+1440,Crown 2001 Shoreline Dr.,2019-09-03T00:00:00,Enterococcus,7,cfu/100mL
+1441,Crown 2001 Shoreline Dr.,2019-08-19T00:00:00,"Coliform, Fecal",55,cfu/100mL
+1442,Crown 2001 Shoreline Dr.,2019-08-12T00:00:00,"Coliform, Total",150,MPN/100 mL
+1443,Crown 2001 Shoreline Dr.,2019-08-12T00:00:00,Enterococcus,9,cfu/100mL
+1444,Crown 2001 Shoreline Dr.,2019-02-04T00:00:00,"Coliform, Total",910,MPN/100 mL
+1445,Crown 2001 Shoreline Dr.,2019-01-14T00:00:00,"Coliform, Total",3900,MPN/100 mL
+1446,Crown 2001 Shoreline Dr.,2019-01-14T00:00:00,Enterococcus,280,cfu/100mL
+1447,Crown 2001 Shoreline Dr.,2018-12-26T00:00:00,"Coliform, Total",130,MPN/100 mL
+1448,Crown 2001 Shoreline Dr.,2018-12-19T00:00:00,"Coliform, Fecal",140,cfu/100mL
+1449,Crown 2001 Shoreline Dr.,2018-12-17T00:00:00,"Coliform, Total",17000,MPN/100 mL
+1450,Crown 2001 Shoreline Dr.,2018-11-19T00:00:00,Enterococcus,8,cfu/100mL
+1451,Crown 2001 Shoreline Dr.,2018-11-07T00:00:00,Enterococcus,37,cfu/100mL
+1452,Crown 2001 Shoreline Dr.,2018-11-05T00:00:00,"Coliform, Fecal",680,cfu/100mL
+1453,Crown 2001 Shoreline Dr.,2018-11-05T00:00:00,Enterococcus,110,cfu/100mL
+1454,Crown 2001 Shoreline Dr.,2019-07-29T00:00:00,"Coliform, Fecal",19,cfu/100mL
+1455,Crown 2001 Shoreline Dr.,2019-07-08T00:00:00,"Coliform, Total",63,MPN/100 mL
+1456,Crown 2001 Shoreline Dr.,2019-07-08T00:00:00,Enterococcus,3,cfu/100mL
+1457,Crown 2001 Shoreline Dr.,2019-07-01T00:00:00,Enterococcus,5,cfu/100mL
+1458,Crown 2001 Shoreline Dr.,2019-06-17T00:00:00,"Coliform, Fecal",6,cfu/100mL
+1459,Crown 2001 Shoreline Dr.,2019-06-17T00:00:00,Enterococcus,1,cfu/100mL
+1460,Crown 2001 Shoreline Dr.,2019-05-28T00:00:00,"Coliform, Total",330,MPN/100 mL
+1461,Crown 2001 Shoreline Dr.,2019-05-13T00:00:00,"Coliform, Total",980,MPN/100 mL
+1462,Crown 2001 Shoreline Dr.,2019-05-13T00:00:00,Enterococcus,3,cfu/100mL
+1463,Crown 2001 Shoreline Dr.,2019-04-22T00:00:00,Enterococcus,1,cfu/100mL
+1464,Crown 2001 Shoreline Dr.,2019-04-17T00:00:00,"Coliform, Total",85,MPN/100 mL
+1465,Crown 2001 Shoreline Dr.,2019-04-02T00:00:00,"Coliform, Fecal",610,cfu/100mL
+1466,Crown 2001 Shoreline Dr.,2019-03-18T00:00:00,"Coliform, Fecal",490,cfu/100mL
+1467,Crown 2001 Shoreline Dr.,2019-03-18T00:00:00,Enterococcus,100,cfu/100mL
+1468,Crown 2001 Shoreline Dr.,2019-03-04T00:00:00,"Coliform, Fecal",66,cfu/100mL
+1469,Crown 2001 Shoreline Dr.,2018-11-05T00:00:00,"Coliform, Total",1600,MPN/100 mL
+1470,Crown 2001 Shoreline Dr.,2018-09-25T00:00:00,Enterococcus,47,cfu/100mL
+1471,Crown 2001 Shoreline Dr.,2018-09-17T00:00:00,Enterococcus,17,cfu/100mL
+1472,Crown 2001 Shoreline Dr.,2018-09-17T00:00:00,"Coliform, Total",63,MPN/100 mL
+1473,Crown 2001 Shoreline Dr.,2018-09-04T00:00:00,"Coliform, Fecal",3,cfu/100mL
+1474,Crown 2001 Shoreline Dr.,2019-02-19T00:00:00,"Coliform, Total",150,MPN/100 mL
+1475,Crown 2001 Shoreline Dr.,2019-02-07T00:00:00,"Coliform, Total",31,MPN/100 mL
+1476,Crown 2001 Shoreline Dr.,2019-01-22T00:00:00,"Coliform, Fecal",40,cfu/100mL
+1477,Crown 2001 Shoreline Dr.,2019-01-22T00:00:00,Enterococcus,23,cfu/100mL
+1478,Crown 2001 Shoreline Dr.,2018-12-19T00:00:00,Enterococcus,140,cfu/100mL
+1479,Crown 2001 Shoreline Dr.,2018-08-27T00:00:00,"Coliform, Total",500,MPN/100 mL
+1480,Crown 2001 Shoreline Dr.,2018-08-20T00:00:00,Enterococcus,1,cfu/100mL
+1481,Crown 2001 Shoreline Dr.,2018-08-06T00:00:00,"Coliform, Total",31,MPN/100 mL
+1482,Crown 2001 Shoreline Dr.,2018-07-30T00:00:00,"Coliform, Total",96,MPN/100 mL
+1483,Crown 2001 Shoreline Dr.,2018-07-23T00:00:00,Enterococcus,2,cfu/100mL
+1484,Crown 2001 Shoreline Dr.,2018-12-17T00:00:00,"Coliform, Fecal",1100,cfu/100mL
+1485,Crown 2001 Shoreline Dr.,2018-12-03T00:00:00,"Coliform, Fecal",19,cfu/100mL
+1486,Crown 2001 Shoreline Dr.,2018-11-07T00:00:00,"Coliform, Fecal",190,cfu/100mL
+1487,Crown 2001 Shoreline Dr.,2018-10-29T00:00:00,"Coliform, Fecal",7,cfu/100mL
+1488,Crown 2001 Shoreline Dr.,2018-10-22T00:00:00,"Coliform, Fecal",290,cfu/100mL
+1489,Crown 2001 Shoreline Dr.,2018-06-25T00:00:00,"Coliform, Fecal",32,cfu/100mL
+1490,Crown 2001 Shoreline Dr.,2018-06-25T00:00:00,Enterococcus,9,cfu/100mL
+1491,Crown 2001 Shoreline Dr.,2018-06-25T00:00:00,"Coliform, Total",290,MPN/100 mL
+1492,Crown 2001 Shoreline Dr.,2018-04-30T00:00:00,Enterococcus,48,cfu/100mL
+1493,Crown 2001 Shoreline Dr.,2018-04-23T00:00:00,Enterococcus,18,cfu/100mL
+1494,Crown 2001 Shoreline Dr.,2018-10-15T00:00:00,Enterococcus,1,cfu/100mL
+1495,Crown 2001 Shoreline Dr.,2018-10-09T00:00:00,Enterococcus,3,cfu/100mL
+1496,Crown 2001 Shoreline Dr.,2018-09-11T00:00:00,"Coliform, Total",200,MPN/100 mL
+1497,Crown 2001 Shoreline Dr.,2018-08-27T00:00:00,"Coliform, Fecal",190,cfu/100mL
+1498,Crown 2001 Shoreline Dr.,2018-08-27T00:00:00,Enterococcus,12,cfu/100mL
+1499,Crown 2001 Shoreline Dr.,2018-04-11T00:00:00,"Coliform, Fecal",130,cfu/100mL
+1500,Crown 2001 Shoreline Dr.,2018-04-09T00:00:00,"Coliform, Fecal",460,cfu/100mL
+1501,Crown 2001 Shoreline Dr.,2018-04-02T00:00:00,"Coliform, Fecal",15,cfu/100mL
+1502,Crown 2001 Shoreline Dr.,2018-03-26T00:00:00,"Coliform, Fecal",34,cfu/100mL
+1503,Crown 2001 Shoreline Dr.,2018-03-26T00:00:00,Enterococcus,42,cfu/100mL
+1504,Crown 2001 Shoreline Dr.,2018-08-20T00:00:00,"Coliform, Total",110,MPN/100 mL
+1505,Crown 2001 Shoreline Dr.,2018-08-13T00:00:00,Enterococcus,16,cfu/100mL
+1506,Crown 2001 Shoreline Dr.,2018-08-13T00:00:00,"Coliform, Total",260,MPN/100 mL
+1507,Crown 2001 Shoreline Dr.,2018-07-23T00:00:00,"Coliform, Total",140,MPN/100 mL
+1508,Crown 2001 Shoreline Dr.,2018-07-09T00:00:00,"Coliform, Fecal",18,cfu/100mL
+1509,Crown 2001 Shoreline Dr.,2018-07-02T00:00:00,"Coliform, Total",660,MPN/100 mL
+1510,Crown 2001 Shoreline Dr.,2018-06-18T00:00:00,Enterococcus,3,cfu/100mL
+1511,Crown 2001 Shoreline Dr.,2018-06-18T00:00:00,"Coliform, Total",41,MPN/100 mL
+1512,Crown 2001 Shoreline Dr.,2018-06-11T00:00:00,"Coliform, Fecal",11,cfu/100mL
+1513,Crown 2001 Shoreline Dr.,2018-06-04T00:00:00,"Coliform, Fecal",5,cfu/100mL
+1514,Crown 2001 Shoreline Dr.,2018-03-12T00:00:00,Enterococcus,73,cfu/100mL
+1515,Crown 2001 Shoreline Dr.,2018-03-12T00:00:00,"Coliform, Total",97,MPN/100 mL
+1516,Crown 2001 Shoreline Dr.,2018-01-16T00:00:00,"Coliform, Fecal",16,cfu/100mL
+1517,Crown 2001 Shoreline Dr.,2018-01-16T00:00:00,Enterococcus,5,cfu/100mL
+1518,Crown 2001 Shoreline Dr.,2017-12-04T00:00:00,Enterococcus,25,cfu/100mL
+1519,Crown 2001 Shoreline Dr.,2018-06-04T00:00:00,"Coliform, Total",340,MPN/100 mL
+1520,Crown 2001 Shoreline Dr.,2018-05-29T00:00:00,"Coliform, Total",200,MPN/100 mL
+1521,Crown 2001 Shoreline Dr.,2018-05-21T00:00:00,Enterococcus,5,cfu/100mL
+1522,Crown 2001 Shoreline Dr.,2018-05-14T00:00:00,"Coliform, Fecal",87,cfu/100mL
+1523,Crown 2001 Shoreline Dr.,2018-05-14T00:00:00,Enterococcus,13,cfu/100mL
+1524,Crown 2001 Shoreline Dr.,2017-11-20T00:00:00,Enterococcus,1,cfu/100mL
+1525,Crown 2001 Shoreline Dr.,2017-10-30T00:00:00,Enterococcus,50,cfu/100mL
+1526,Crown 2001 Shoreline Dr.,2017-10-24T00:00:00,Enterococcus,5,cfu/100mL
+1527,Crown 2001 Shoreline Dr.,2017-10-16T00:00:00,"Coliform, Fecal",510,cfu/100mL
+1528,Crown 2001 Shoreline Dr.,2017-10-16T00:00:00,Enterococcus,93,cfu/100mL
+1529,Crown 2001 Shoreline Dr.,2018-05-14T00:00:00,"Coliform, Total",120,MPN/100 mL
+1530,Crown 2001 Shoreline Dr.,2018-04-30T00:00:00,"Coliform, Fecal",62,cfu/100mL
+1531,Crown 2001 Shoreline Dr.,2018-04-30T00:00:00,"Coliform, Total",75,MPN/100 mL
+1532,Crown 2001 Shoreline Dr.,2018-04-23T00:00:00,"Coliform, Total",97,MPN/100 mL
+1533,Crown 2001 Shoreline Dr.,2018-03-26T00:00:00,"Coliform, Total",160,MPN/100 mL
+1534,Crown 2001 Shoreline Dr.,2017-10-10T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1535,Crown 2001 Shoreline Dr.,2017-10-02T00:00:00,"Coliform, Fecal",83,cfu/100mL
+1536,Crown 2001 Shoreline Dr.,2017-10-02T00:00:00,"Coliform, Total",120,MPN/100 mL
+1537,Crown 2001 Shoreline Dr.,2017-09-25T00:00:00,"Coliform, Total",20,MPN/100 mL
+1538,Crown 2001 Shoreline Dr.,2017-09-11T00:00:00,"Coliform, Total",500,MPN/100 mL
+1539,Crown 2001 Shoreline Dr.,2018-03-12T00:00:00,"Coliform, Fecal",140,cfu/100mL
+1540,Crown 2001 Shoreline Dr.,2018-02-28T00:00:00,Enterococcus,12,cfu/100mL
+1541,Crown 2001 Shoreline Dr.,2018-02-13T00:00:00,"Coliform, Fecal",35,cfu/100mL
+1542,Crown 2001 Shoreline Dr.,2018-01-16T00:00:00,"Coliform, Total",180,MPN/100 mL
+1543,Crown 2001 Shoreline Dr.,2018-01-02T00:00:00,"Coliform, Fecal",29,cfu/100mL
+1544,Crown 2001 Shoreline Dr.,2018-01-02T00:00:00,"Coliform, Total",10,MPN/100 mL
+1545,Crown 2001 Shoreline Dr.,2017-12-04T00:00:00,"Coliform, Total",110,MPN/100 mL
+1546,Crown 2001 Shoreline Dr.,2017-11-20T00:00:00,"Coliform, Fecal",21,cfu/100mL
+1547,Crown 2001 Shoreline Dr.,2017-11-20T00:00:00,"Coliform, Total",63,MPN/100 mL
+1548,Crown 2001 Shoreline Dr.,2017-10-30T00:00:00,"Coliform, Total",460,MPN/100 mL
+1549,Crown 2001 Shoreline Dr.,2017-08-28T00:00:00,Enterococcus,4,cfu/100mL
+1550,Crown 2001 Shoreline Dr.,2017-08-21T00:00:00,"Coliform, Fecal",4,cfu/100mL
+1551,Crown 2001 Shoreline Dr.,2017-07-31T00:00:00,"Coliform, Fecal",1,cfu/100mL
+1552,Crown 2001 Shoreline Dr.,2017-07-03T00:00:00,"Coliform, Fecal",7,cfu/100mL
+1553,Crown 2001 Shoreline Dr.,2017-06-26T00:00:00,"Coliform, Fecal",18,cfu/100mL
+1554,Crown 2001 Shoreline Dr.,2017-06-19T00:00:00,Enterococcus,4,cfu/100mL
+1555,Crown 2001 Shoreline Dr.,2017-06-12T00:00:00,"Coliform, Fecal",21,cfu/100mL
+1556,Crown 2001 Shoreline Dr.,2017-06-12T00:00:00,Enterococcus,3,cfu/100mL
+1557,Crown 2001 Shoreline Dr.,2017-05-22T00:00:00,"Coliform, Fecal",120,cfu/100mL
+1558,Crown 2001 Shoreline Dr.,2017-05-22T00:00:00,"Coliform, Total",890,MPN/100 mL
+1559,Crown 2001 Shoreline Dr.,2017-05-08T00:00:00,"Coliform, Fecal",49,cfu/100mL
+1560,Crown 2001 Shoreline Dr.,2017-05-01T00:00:00,Enterococcus,1,cfu/100mL
+1561,Crown 2001 Shoreline Dr.,2017-04-24T00:00:00,Enterococcus,45,cfu/100mL
+1562,Crown 2001 Shoreline Dr.,2017-04-24T00:00:00,"Coliform, Total",930,MPN/100 mL
+1563,Crown 2001 Shoreline Dr.,2017-04-17T00:00:00,Enterococcus,10,cfu/100mL
+1564,Crown 2001 Shoreline Dr.,2017-10-24T00:00:00,"Coliform, Total",280,MPN/100 mL
+1565,Crown 2001 Shoreline Dr.,2017-10-02T00:00:00,Enterococcus,5,cfu/100mL
+1566,Crown 2001 Shoreline Dr.,2017-09-19T00:00:00,"Coliform, Fecal",27,cfu/100mL
+1567,Crown 2001 Shoreline Dr.,2017-09-19T00:00:00,Enterococcus,6,cfu/100mL
+1568,Crown 2001 Shoreline Dr.,2017-09-11T00:00:00,Enterococcus,1,cfu/100mL
+1569,Crown 2001 Shoreline Dr.,2017-04-17T00:00:00,"Coliform, Total",73,MPN/100 mL
+1570,Crown 2001 Shoreline Dr.,2017-04-11T00:00:00,"Coliform, Fecal",34,cfu/100mL
+1571,Crown 2001 Shoreline Dr.,2017-04-03T00:00:00,"Coliform, Total",52,MPN/100 mL
+1572,Crown 2001 Shoreline Dr.,2017-03-27T00:00:00,"Coliform, Total",300,MPN/100 mL
+1573,Crown 2001 Shoreline Dr.,2017-02-27T00:00:00,"Coliform, Total",960,MPN/100 mL
+1574,Crown 2001 Shoreline Dr.,2017-09-05T00:00:00,"Coliform, Total",800,MPN/100 mL
+1575,Crown 2001 Shoreline Dr.,2017-08-21T00:00:00,Enterococcus,7,cfu/100mL
+1576,Crown 2001 Shoreline Dr.,2017-08-21T00:00:00,"Coliform, Total",110,MPN/100 mL
+1577,Crown 2001 Shoreline Dr.,2017-08-14T00:00:00,"Coliform, Total",190,MPN/100 mL
+1578,Crown 2001 Shoreline Dr.,2017-08-07T00:00:00,"Coliform, Fecal",63,cfu/100mL
+1579,Crown 2001 Shoreline Dr.,2017-08-07T00:00:00,"Coliform, Total",220,MPN/100 mL
+1580,Crown 2001 Shoreline Dr.,2017-07-31T00:00:00,"Coliform, Total",10,MPN/100 mL
+1581,Crown 2001 Shoreline Dr.,2017-07-03T00:00:00,Enterococcus,1,cfu/100mL
+1582,Crown 2001 Shoreline Dr.,2017-06-19T00:00:00,"Coliform, Fecal",60,cfu/100mL
+1583,Crown 2001 Shoreline Dr.,2017-06-12T00:00:00,"Coliform, Total",140,MPN/100 mL
+1584,Crown 2001 Shoreline Dr.,2017-05-30T00:00:00,"Coliform, Fecal",9,cfu/100mL
+1585,Crown 2001 Shoreline Dr.,2017-05-01T00:00:00,"Coliform, Fecal",1,cfu/100mL
+1586,Crown 2001 Shoreline Dr.,2017-04-24T00:00:00,"Coliform, Fecal",35,cfu/100mL
+1587,Crown 2001 Shoreline Dr.,2017-04-11T00:00:00,"Coliform, Total",580,MPN/100 mL
+1588,Crown 2001 Shoreline Dr.,2017-04-03T00:00:00,"Coliform, Fecal",1,cfu/100mL
+1589,Crown 2001 Shoreline Dr.,2017-04-03T00:00:00,Enterococcus,3,cfu/100mL
+1590,Crown 2001 Shoreline Dr.,2017-03-13T00:00:00,"Coliform, Total",340,MPN/100 mL
+1591,Crown 2001 Shoreline Dr.,2017-02-14T00:00:00,"Coliform, Fecal",150,cfu/100mL
+1592,Crown 2001 Shoreline Dr.,2017-02-14T00:00:00,"Coliform, Total",380,MPN/100 mL
+1593,Crown 2001 Shoreline Dr.,2017-01-09T00:00:00,"Coliform, Fecal",330,cfu/100mL
+1594,Crown 2001 Shoreline Dr.,2017-01-17T00:00:00,"Coliform, Fecal",60,cfu/100mL
+1595,Crown 2001 Shoreline Dr.,2016-12-27T00:00:00,"Coliform, Total",30,MPN/100 mL
+1596,Crown 2001 Shoreline Dr.,2016-12-12T00:00:00,Enterococcus,80,cfu/100mL
+1597,Crown 2001 Shoreline Dr.,2016-11-29T00:00:00,Enterococcus,17,cfu/100mL
+1598,Crown 2001 Shoreline Dr.,2016-11-29T00:00:00,"Coliform, Total",85,MPN/100 mL
+1599,Crown 2001 Shoreline Dr.,2016-10-24T00:00:00,Enterococcus,130,cfu/100mL
+1600,Crown 2001 Shoreline Dr.,2016-10-17T00:00:00,"Coliform, Fecal",160,cfu/100mL
+1601,Crown 2001 Shoreline Dr.,2016-10-17T00:00:00,"Coliform, Total",2000,MPN/100 mL
+1602,Crown 2001 Shoreline Dr.,2016-10-11T00:00:00,"Coliform, Fecal",10,cfu/100mL
+1603,Crown 2001 Shoreline Dr.,2016-09-26T00:00:00,Enterococcus,22,cfu/100mL
+1604,Crown 2001 Shoreline Dr.,2016-11-14T00:00:00,"Coliform, Fecal",15,cfu/100mL
+1605,Crown 2001 Shoreline Dr.,2016-11-14T00:00:00,Enterococcus,7,cfu/100mL
+1606,Crown 2001 Shoreline Dr.,2016-11-14T00:00:00,"Coliform, Total",230,MPN/100 mL
+1607,Crown 2001 Shoreline Dr.,2016-10-31T00:00:00,Enterococcus,31,cfu/100mL
+1608,Crown 2001 Shoreline Dr.,2016-10-11T00:00:00,Enterococcus,5,cfu/100mL
+1609,Crown 2001 Shoreline Dr.,2016-09-19T00:00:00,Enterococcus,17,cfu/100mL
+1610,Crown 2001 Shoreline Dr.,2016-09-14T00:00:00,Enterococcus,23,cfu/100mL
+1611,Crown 2001 Shoreline Dr.,2016-08-24T00:00:00,"Coliform, Total",2500,MPN/100 mL
+1612,Crown 2001 Shoreline Dr.,2016-08-22T00:00:00,"Coliform, Fecal",150,cfu/100mL
+1613,Crown 2001 Shoreline Dr.,2016-08-22T00:00:00,"Coliform, Total",1000,MPN/100 mL
+1614,Crown 2001 Shoreline Dr.,2016-10-11T00:00:00,"Coliform, Total",120,MPN/100 mL
+1615,Crown 2001 Shoreline Dr.,2016-10-03T00:00:00,Enterococcus,5,cfu/100mL
+1616,Crown 2001 Shoreline Dr.,2016-09-19T00:00:00,"Coliform, Total",73,MPN/100 mL
+1617,Crown 2001 Shoreline Dr.,2016-08-18T00:00:00,"Coliform, Fecal",22,cfu/100mL
+1618,Crown 2001 Shoreline Dr.,2016-08-15T00:00:00,"Coliform, Total",13000,MPN/100 mL
+1619,Crown 2001 Shoreline Dr.,2016-08-15T00:00:00,"Coliform, Fecal",22,cfu/100mL
+1620,Crown 2001 Shoreline Dr.,2016-08-08T00:00:00,Enterococcus,160,cfu/100mL
+1621,Crown 2001 Shoreline Dr.,2016-08-08T00:00:00,"Coliform, Total",5200,MPN/100 mL
+1622,Crown 2001 Shoreline Dr.,2016-08-01T00:00:00,"Coliform, Fecal",41,cfu/100mL
+1623,Crown 2001 Shoreline Dr.,2016-07-25T00:00:00,"Coliform, Fecal",28,cfu/100mL
+1624,Crown 2001 Shoreline Dr.,2016-07-05T00:00:00,"Coliform, Total",4100,MPN/100 mL
+1625,Crown 2001 Shoreline Dr.,2016-06-20T00:00:00,"Coliform, Fecal",21,cfu/100mL
+1626,Crown 2001 Shoreline Dr.,2016-06-20T00:00:00,Enterococcus,12,cfu/100mL
+1627,Crown 2001 Shoreline Dr.,2016-06-15T00:00:00,"Coliform, Total",3600,MPN/100 mL
+1628,Crown 2001 Shoreline Dr.,2016-06-13T00:00:00,Enterococcus,5,cfu/100mL
+1629,Crown 2001 Shoreline Dr.,2016-08-10T00:00:00,Enterococcus,19,cfu/100mL
+1630,Crown 2001 Shoreline Dr.,2016-08-10T00:00:00,"Coliform, Total",4600,MPN/100 mL
+1631,Crown 2001 Shoreline Dr.,2016-08-08T00:00:00,"Coliform, Fecal",1000,cfu/100mL
+1632,Crown 2001 Shoreline Dr.,2016-08-01T00:00:00,Enterococcus,49,cfu/100mL
+1633,Crown 2001 Shoreline Dr.,2016-07-25T00:00:00,"Coliform, Total",240,MPN/100 mL
+1634,Crown 2001 Shoreline Dr.,2016-05-31T00:00:00,"Coliform, Fecal",3,cfu/100mL
+1635,Crown 2001 Shoreline Dr.,2016-05-31T00:00:00,Enterococcus,1,cfu/100mL
+1636,Crown 2001 Shoreline Dr.,2016-05-23T00:00:00,Enterococcus,29,cfu/100mL
+1637,Crown 2001 Shoreline Dr.,2016-05-09T00:00:00,"Coliform, Fecal",63,cfu/100mL
+1638,Crown 2001 Shoreline Dr.,2016-05-09T00:00:00,Enterococcus,7,cfu/100mL
+1639,Crown 2001 Shoreline Dr.,2016-07-19T00:00:00,"Coliform, Fecal",45,cfu/100mL
+1640,Crown 2001 Shoreline Dr.,2016-07-05T00:00:00,Enterococcus,9,cfu/100mL
+1641,Crown 2001 Shoreline Dr.,2016-06-27T00:00:00,"Coliform, Total",97,MPN/100 mL
+1642,Crown 2001 Shoreline Dr.,2016-06-15T00:00:00,"Coliform, Fecal",2,cfu/100mL
+1643,Crown 2001 Shoreline Dr.,2016-06-13T00:00:00,"Coliform, Total",20000,MPN/100 mL
+1644,Crown 2001 Shoreline Dr.,2016-04-18T00:00:00,"Coliform, Fecal",83,cfu/100mL
+1645,Crown 2001 Shoreline Dr.,2016-04-11T00:00:00,Enterococcus,1,cfu/100mL
+1646,Crown 2001 Shoreline Dr.,2016-04-11T00:00:00,"Coliform, Total",63,MPN/100 mL
+1647,Crown 2001 Shoreline Dr.,2016-04-04T00:00:00,Enterococcus,7,cfu/100mL
+1648,Crown 2001 Shoreline Dr.,2016-04-04T00:00:00,"Coliform, Total",30,MPN/100 mL
+1649,Crown 2001 Shoreline Dr.,2016-06-08T00:00:00,"Coliform, Fecal",20,cfu/100mL
+1650,Crown 2001 Shoreline Dr.,2016-06-06T00:00:00,"Coliform, Total",660,MPN/100 mL
+1651,Crown 2001 Shoreline Dr.,2016-04-25T00:00:00,"Coliform, Total",2900,MPN/100 mL
+1652,Crown 2001 Shoreline Dr.,2016-04-18T00:00:00,Enterococcus,53,cfu/100mL
+1653,Crown 2001 Shoreline Dr.,2016-04-18T00:00:00,"Coliform, Total",24000,MPN/100 mL
+1654,Crown 2001 Shoreline Dr.,2016-03-16T00:00:00,"Coliform, Total",1100,MPN/100 mL
+1655,Crown 2001 Shoreline Dr.,2016-02-22T00:00:00,Enterococcus,120,MPN/100 mL
+1656,Crown 2001 Shoreline Dr.,2016-02-16T00:00:00,"Coliform, Total",1100,MPN/100 mL
+1657,Crown 2001 Shoreline Dr.,2016-01-11T00:00:00,"Coliform, Total",96,MPN/100 mL
+1658,Crown 2001 Shoreline Dr.,2015-12-28T00:00:00,"Coliform, Total",41,MPN/100 mL
+1659,Crown 2001 Shoreline Dr.,2016-03-21T00:00:00,"Coliform, Total",190,MPN/100 mL
+1660,Crown 2001 Shoreline Dr.,2016-03-16T00:00:00,Enterococcus,33,cfu/100mL
+1661,Crown 2001 Shoreline Dr.,2016-02-16T00:00:00,Enterococcus,640,MPN/100 mL
+1662,Crown 2001 Shoreline Dr.,2015-12-14T00:00:00,"Coliform, Total",550,MPN/100 mL
+1663,Crown 2001 Shoreline Dr.,2015-10-19T00:00:00,Enterococcus,63,MPN/100 mL
+1664,Crown 2001 Shoreline Dr.,2015-09-28T00:00:00,Enterococcus,1,MPN/100 mL
+1665,Crown 2001 Shoreline Dr.,2015-09-27T00:00:00,"Coliform, Total",230,MPN/100 mL
+1666,Crown 2001 Shoreline Dr.,2015-09-15T00:00:00,"Coliform, Fecal",63,MPN/100 mL
+1667,Crown 2001 Shoreline Dr.,2015-08-24T00:00:00,"Coliform, Fecal",21,MPN/100 mL
+1668,Crown 2001 Shoreline Dr.,2015-08-17T00:00:00,"Coliform, Fecal",38,MPN/100 mL
+1669,Crown 2001 Shoreline Dr.,2015-12-14T00:00:00,"Coliform, Fecal",87,MPN/100 mL
+1670,Crown 2001 Shoreline Dr.,2015-11-16T00:00:00,"Coliform, Total",260,MPN/100 mL
+1671,Crown 2001 Shoreline Dr.,2015-10-26T00:00:00,Enterococcus,28,MPN/100 mL
+1672,Crown 2001 Shoreline Dr.,2015-10-26T00:00:00,"Coliform, Total",540,MPN/100 mL
+1673,Crown 2001 Shoreline Dr.,2015-10-19T00:00:00,"Coliform, Fecal",31,MPN/100 mL
+1674,Crown 2001 Shoreline Dr.,2015-08-10T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1675,Crown 2001 Shoreline Dr.,2015-08-10T00:00:00,Enterococcus,7,MPN/100 mL
+1676,Crown 2001 Shoreline Dr.,2015-07-27T00:00:00,Enterococcus,1,MPN/100 mL
+1677,Crown 2001 Shoreline Dr.,2015-06-29T00:00:00,"Coliform, Fecal",18,MPN/100 mL
+1678,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,Enterococcus,11,MPN/100 mL
+1679,Crown 2001 Shoreline Dr.,2015-05-04T00:00:00,"Coliform, Fecal",10,MPN/100 mL
+1680,Crown 2001 Shoreline Dr.,2015-05-04T00:00:00,Enterococcus,14,MPN/100 mL
+1681,Crown 2001 Shoreline Dr.,2015-04-20T00:00:00,"Coliform, Fecal",19,MPN/100 mL
+1682,Crown 2001 Shoreline Dr.,2015-04-20T00:00:00,Enterococcus,56,MPN/100 mL
+1683,Crown 2001 Shoreline Dr.,2015-04-14T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1684,Crown 2001 Shoreline Dr.,2015-10-06T00:00:00,"Coliform, Total",10,MPN/100 mL
+1685,Crown 2001 Shoreline Dr.,2015-09-28T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+1686,Crown 2001 Shoreline Dr.,2015-09-10T00:00:00,Enterococcus,29,MPN/100 mL
+1687,Crown 2001 Shoreline Dr.,2015-08-31T00:00:00,Enterococcus,16,MPN/100 mL
+1688,Crown 2001 Shoreline Dr.,2015-08-17T00:00:00,Enterococcus,27,MPN/100 mL
+1689,Crown 2001 Shoreline Dr.,2015-04-13T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1690,Crown 2001 Shoreline Dr.,2015-03-19T00:00:00,"Coliform, Total",52,MPN/100 mL
+1691,Crown 2001 Shoreline Dr.,2015-03-18T00:00:00,Enterococcus,3,MPN/100 mL
+1692,Crown 2001 Shoreline Dr.,2015-03-02T00:00:00,"Coliform, Fecal",180,MPN/100 mL
+1693,Crown 2001 Shoreline Dr.,2015-03-02T00:00:00,Enterococcus,93,MPN/100 mL
+1694,Crown 2001 Shoreline Dr.,2015-08-10T00:00:00,"Coliform, Total",260,MPN/100 mL
+1695,Crown 2001 Shoreline Dr.,2015-07-27T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+1696,Crown 2001 Shoreline Dr.,2015-07-27T00:00:00,"Coliform, Total",84,MPN/100 mL
+1697,Crown 2001 Shoreline Dr.,2015-07-06T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+1698,Crown 2001 Shoreline Dr.,2015-06-29T00:00:00,"Coliform, Total",270,MPN/100 mL
+1699,Crown 2001 Shoreline Dr.,2015-01-05T00:00:00,"Coliform, Total",31,MPN/100 mL
+1700,Crown 2001 Shoreline Dr.,2014-11-24T00:00:00,Enterococcus,11,MPN/100 mL
+1701,Crown 2001 Shoreline Dr.,2014-11-10T00:00:00,"Coliform, Total",52,MPN/100 mL
+1702,Crown 2001 Shoreline Dr.,2014-10-22T00:00:00,Enterococcus,1,MPN/100 mL
+1703,Crown 2001 Shoreline Dr.,2014-10-22T00:00:00,"Coliform, Total",41,MPN/100 mL
+1704,Crown 2001 Shoreline Dr.,2014-10-14T00:00:00,Enterococcus,10,MPN/100 mL
+1705,Crown 2001 Shoreline Dr.,2014-10-06T00:00:00,"Coliform, Total",63,MPN/100 mL
+1706,Crown 2001 Shoreline Dr.,2014-09-22T00:00:00,"Coliform, Fecal",9,MPN/100 mL
+1707,Crown 2001 Shoreline Dr.,2014-09-22T00:00:00,Enterococcus,1,MPN/100 mL
+1708,Crown 2001 Shoreline Dr.,2014-09-22T00:00:00,"Coliform, Total",10,MPN/100 mL
+1709,Crown 2001 Shoreline Dr.,2014-09-08T00:00:00,"Coliform, Fecal",17,MPN/100 mL
+1710,Crown 2001 Shoreline Dr.,2014-09-02T00:00:00,"Coliform, Fecal",90,MPN/100 mL
+1711,Crown 2001 Shoreline Dr.,2014-08-18T00:00:00,Enterococcus,2,MPN/100 mL
+1712,Crown 2001 Shoreline Dr.,2014-08-04T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+1713,Crown 2001 Shoreline Dr.,2014-08-04T00:00:00,Enterococcus,1,MPN/100 mL
+1714,Crown 2001 Shoreline Dr.,2015-06-22T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1715,Crown 2001 Shoreline Dr.,2015-06-22T00:00:00,Enterococcus,2,MPN/100 mL
+1716,Crown 2001 Shoreline Dr.,2015-06-15T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+1717,Crown 2001 Shoreline Dr.,2015-06-15T00:00:00,Enterococcus,2,MPN/100 mL
+1718,Crown 2001 Shoreline Dr.,2015-06-15T00:00:00,"Coliform, Total",150,MPN/100 mL
+1719,Crown 2001 Shoreline Dr.,2014-08-04T00:00:00,"Coliform, Total",340,MPN/100 mL
+1720,Crown 2001 Shoreline Dr.,2014-06-09T00:00:00,Enterococcus,1,MPN/100 mL
+1721,Crown 2001 Shoreline Dr.,2014-06-02T00:00:00,"Coliform, Total",20,MPN/100 mL
+1722,Crown 2001 Shoreline Dr.,2014-04-14T00:00:00,"Coliform, Fecal",18,MPN/100 mL
+1723,Crown 2001 Shoreline Dr.,2014-04-14T00:00:00,"Coliform, Total",41,MPN/100 mL
+1724,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,"Coliform, Total",190,MPN/100 mL
+1725,Crown 2001 Shoreline Dr.,2015-06-08T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1726,Crown 2001 Shoreline Dr.,2015-06-01T00:00:00,Enterococcus,3,MPN/100 mL
+1727,Crown 2001 Shoreline Dr.,2015-05-26T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+1728,Crown 2001 Shoreline Dr.,2015-05-18T00:00:00,"Coliform, Fecal",110,MPN/100 mL
+1729,Crown 2001 Shoreline Dr.,2014-04-07T00:00:00,"Coliform, Total",63,MPN/100 mL
+1730,Crown 2001 Shoreline Dr.,2014-04-01T00:00:00,Enterococcus,52,MPN/100 mL
+1731,Crown 2001 Shoreline Dr.,2014-03-24T00:00:00,"Coliform, Total",41,MPN/100 mL
+1732,Crown 2001 Shoreline Dr.,2014-03-12T00:00:00,Enterococcus,4,MPN/100 mL
+1733,Crown 2001 Shoreline Dr.,2014-03-10T00:00:00,"Coliform, Fecal",1900,MPN/100 mL
+1734,Crown 2001 Shoreline Dr.,2015-05-18T00:00:00,Enterococcus,8,MPN/100 mL
+1735,Crown 2001 Shoreline Dr.,2015-05-11T00:00:00,Enterococcus,5,MPN/100 mL
+1736,Crown 2001 Shoreline Dr.,2015-04-27T00:00:00,"Coliform, Total",75,MPN/100 mL
+1737,Crown 2001 Shoreline Dr.,2015-04-20T00:00:00,"Coliform, Total",160,MPN/100 mL
+1738,Crown 2001 Shoreline Dr.,2015-04-06T00:00:00,"Coliform, Fecal",30,MPN/100 mL
+1739,Crown 2001 Shoreline Dr.,2014-03-10T00:00:00,"Coliform, Total",2000,MPN/100 mL
+1740,Crown 2001 Shoreline Dr.,2014-02-13T00:00:00,Enterococcus,1,MPN/100 mL
+1741,Crown 2001 Shoreline Dr.,2014-01-27T00:00:00,"Coliform, Fecal",35,MPN/100 mL
+1742,Crown 2001 Shoreline Dr.,2014-01-27T00:00:00,Enterococcus,23,MPN/100 mL
+1743,Crown 2001 Shoreline Dr.,2014-01-13T00:00:00,"Coliform, Total",10,MPN/100 mL
+1744,Crown 2001 Shoreline Dr.,2015-04-06T00:00:00,"Coliform, Total",340,MPN/100 mL
+1745,Crown 2001 Shoreline Dr.,2015-03-17T00:00:00,"Coliform, Fecal",200,MPN/100 mL
+1746,Crown 2001 Shoreline Dr.,2015-03-16T00:00:00,"Coliform, Fecal",150,MPN/100 mL
+1747,Crown 2001 Shoreline Dr.,2015-03-16T00:00:00,Enterococcus,160,MPN/100 mL
+1748,Crown 2001 Shoreline Dr.,2015-02-02T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+1749,Crown 2001 Shoreline Dr.,2013-12-02T00:00:00,Enterococcus,16,MPN/100 mL
+1750,Crown 2001 Shoreline Dr.,2013-11-04T00:00:00,"Coliform, Fecal",660,MPN/100 mL
+1751,Crown 2001 Shoreline Dr.,2013-11-04T00:00:00,Enterococcus,63,MPN/100 mL
+1752,Crown 2001 Shoreline Dr.,2013-10-28T00:00:00,Enterococcus,17,MPN/100 mL
+1753,Crown 2001 Shoreline Dr.,2013-10-07T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+1754,Crown 2001 Shoreline Dr.,2013-10-07T00:00:00,Enterococcus,1,MPN/100 mL
+1755,Crown 2001 Shoreline Dr.,2013-09-30T00:00:00,"Coliform, Fecal",67,MPN/100 mL
+1756,Crown 2001 Shoreline Dr.,2013-09-23T00:00:00,Enterococcus,63,MPN/100 mL
+1757,Crown 2001 Shoreline Dr.,2013-09-16T00:00:00,"Coliform, Total",460,MPN/100 mL
+1758,Crown 2001 Shoreline Dr.,2013-09-10T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1759,Crown 2001 Shoreline Dr.,2013-09-10T00:00:00,Enterococcus,3,MPN/100 mL
+1760,Crown 2001 Shoreline Dr.,2013-08-19T00:00:00,"Coliform, Fecal",93,MPN/100 mL
+1761,Crown 2001 Shoreline Dr.,2013-08-19T00:00:00,Enterococcus,29,MPN/100 mL
+1762,Crown 2001 Shoreline Dr.,2013-08-05T00:00:00,Enterococcus,1,MPN/100 mL
+1763,Crown 2001 Shoreline Dr.,2013-07-29T00:00:00,"Coliform, Fecal",790,MPN/100 mL
+1764,Crown 2001 Shoreline Dr.,2015-02-02T00:00:00,"Coliform, Total",41,MPN/100 mL
+1765,Crown 2001 Shoreline Dr.,2015-01-05T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+1766,Crown 2001 Shoreline Dr.,2014-12-08T00:00:00,"Coliform, Total",63,MPN/100 mL
+1767,Crown 2001 Shoreline Dr.,2014-11-10T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+1768,Crown 2001 Shoreline Dr.,2014-10-20T00:00:00,Enterococcus,460,MPN/100 mL
+1769,Crown 2001 Shoreline Dr.,2013-07-22T00:00:00,Enterococcus,27,MPN/100 mL
+1770,Crown 2001 Shoreline Dr.,2013-07-08T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+1771,Crown 2001 Shoreline Dr.,2013-07-08T00:00:00,Enterococcus,2,MPN/100 mL
+1772,Crown 2001 Shoreline Dr.,2013-07-01T00:00:00,Enterococcus,2,MPN/100 mL
+1773,Crown 2001 Shoreline Dr.,2013-06-26T00:00:00,"Coliform, Total",63,MPN/100 mL
+1774,Crown 2001 Shoreline Dr.,2014-10-14T00:00:00,"Coliform, Total",500,MPN/100 mL
+1775,Crown 2001 Shoreline Dr.,2014-09-15T00:00:00,"Coliform, Total",120,MPN/100 mL
+1776,Crown 2001 Shoreline Dr.,2014-09-08T00:00:00,Enterococcus,11,MPN/100 mL
+1777,Crown 2001 Shoreline Dr.,2014-09-08T00:00:00,"Coliform, Total",270,MPN/100 mL
+1778,Crown 2001 Shoreline Dr.,2014-08-25T00:00:00,"Coliform, Fecal",320,MPN/100 mL
+1779,Crown 2001 Shoreline Dr.,2014-08-11T00:00:00,"Coliform, Fecal",350,MPN/100 mL
+1780,Crown 2001 Shoreline Dr.,2014-08-11T00:00:00,Enterococcus,45,MPN/100 mL
+1781,Crown 2001 Shoreline Dr.,2014-08-11T00:00:00,"Coliform, Total",370,MPN/100 mL
+1782,Crown 2001 Shoreline Dr.,2014-07-28T00:00:00,"Coliform, Fecal",900,MPN/100 mL
+1783,Crown 2001 Shoreline Dr.,2014-07-28T00:00:00,Enterococcus,21,MPN/100 mL
+1784,Crown 2001 Shoreline Dr.,2013-06-03T00:00:00,"Coliform, Total",52,MPN/100 mL
+1785,Crown 2001 Shoreline Dr.,2013-05-30T00:00:00,"Coliform, Total",41,MPN/100 mL
+1786,Crown 2001 Shoreline Dr.,2013-05-28T00:00:00,"Coliform, Fecal",31,MPN/100 mL
+1787,Crown 2001 Shoreline Dr.,2013-05-28T00:00:00,Enterococcus,130,MPN/100 mL
+1788,Crown 2001 Shoreline Dr.,2013-05-20T00:00:00,Enterococcus,1,MPN/100 mL
+1789,Crown 2001 Shoreline Dr.,2013-05-13T00:00:00,Enterococcus,2,MPN/100 mL
+1790,Crown 2001 Shoreline Dr.,2013-05-13T00:00:00,"Coliform, Total",52,MPN/100 mL
+1791,Crown 2001 Shoreline Dr.,2013-05-06T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1792,Crown 2001 Shoreline Dr.,2013-04-22T00:00:00,"Coliform, Fecal",14,MPN/100 mL
+1793,Crown 2001 Shoreline Dr.,2013-04-22T00:00:00,Enterococcus,1,MPN/100 mL
+1794,Crown 2001 Shoreline Dr.,2014-07-21T00:00:00,"Coliform, Total",110,MPN/100 mL
+1795,Crown 2001 Shoreline Dr.,2014-06-30T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+1796,Crown 2001 Shoreline Dr.,2014-06-30T00:00:00,"Coliform, Total",20,MPN/100 mL
+1797,Crown 2001 Shoreline Dr.,2014-06-16T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+1798,Crown 2001 Shoreline Dr.,2014-06-16T00:00:00,Enterococcus,2,MPN/100 mL
+1799,Crown 2001 Shoreline Dr.,2013-04-15T00:00:00,"Coliform, Fecal",41,MPN/100 mL
+1800,Crown 2001 Shoreline Dr.,2013-04-08T00:00:00,"Coliform, Fecal",100,MPN/100 mL
+1801,Crown 2001 Shoreline Dr.,2013-04-08T00:00:00,"Coliform, Total",3400,MPN/100 mL
+1802,Crown 2001 Shoreline Dr.,2013-04-02T00:00:00,Enterococcus,41,MPN/100 mL
+1803,Crown 2001 Shoreline Dr.,2013-03-26T00:00:00,Enterococcus,11,MPN/100 mL
+1804,Crown 2001 Shoreline Dr.,2014-06-09T00:00:00,"Coliform, Fecal",3,MPN/100 mL
+1805,Crown 2001 Shoreline Dr.,2014-06-02T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1806,Crown 2001 Shoreline Dr.,2014-06-02T00:00:00,Enterococcus,1,MPN/100 mL
+1807,Crown 2001 Shoreline Dr.,2014-05-27T00:00:00,"Coliform, Fecal",130,MPN/100 mL
+1808,Crown 2001 Shoreline Dr.,2014-05-27T00:00:00,Enterococcus,25,MPN/100 mL
+1809,Crown 2001 Shoreline Dr.,2013-02-25T00:00:00,"Coliform, Total",10,MPN/100 mL
+1810,Crown 2001 Shoreline Dr.,2013-02-13T00:00:00,Enterococcus,1,MPN/100 mL
+1811,Crown 2001 Shoreline Dr.,2013-01-28T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+1812,Crown 2001 Shoreline Dr.,2013-01-14T00:00:00,"Coliform, Total",31,MPN/100 mL
+1813,Crown 2001 Shoreline Dr.,2012-11-26T00:00:00,Enterococcus,5,MPN/100 mL
+1814,Crown 2001 Shoreline Dr.,2014-05-27T00:00:00,"Coliform, Total",150,MPN/100 mL
+1815,Crown 2001 Shoreline Dr.,2014-05-19T00:00:00,Enterococcus,2,MPN/100 mL
+1816,Crown 2001 Shoreline Dr.,2014-05-19T00:00:00,"Coliform, Total",63,MPN/100 mL
+1817,Crown 2001 Shoreline Dr.,2014-05-12T00:00:00,"Coliform, Fecal",37,MPN/100 mL
+1818,Crown 2001 Shoreline Dr.,2014-04-28T00:00:00,"Coliform, Total",10,MPN/100 mL
+1819,Crown 2001 Shoreline Dr.,2012-11-26T00:00:00,"Coliform, Total",85,MPN/100 mL
+1820,Crown 2001 Shoreline Dr.,2012-11-13T00:00:00,Enterococcus,6,MPN/100 mL
+1821,Crown 2001 Shoreline Dr.,2012-10-29T00:00:00,"Coliform, Fecal",28,MPN/100 mL
+1822,Crown 2001 Shoreline Dr.,2012-10-29T00:00:00,Enterococcus,10,MPN/100 mL
+1823,Crown 2001 Shoreline Dr.,2012-10-15T00:00:00,Enterococcus,17,MPN/100 mL
+1824,Crown 2001 Shoreline Dr.,2012-10-09T00:00:00,Enterococcus,2,MPN/100 mL
+1825,Crown 2001 Shoreline Dr.,2012-10-01T00:00:00,Enterococcus,1,MPN/100 mL
+1826,Crown 2001 Shoreline Dr.,2012-09-20T00:00:00,"Coliform, Total",170,MPN/100 mL
+1827,Crown 2001 Shoreline Dr.,2012-09-11T00:00:00,"Coliform, Total",620,MPN/100 mL
+1828,Crown 2001 Shoreline Dr.,2012-09-04T00:00:00,Enterococcus,24,MPN/100 mL
+1829,Crown 2001 Shoreline Dr.,2014-04-07T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1830,Crown 2001 Shoreline Dr.,2014-04-01T00:00:00,"Coliform, Total",560,MPN/100 mL
+1831,Crown 2001 Shoreline Dr.,2014-03-10T00:00:00,Enterococcus,320,MPN/100 mL
+1832,Crown 2001 Shoreline Dr.,2014-02-24T00:00:00,"Coliform, Fecal",100,MPN/100 mL
+1833,Crown 2001 Shoreline Dr.,2014-02-24T00:00:00,Enterococcus,39,MPN/100 mL
+1834,Crown 2001 Shoreline Dr.,2014-02-13T00:00:00,"Coliform, Fecal",14,MPN/100 mL
+1835,Crown 2001 Shoreline Dr.,2014-01-27T00:00:00,"Coliform, Total",63,MPN/100 mL
+1836,Crown 2001 Shoreline Dr.,2014-01-13T00:00:00,Enterococcus,1,MPN/100 mL
+1837,Crown 2001 Shoreline Dr.,2013-12-16T00:00:00,Enterococcus,13,MPN/100 mL
+1838,Crown 2001 Shoreline Dr.,2013-11-18T00:00:00,"Coliform, Fecal",46,MPN/100 mL
+1839,Crown 2001 Shoreline Dr.,2013-11-06T00:00:00,Enterococcus,6,MPN/100 mL
+1840,Crown 2001 Shoreline Dr.,2013-11-06T00:00:00,"Coliform, Total",130,MPN/100 mL
+1841,Crown 2001 Shoreline Dr.,2013-10-21T00:00:00,"Coliform, Fecal",2000,MPN/100 mL
+1842,Crown 2001 Shoreline Dr.,2013-10-21T00:00:00,Enterococcus,73,MPN/100 mL
+1843,Crown 2001 Shoreline Dr.,2013-10-21T00:00:00,"Coliform, Total",17000,MPN/100 mL
+1844,Crown 2001 Shoreline Dr.,2013-09-30T00:00:00,"Coliform, Total",1200,MPN/100 mL
+1845,Crown 2001 Shoreline Dr.,2013-09-23T00:00:00,"Coliform, Fecal",200,MPN/100 mL
+1846,Crown 2001 Shoreline Dr.,2013-09-16T00:00:00,Enterococcus,1,MPN/100 mL
+1847,Crown 2001 Shoreline Dr.,2013-09-03T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+1848,Crown 2001 Shoreline Dr.,2013-08-26T00:00:00,"Coliform, Fecal",44,MPN/100 mL
+1849,Crown 2001 Shoreline Dr.,2012-08-27T00:00:00,"Coliform, Fecal",60,MPN/100 mL
+1850,Crown 2001 Shoreline Dr.,2012-08-27T00:00:00,Enterococcus,3,MPN/100 mL
+1851,Crown 2001 Shoreline Dr.,2012-08-22T00:00:00,"Coliform, Total",430,MPN/100 mL
+1852,Crown 2001 Shoreline Dr.,2012-07-31T00:00:00,"Coliform, Total",290,MPN/100 mL
+1853,Crown 2001 Shoreline Dr.,2012-07-24T00:00:00,Enterococcus,1,MPN/100 mL
+1854,Crown 2001 Shoreline Dr.,2013-08-26T00:00:00,Enterococcus,6,MPN/100 mL
+1855,Crown 2001 Shoreline Dr.,2013-08-13T00:00:00,"Coliform, Total",370,MPN/100 mL
+1856,Crown 2001 Shoreline Dr.,2013-08-05T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1857,Crown 2001 Shoreline Dr.,2013-07-15T00:00:00,"Coliform, Fecal",25,MPN/100 mL
+1858,Crown 2001 Shoreline Dr.,2013-07-15T00:00:00,Enterococcus,13,MPN/100 mL
+1859,Crown 2001 Shoreline Dr.,2012-07-24T00:00:00,"Coliform, Total",160,MPN/100 mL
+1860,Crown 2001 Shoreline Dr.,2012-07-10T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1861,Crown 2001 Shoreline Dr.,2012-07-03T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1862,Crown 2001 Shoreline Dr.,2012-07-03T00:00:00,"Coliform, Total",230,MPN/100 mL
+1863,Crown 2001 Shoreline Dr.,2012-06-26T00:00:00,"Coliform, Total",63,MPN/100 mL
+1864,Crown 2001 Shoreline Dr.,2013-07-15T00:00:00,"Coliform, Total",110,MPN/100 mL
+1865,Crown 2001 Shoreline Dr.,2013-07-08T00:00:00,"Coliform, Total",170,MPN/100 mL
+1866,Crown 2001 Shoreline Dr.,2013-07-01T00:00:00,"Coliform, Fecal",32,MPN/100 mL
+1867,Crown 2001 Shoreline Dr.,2013-07-01T00:00:00,"Coliform, Total",31,MPN/100 mL
+1868,Crown 2001 Shoreline Dr.,2013-06-26T00:00:00,Enterococcus,5,MPN/100 mL
+1869,Crown 2001 Shoreline Dr.,2012-06-21T00:00:00,Enterococcus,5,MPN/100 mL
+1870,Crown 2001 Shoreline Dr.,2012-06-12T00:00:00,Enterococcus,1,MPN/100 mL
+1871,Crown 2001 Shoreline Dr.,2012-06-05T00:00:00,Enterococcus,2,MPN/100 mL
+1872,Crown 2001 Shoreline Dr.,2012-05-29T00:00:00,"Coliform, Fecal",3,MPN/100 mL
+1873,Crown 2001 Shoreline Dr.,2012-05-29T00:00:00,Enterococcus,1,MPN/100 mL
+1874,Crown 2001 Shoreline Dr.,2013-06-17T00:00:00,Enterococcus,1,MPN/100 mL
+1875,Crown 2001 Shoreline Dr.,2013-06-10T00:00:00,Enterococcus,2,MPN/100 mL
+1876,Crown 2001 Shoreline Dr.,2013-06-03T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1877,Crown 2001 Shoreline Dr.,2013-05-30T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+1878,Crown 2001 Shoreline Dr.,2013-05-30T00:00:00,Enterococcus,2,MPN/100 mL
+1879,Crown 2001 Shoreline Dr.,2012-05-22T00:00:00,"Coliform, Fecal",6,MPN/100 mL
+1880,Crown 2001 Shoreline Dr.,2012-05-15T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1881,Crown 2001 Shoreline Dr.,2012-05-15T00:00:00,Enterococcus,2,MPN/100 mL
+1882,Crown 2001 Shoreline Dr.,2012-05-15T00:00:00,"Coliform, Total",52,MPN/100 mL
+1883,Crown 2001 Shoreline Dr.,2012-05-08T00:00:00,"Coliform, Total",110,MPN/100 mL
+1884,Crown 2001 Shoreline Dr.,2013-05-20T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1885,Crown 2001 Shoreline Dr.,2013-05-20T00:00:00,"Coliform, Total",10,MPN/100 mL
+1886,Crown 2001 Shoreline Dr.,2013-05-13T00:00:00,"Coliform, Fecal",7,MPN/100 mL
+1887,Crown 2001 Shoreline Dr.,2013-04-29T00:00:00,"Coliform, Fecal",18,MPN/100 mL
+1888,Crown 2001 Shoreline Dr.,2013-04-22T00:00:00,"Coliform, Total",20,MPN/100 mL
+1889,Crown 2001 Shoreline Dr.,2012-04-24T00:00:00,"Coliform, Fecal",21,MPN/100 mL
+1890,Crown 2001 Shoreline Dr.,2012-04-17T00:00:00,"Coliform, Total",52,MPN/100 mL
+1891,Crown 2001 Shoreline Dr.,2012-04-10T00:00:00,Enterococcus,90,MPN/100 mL
+1892,Crown 2001 Shoreline Dr.,2012-04-03T00:00:00,"Coliform, Fecal",90,MPN/100 mL
+1893,Crown 2001 Shoreline Dr.,2012-03-20T00:00:00,Enterococcus,3,MPN/100 mL
+1894,Crown 2001 Shoreline Dr.,2013-04-18T00:00:00,Enterococcus,1,MPN/100 mL
+1895,Crown 2001 Shoreline Dr.,2013-04-18T00:00:00,"Coliform, Total",50,MPN/100 mL
+1896,Crown 2001 Shoreline Dr.,2013-04-15T00:00:00,Enterococcus,130,MPN/100 mL
+1897,Crown 2001 Shoreline Dr.,2013-04-15T00:00:00,"Coliform, Total",290,MPN/100 mL
+1898,Crown 2001 Shoreline Dr.,2013-04-02T00:00:00,"Coliform, Fecal",30,MPN/100 mL
+1899,Crown 2001 Shoreline Dr.,2012-03-20T00:00:00,"Coliform, Total",31,MPN/100 mL
+1900,Crown 2001 Shoreline Dr.,2012-03-08T00:00:00,"Coliform, Fecal",170,MPN/100 mL
+1901,Crown 2001 Shoreline Dr.,2012-02-09T00:00:00,Enterococcus,62,MPN/100 mL
+1902,Crown 2001 Shoreline Dr.,2012-02-09T00:00:00,"Coliform, Total",170,MPN/100 mL
+1903,Crown 2001 Shoreline Dr.,2012-02-08T00:00:00,Enterococcus,14,MPN/100 mL
+1904,Crown 2001 Shoreline Dr.,2013-02-13T00:00:00,"Coliform, Fecal",210,MPN/100 mL
+1905,Crown 2001 Shoreline Dr.,2013-01-14T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+1906,Crown 2001 Shoreline Dr.,2012-12-10T00:00:00,Enterococcus,3,MPN/100 mL
+1907,Crown 2001 Shoreline Dr.,2012-11-13T00:00:00,"Coliform, Fecal",14,MPN/100 mL
+1908,Crown 2001 Shoreline Dr.,2012-11-13T00:00:00,"Coliform, Total",98,MPN/100 mL
+1909,Crown 2001 Shoreline Dr.,2012-02-07T00:00:00,"Coliform, Fecal",250,MPN/100 mL
+1910,Crown 2001 Shoreline Dr.,2012-01-23T00:00:00,Enterococcus,59,MPN/100 mL
+1911,Crown 2001 Shoreline Dr.,2012-01-23T00:00:00,"Coliform, Total",790,MPN/100 mL
+1912,Crown 2001 Shoreline Dr.,2012-01-09T00:00:00,"Coliform, Total",1800,MPN/100 mL
+1913,Crown 2001 Shoreline Dr.,2011-11-15T00:00:00,"Coliform, Fecal",260,MPN/100 mL
+1914,Crown 2001 Shoreline Dr.,2012-10-25T00:00:00,"Coliform, Total",230,MPN/100 mL
+1915,Crown 2001 Shoreline Dr.,2012-10-22T00:00:00,Enterococcus,170,MPN/100 mL
+1916,Crown 2001 Shoreline Dr.,2012-10-22T00:00:00,"Coliform, Total",1200,MPN/100 mL
+1917,Crown 2001 Shoreline Dr.,2012-10-09T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+1918,Crown 2001 Shoreline Dr.,2012-10-01T00:00:00,"Coliform, Total",86,MPN/100 mL
+1919,Crown 2001 Shoreline Dr.,2011-10-31T00:00:00,"Coliform, Fecal",8,MPN/100 mL
+1920,Crown 2001 Shoreline Dr.,2011-10-31T00:00:00,"Coliform, Total",31,MPN/100 mL
+1921,Crown 2001 Shoreline Dr.,2011-10-17T00:00:00,"Coliform, Total",52,MPN/100 mL
+1922,Crown 2001 Shoreline Dr.,2011-10-03T00:00:00,"Coliform, Fecal",11,MPN/100 mL
+1923,Crown 2001 Shoreline Dr.,2011-10-03T00:00:00,"Coliform, Total",140,MPN/100 mL
+1924,Crown 2001 Shoreline Dr.,2011-09-26T00:00:00,"Coliform, Total",86,MPN/100 mL
+1925,Crown 2001 Shoreline Dr.,2011-09-12T00:00:00,"Coliform, Fecal",25,MPN/100 mL
+1926,Crown 2001 Shoreline Dr.,2011-09-12T00:00:00,Enterococcus,3,MPN/100 mL
+1927,Crown 2001 Shoreline Dr.,2011-09-06T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1928,Crown 2001 Shoreline Dr.,2011-09-06T00:00:00,"Coliform, Total",86,MPN/100 mL
+1929,Crown 2001 Shoreline Dr.,2012-09-24T00:00:00,"Coliform, Total",20,MPN/100 mL
+1930,Crown 2001 Shoreline Dr.,2012-09-20T00:00:00,Enterococcus,35,MPN/100 mL
+1931,Crown 2001 Shoreline Dr.,2012-09-17T00:00:00,"Coliform, Fecal",710,MPN/100 mL
+1932,Crown 2001 Shoreline Dr.,2012-09-17T00:00:00,Enterococcus,390,MPN/100 mL
+1933,Crown 2001 Shoreline Dr.,2012-09-11T00:00:00,"Coliform, Fecal",44,MPN/100 mL
+1934,Crown 2001 Shoreline Dr.,2011-08-29T00:00:00,"Coliform, Total",370,MPN/100 mL
+1935,Crown 2001 Shoreline Dr.,2011-08-22T00:00:00,"Coliform, Total",10,MPN/100 mL
+1936,Crown 2001 Shoreline Dr.,2011-07-18T00:00:00,"Coliform, Total",10,MPN/100 mL
+1937,Crown 2001 Shoreline Dr.,2011-06-20T00:00:00,"Coliform, Total",41,MPN/100 mL
+1938,Crown 2001 Shoreline Dr.,2011-06-13T00:00:00,Enterococcus,3,MPN/100 mL
+1939,Crown 2001 Shoreline Dr.,2012-08-22T00:00:00,Enterococcus,5,MPN/100 mL
+1940,Crown 2001 Shoreline Dr.,2012-07-24T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+1941,Crown 2001 Shoreline Dr.,2012-07-17T00:00:00,Enterococcus,1,MPN/100 mL
+1942,Crown 2001 Shoreline Dr.,2012-07-10T00:00:00,Enterococcus,1,MPN/100 mL
+1943,Crown 2001 Shoreline Dr.,2012-06-19T00:00:00,"Coliform, Fecal",160,MPN/100 mL
+1944,Crown 2001 Shoreline Dr.,2011-06-13T00:00:00,"Coliform, Total",41,MPN/100 mL
+1945,Crown 2001 Shoreline Dr.,2011-06-06T00:00:00,"Coliform, Fecal",60,MPN/100 mL
+1946,Crown 2001 Shoreline Dr.,2011-05-31T00:00:00,"Coliform, Total",200,MPN/100 mL
+1947,Crown 2001 Shoreline Dr.,2011-05-23T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1948,Crown 2001 Shoreline Dr.,2011-05-16T00:00:00,"Coliform, Total",250,MPN/100 mL
+1949,Crown 2001 Shoreline Dr.,2011-05-02T00:00:00,"Coliform, Total",31,MPN/100 mL
+1950,Crown 2001 Shoreline Dr.,2011-04-18T00:00:00,Enterococcus,5,MPN/100 mL
+1951,Crown 2001 Shoreline Dr.,2011-04-18T00:00:00,"Coliform, Total",86,MPN/100 mL
+1952,Crown 2001 Shoreline Dr.,2011-03-29T00:00:00,"Coliform, Total",460,MPN/100 mL
+1953,Crown 2001 Shoreline Dr.,2011-03-21T00:00:00,Enterococcus,170,MPN/100 mL
+1954,Crown 2001 Shoreline Dr.,2012-06-12T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1955,Crown 2001 Shoreline Dr.,2012-06-12T00:00:00,"Coliform, Total",52,MPN/100 mL
+1956,Crown 2001 Shoreline Dr.,2012-06-05T00:00:00,"Coliform, Total",340,MPN/100 mL
+1957,Crown 2001 Shoreline Dr.,2012-05-22T00:00:00,Enterococcus,2,MPN/100 mL
+1958,Crown 2001 Shoreline Dr.,2012-05-08T00:00:00,Enterococcus,22,MPN/100 mL
+1959,Crown 2001 Shoreline Dr.,2011-03-07T00:00:00,Enterococcus,15,MPN/100 mL
+1960,Crown 2001 Shoreline Dr.,2011-02-22T00:00:00,"Coliform, Fecal",140,MPN/100 mL
+1961,Crown 2001 Shoreline Dr.,2011-01-03T00:00:00,"Coliform, Fecal",28,MPN/100 mL
+1962,Crown 2001 Shoreline Dr.,2010-12-06T00:00:00,"Coliform, Fecal",150,MPN/100 mL
+1963,Crown 2001 Shoreline Dr.,2010-12-06T00:00:00,"Coliform, Total",2500,MPN/100 mL
+1964,Crown 2001 Shoreline Dr.,2010-10-12T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+1965,Crown 2001 Shoreline Dr.,2010-10-12T00:00:00,Enterococcus,2,MPN/100 mL
+1966,Crown 2001 Shoreline Dr.,2010-10-04T00:00:00,Enterococcus,7,MPN/100 mL
+1967,Crown 2001 Shoreline Dr.,2010-09-27T00:00:00,"Coliform, Total",160,MPN/100 mL
+1968,Crown 2001 Shoreline Dr.,2010-09-07T00:00:00,Enterococcus,2,MPN/100 mL
+1969,Crown 2001 Shoreline Dr.,2012-04-17T00:00:00,"Coliform, Fecal",9,MPN/100 mL
+1970,Crown 2001 Shoreline Dr.,2012-04-10T00:00:00,"Coliform, Total",1100,MPN/100 mL
+1971,Crown 2001 Shoreline Dr.,2012-04-03T00:00:00,"Coliform, Total",40,MPN/100 mL
+1972,Crown 2001 Shoreline Dr.,2012-03-20T00:00:00,"Coliform, Fecal",17,MPN/100 mL
+1973,Crown 2001 Shoreline Dr.,2012-03-06T00:00:00,"Coliform, Total",580,MPN/100 mL
+1974,Crown 2001 Shoreline Dr.,2010-08-30T00:00:00,Enterococcus,6,MPN/100 mL
+1975,Crown 2001 Shoreline Dr.,2010-08-16T00:00:00,Enterococcus,1,MPN/100 mL
+1976,Crown 2001 Shoreline Dr.,2010-08-09T00:00:00,"Coliform, Fecal",44,MPN/100 mL
+1977,Crown 2001 Shoreline Dr.,2010-08-09T00:00:00,"Coliform, Total",86,MPN/100 mL
+1978,Crown 2001 Shoreline Dr.,2010-08-02T00:00:00,"Coliform, Total",160,MPN/100 mL
+1979,Crown 2001 Shoreline Dr.,2012-02-21T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1980,Crown 2001 Shoreline Dr.,2012-02-08T00:00:00,"Coliform, Fecal",28,MPN/100 mL
+1981,Crown 2001 Shoreline Dr.,2012-02-08T00:00:00,"Coliform, Total",75,MPN/100 mL
+1982,Crown 2001 Shoreline Dr.,2012-02-07T00:00:00,"Coliform, Total",650,MPN/100 mL
+1983,Crown 2001 Shoreline Dr.,2012-01-23T00:00:00,"Coliform, Fecal",120,MPN/100 mL
+1984,Crown 2001 Shoreline Dr.,2010-07-26T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+1985,Crown 2001 Shoreline Dr.,2010-07-06T00:00:00,"Coliform, Total",190,MPN/100 mL
+1986,Crown 2001 Shoreline Dr.,2010-06-28T00:00:00,Enterococcus,3,MPN/100 mL
+1987,Crown 2001 Shoreline Dr.,2010-06-21T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+1988,Crown 2001 Shoreline Dr.,2010-06-07T00:00:00,Enterococcus,1,MPN/100 mL
+1989,Crown 2001 Shoreline Dr.,2012-01-09T00:00:00,"Coliform, Fecal",37,MPN/100 mL
+1990,Crown 2001 Shoreline Dr.,2012-01-09T00:00:00,Enterococcus,25,MPN/100 mL
+1991,Crown 2001 Shoreline Dr.,2011-12-27T00:00:00,"Coliform, Fecal",21,MPN/100 mL
+1992,Crown 2001 Shoreline Dr.,2011-12-27T00:00:00,"Coliform, Total",31,MPN/100 mL
+1993,Crown 2001 Shoreline Dr.,2011-12-12T00:00:00,"Coliform, Total",52,MPN/100 mL
+1994,Crown 2001 Shoreline Dr.,2010-05-24T00:00:00,"Coliform, Total",10,MPN/100 mL
+1995,Crown 2001 Shoreline Dr.,2010-05-17T00:00:00,"Coliform, Fecal",9,MPN/100 mL
+1996,Crown 2001 Shoreline Dr.,2011-11-28T00:00:00,"Coliform, Total",20,MPN/100 mL
+1997,Crown 2001 Shoreline Dr.,2011-10-24T00:00:00,Enterococcus,1,MPN/100 mL
+1998,Crown 2001 Shoreline Dr.,2011-10-24T00:00:00,"Coliform, Total",210,MPN/100 mL
+1999,Crown 2001 Shoreline Dr.,2011-10-17T00:00:00,Enterococcus,1,MPN/100 mL
+2000,Crown 2001 Shoreline Dr.,2011-10-11T00:00:00,"Coliform, Total",660,MPN/100 mL
+2001,Crown 2001 Shoreline Dr.,2011-09-26T00:00:00,"Coliform, Fecal",10,MPN/100 mL
+2002,Crown 2001 Shoreline Dr.,2011-09-26T00:00:00,Enterococcus,1,MPN/100 mL
+2003,Crown 2001 Shoreline Dr.,2011-09-19T00:00:00,"Coliform, Fecal",61,MPN/100 mL
+2004,Crown 2001 Shoreline Dr.,2011-09-19T00:00:00,Enterococcus,6,MPN/100 mL
+2005,Crown 2001 Shoreline Dr.,2011-09-19T00:00:00,"Coliform, Total",190,MPN/100 mL
+2006,Crown 2001 Shoreline Dr.,2011-08-29T00:00:00,"Coliform, Fecal",110,MPN/100 mL
+2007,Crown 2001 Shoreline Dr.,2011-08-22T00:00:00,Enterococcus,2,MPN/100 mL
+2008,Crown 2001 Shoreline Dr.,2011-08-15T00:00:00,Enterococcus,23,MPN/100 mL
+2009,Crown 2001 Shoreline Dr.,2011-08-15T00:00:00,"Coliform, Total",180,MPN/100 mL
+2010,Crown 2001 Shoreline Dr.,2011-08-08T00:00:00,Enterococcus,2,MPN/100 mL
+2011,Crown 2001 Shoreline Dr.,2011-08-08T00:00:00,"Coliform, Total",31,MPN/100 mL
+2012,Crown 2001 Shoreline Dr.,2011-07-25T00:00:00,"Coliform, Fecal",5,MPN/100 mL
+2013,Crown 2001 Shoreline Dr.,2011-07-25T00:00:00,Enterococcus,3,MPN/100 mL
+2014,Crown 2001 Shoreline Dr.,2011-07-25T00:00:00,"Coliform, Total",96,MPN/100 mL
+2015,Crown 2001 Shoreline Dr.,2011-07-18T00:00:00,"Coliform, Fecal",2,MPN/100 mL
+2016,Crown 2001 Shoreline Dr.,2011-07-18T00:00:00,Enterococcus,7,MPN/100 mL
+2017,Crown 2001 Shoreline Dr.,2011-07-11T00:00:00,"Coliform, Total",52,MPN/100 mL
+2018,Crown 2001 Shoreline Dr.,2011-07-06T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+2019,Crown 2001 Shoreline Dr.,2011-07-06T00:00:00,Enterococcus,1,MPN/100 mL
+2020,Crown 2001 Shoreline Dr.,2011-07-06T00:00:00,"Coliform, Total",52,MPN/100 mL
+2021,Crown 2001 Shoreline Dr.,2011-06-27T00:00:00,Enterococcus,1,MPN/100 mL
+2022,Crown 2001 Shoreline Dr.,2011-06-06T00:00:00,"Coliform, Total",260,MPN/100 mL
+2023,Crown 2001 Shoreline Dr.,2011-05-31T00:00:00,Enterococcus,3,MPN/100 mL
+2024,Crown 2001 Shoreline Dr.,2011-05-16T00:00:00,Enterococcus,13,MPN/100 mL
+2025,Crown 2001 Shoreline Dr.,2011-05-09T00:00:00,Enterococcus,190,MPN/100 mL
+2026,Crown 2001 Shoreline Dr.,2011-05-02T00:00:00,Enterococcus,1,MPN/100 mL
+2027,Crown 2001 Shoreline Dr.,2011-04-11T00:00:00,Enterococcus,1,MPN/100 mL
+2028,Crown 2001 Shoreline Dr.,2011-03-29T00:00:00,"Coliform, Fecal",70,MPN/100 mL
+2029,Crown 2001 Shoreline Dr.,2011-03-29T00:00:00,Enterococcus,18,MPN/100 mL
+2030,Crown 2001 Shoreline Dr.,2011-03-07T00:00:00,"Coliform, Fecal",26,MPN/100 mL
+2031,Crown 2001 Shoreline Dr.,2011-02-24T00:00:00,"Coliform, Total",270,MPN/100 mL
+2032,Crown 2001 Shoreline Dr.,2011-02-22T00:00:00,"Coliform, Total",340,MPN/100 mL
+2033,Crown 2001 Shoreline Dr.,2011-02-07T00:00:00,"Coliform, Total",31,MPN/100 mL
+2034,Crown 2001 Shoreline Dr.,2011-01-21T00:00:00,"Coliform, Total",97,MPN/100 mL
+2035,Crown 2001 Shoreline Dr.,2011-01-18T00:00:00,"Coliform, Fecal",370,MPN/100 mL
+2036,Crown 2001 Shoreline Dr.,2011-01-18T00:00:00,Enterococcus,350,MPN/100 mL
+2037,Crown 2001 Shoreline Dr.,2011-01-18T00:00:00,"Coliform, Total",500,MPN/100 mL
+2038,Crown 2001 Shoreline Dr.,2010-10-04T00:00:00,"Coliform, Fecal",40,MPN/100 mL
+2039,Crown 2001 Shoreline Dr.,2010-10-04T00:00:00,"Coliform, Total",320,MPN/100 mL
+2040,Crown 2001 Shoreline Dr.,2010-09-27T00:00:00,"Coliform, Fecal",37,MPN/100 mL
+2041,Crown 2001 Shoreline Dr.,2010-09-20T00:00:00,"Coliform, Fecal",19,MPN/100 mL
+2042,Crown 2001 Shoreline Dr.,2010-09-14T00:00:00,Enterococcus,1,MPN/100 mL
+2043,Crown 2001 Shoreline Dr.,2010-09-07T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+2044,Crown 2001 Shoreline Dr.,2010-08-23T00:00:00,"Coliform, Fecal",4,MPN/100 mL
+2045,Crown 2001 Shoreline Dr.,2010-08-23T00:00:00,"Coliform, Total",10,MPN/100 mL
+2046,Crown 2001 Shoreline Dr.,2010-08-16T00:00:00,"Coliform, Total",10,MPN/100 mL
+2047,Crown 2001 Shoreline Dr.,2010-08-09T00:00:00,Enterococcus,8,MPN/100 mL
+2048,Crown 2001 Shoreline Dr.,2010-07-26T00:00:00,"Coliform, Total",370,MPN/100 mL
+2049,Crown 2001 Shoreline Dr.,2010-07-19T00:00:00,"Coliform, Total",340,MPN/100 mL
+2050,Crown 2001 Shoreline Dr.,2010-07-12T00:00:00,Enterococcus,5,MPN/100 mL
+2051,Crown 2001 Shoreline Dr.,2010-06-28T00:00:00,"Coliform, Fecal",27,MPN/100 mL
+2052,Crown 2001 Shoreline Dr.,2010-06-21T00:00:00,Enterococcus,1,MPN/100 mL
+2053,Crown 2001 Shoreline Dr.,2010-06-14T00:00:00,"Coliform, Total",860,MPN/100 mL
+2054,Crown 2001 Shoreline Dr.,2010-06-01T00:00:00,"Coliform, Total",230,MPN/100 mL
+2055,Crown 2001 Shoreline Dr.,2010-05-24T00:00:00,"Coliform, Fecal",1,MPN/100 mL
+2056,Crown 2001 Shoreline Dr.,2010-05-10T00:00:00,"Coliform, Total",20,MPN/100 mL
+2057,Crown 2001 Shoreline Dr.,2010-05-03T00:00:00,Enterococcus,2,MPN/100 mL

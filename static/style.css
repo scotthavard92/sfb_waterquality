@@ -1,0 +1,146 @@
+body {
+	background-color: #B3DFCB;
+}
+
+h1 {
+	margin-top: 15px;
+	text-align: center;
+	line-height: 30px;
+	font-weight: lighter;
+}
+
+h2 {
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+li {
+	text-align: left;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+ul {
+	margin-left: 25px;
+	margin-right: 45px;
+	list-style-type: none;
+}
+
+#header {
+	height: 60px;
+	width: 100%;
+	margin:0 0 0 0;
+	border:0 0 0 0;
+	padding:0 0 0 0;
+	color: #FFFFFF; 
+	text-align: center; 
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index:1;
+	background-color: #236E2F;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	font-family:Helvetica;
+}
+
+#body-content{
+	margin-top: 5%;
+}
+
+.bubble {
+	background-color: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: 1px solid #8ED3B4;
+	font-family: Helvetica;
+}
+
+#results {
+	width: 35%;
+	float: left;
+}
+
+.result-summary{
+	font-size: 36px;
+}
+
+#info{
+	text-align: center;
+}
+
+#overview {
+	padding-top: 10px;
+	margin-left: 37%;
+	width: 60%;
+}
+
+.map {
+	height: 250px;
+}
+
+.active, .collapse:hover {
+  background-color: #ccc;
+}
+
+.expand {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.location-content {
+	text-align: center;
+}
+
+.social-links {
+	margin: auto;
+	padding-top: 7%;
+	width: 100%;
+	text-align: center;
+	position: static;
+	height: 75px;
+}
+
+.social-link {
+	display: inline-block;
+	width:65px;
+	height:65px;
+	padding-right: 10px;
+	bottom: 0px;
+}
+
+#footer-love {
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.highlightit img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 0.75;
+opacity: 0.75;
+}
+
+
+.highlightit:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+a { 
+	color:#000000;
+	text-decoration: none;
+}
+
+a:visited { text-decoration: none; color:#000000; }
+a:hover { text-decoration: none; color:#236E2F; }

@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title> SF Bay Water Quality - Safe to Swim</title>
+	<meta charset=“UTF-8”>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+	<div id="header">
+		<h1>- san francisco bay - safe to swim data -</h1>
+	</div>
+	<div id="body-content">
+		<div id="results">
+			<div class="bubble">
+				<div class="location-content">
+				<h2>Alameda</h2>
+				<div class="result-summary">
+					{% if alameda_safe == True %}
+					<p> &#x1F3CA; + &#x1F4A7; = &#x1F44D; </p>
+					{% else %}
+					<p> &#x1F3CA; + &#x1F4A7; = &#x1F44E; </p>
+					{% endif %}
+				</div>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.3637510733533!2d-122.2614236490818!3d37.75806822079424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f86b167e16e0d%3A0x1a1e5e44836f21cc!2s2001%20Shore%20Line%20Dr%2C%20Alameda%2C%20CA%2094501!5e0!3m2!1sen!2sus!4v1625697557182!5m2!1sen!2sus" width="75%" height="90%" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+				<button type="button" class="collapse">Measurement Details</button>
+					<div class="expand">
+						<p>Analyte: {{al_ent_analyte}}</p>
+						<p>Result: {{al_ent_result}} {{al_ent_unit}}</p>
+						<p>Sample Location: {{al_ent_stat_code}}</p>
+						<p>Sample Date: {{al_ent_sample_date}}</p>
+						<hr width="100">
+						<p>Analyte: {{al_col_t_analyte}}</p>
+						<p>Result: {{al_col_t_result}} {{al_col_t_unit}}</p>
+						<p>Sample Location: {{al_col_t_stat_code}}</p>
+						<p>Sample Date: {{al_col_t_sample_date}}</p>
+						<hr width="100">
+						<p>Analyte: {{al_col_f_analyte}}</p>
+						<p>Result: {{al_col_f_result}} {{al_col_f_unit}}</p>
+						<p>Sample Location: {{al_col_f_stat_code}}</p>
+						<p>Sample Date: {{al_col_f_sample_date}}</p>
+					</div>
+				</div>
+			</div>
+			<div class="bubble">
+				<div class="location-content">
+				<h2>Aquatic Park - SF</h2>
+				<div class="result-summary">
+					{% if sf_aquatic_park_safe == True %}
+					<p> &#x1F3CA; + &#x1F4A7; = &#x1F44D; </p>
+					{% else %}
+					<p> &#x1F3CA; + &#x1F4A7; = &#x1F44E; </p>
+					{% endif %}
+				</div>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12609.209496231953!2d-122.4235308!3d37.8063859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cec836886978844!2sAquatic%20Park!5e0!3m2!1sen!2sus!4v1625800235047!5m2!1sen!2sus" width="75%" height="90%" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+				<button type="button" class="collapse">Measurement Details</button>
+					<div class="expand">
+						<p>Analyte: {{ap_col_t_analyte}}</p>
+						<p>Result: {{ap_col_t_result}} {{ap_col_t_unit}}</p>
+						<p>Sample Location: {{ap_col_t_stat_code}}</p>
+						<p>Sample Date: {{ap_col_t_sample_date}}</p>
+						<hr width="100">
+						<p>Analyte: {{ap_ent_analyte}}</p>
+						<p>Result: {{ap_ent_result}} {{ap_ent_unit}}</p>
+						<p>Sample Location: {{ap_ent_stat_code}}</p>
+						<p>Sample Date: {{ap_ent_sample_date}}</p>
+						<hr width="100">
+						<p>Analyte: {{ap_ecoli_analyte}}</p>
+						<p>Result: {{ap_ecoli_result}} {{ap_ecoli_unit}}</p>
+						<p>Sample Location: {{ap_ecoli_stat_code}}</p>
+						<p>Sample Date: {{ap_ecoli_sample_date}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="overview">
+			<div class="bubble">
+				<div id="info">
+					<h2>How to Use This Page</h2>
+					<p><i>... with a grain of salt! </i></p>
+					<p> Monitoring water quality requires many inputs. This site analyzes data from California's open databases,
+					compares against the Environmental Protection Agency's recommended bacteria limits, and presents either a &#x1F44D; or &#x1F44E;. </p>
+					<h3> The Binary Emoji Scale </h3>
+					<p> The &#x1F44D; is currently given if the Enterococcus measurements are less than 60 cfu/ml or 60 MPN/ml, and the E. Coli amounts are less than 190 cfu/ml or 190 MPN/ml. If the most recent sample measurement is above any threshold, then it is given a &#x1F44E;.
+					<h3> Check the Details </h3>
+					<p> Click <b>Measurement Details</b> to see the raw data. This includes the analyte, the result amount from the sample, the location of the sample, and the date that the sample was taken.
+					<h3> Carefully Consider </h3>
+					<p> There are <b>many</b> factors to consider when looking at the data. Some important ones include the date the sample was taken, the location of the sample, and what analytes the sample detects. </p>
+					<ul>
+						<li>&#x1F4C5; <b>Sample Date</b> - Agencies do not pull samples daily. Realize that the data can be old. </li>
+						<li>&#x1F30D; <b>Location</b> - Water quality can vary greatly in close areas. While one area's water quality can match the quality in a neighboring area,
+						it is also possible that they aren't the same. </li>
+						<li>&#x1F9A0; <b>Analytes</b> - There are many microorganisms and pollutants in the water. Many can make you ill. The emoji scale only looks at E. Coli and Enterococcus. The measurement details also have Fecal Coliform measurements. </li>
+					</ul>
+					<h3> Helpful + Cool Links </h3>
+					<ul>
+						<li><a href="https://data.ca.gov/dataset/surface-water-fecal-indicator-bacteria-results"> &#x1F4CA; <b>Safe to Swim Dataset</b></a></li>
+						<li><a href="https://www.epa.gov/sites/production/files/2015-10/documents/rwqc2012.pdf"> &#x1F30D; <b>EPA Guidelines on Recreational Water Quality</b></a></li>
+						<li><a href="https://mywaterquality.ca.gov/safe_to_swim/"> &#x1F6A3; <b>California Safe to Swim Resources</b></a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="social-links">
+			<div class="social-link">
+				<a href="https://twitter.com" class="highlightit">
+					<img src="{{url_for('static', filename='twitter.svg')}}" />
+				</a>
+			</div>
+			<div class="social-link">
+				<a href="https://twitter.com" class="highlightit">
+					<img src="{{url_for('static', filename='gmail.svg')}}"/>
+				</a>
+			</div>
+		</div>
+		<div id="footer-love">
+			<p> Made by Scott. Enjoy the Bay!</p>
+			<p> Copyright 2021 </p>
+		</div>
+	</footer>
+</body>
+
+<script>
+var coll = document.getElementsByClassName("collapse");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
