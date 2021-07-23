@@ -144,3 +144,26 @@ a {
 
 a:visited { text-decoration: none; color:#000000; }
 a:hover { text-decoration: none; color:#236E2F; }
+
+@media only screen and (max-width: 767px) {
+    #results {
+        display: block; 
+        float: none; 
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    #overview {
+        display: block; 
+        float: none; 
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1 {
+    	margin-top: 2px;
+    }
+    #header {
+    	height: 64px;
+    }
+}
+
