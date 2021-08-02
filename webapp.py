@@ -173,3 +173,6 @@ def run_app():
 	sf_aquatic_park_safe=sf_aquatic_park_safe,\
 	alameda_safe=alameda_safe)
 
+if __name__ == '__main__':
+    app.run()
+
