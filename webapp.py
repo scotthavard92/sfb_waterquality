@@ -3,7 +3,11 @@ from flask import g
 from flask import Flask
 from flask import render_template
 
-DATABASE = '/Users/scotthavard/desktop/sfb_waterquality/db.db'
+### Local Testing
+# DATABASE = '/Users/scotthavard/desktop/sfb_waterquality/db.db'
+
+### Hosting Service 
+DATABASE = '/home/scotthavard92/sf_swim/sfb_waterquality/db.db'
 
 class location_data_point:
     def __init__(self, station_code, sample_date, analyte, result, unit): 
