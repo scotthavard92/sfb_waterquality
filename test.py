@@ -7,7 +7,12 @@ from sqlite3 import Error
 url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=alameda'
 url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=aquatic+park'
 filename = 'water_output_alameda.csv'
-database = '/Users/scotthavard/desktop/sfb_waterquality/db.db'
+
+#local database
+# database = '/Users/scotthavard/desktop/sfb_waterquality/db.db'
+
+#hosting database
+database = '/home/scotthavard92/sf_swim/sfb_waterquality/db.db'
 
 # Crown 2001 Shoreline Dr.	
 # Aquatic Park  
@@ -117,9 +122,12 @@ def write_row(connection, table_name, object):
 
 def delete_table(connetion, table_name):
 	sql = "DROP TABLE IF EXISTS {}".format(table_name)
-	cur = connection.cursor()
-	cur.execute(sql)
-	connection.commit()
+	try:
+		cur = connection.cursor()
+		cur.execute(sql)
+		connection.commit()
+	except:
+		print("no table exists")
 
 ### Run
 #Alameda
