@@ -131,15 +131,15 @@ def delete_table(connetion, table_name):
 
 ### Run
 #Alameda
-# connection = create_connection(database)
-# delete_table(connection, "alameda")
-# dataset = read_dataset(url, "Crown 2001 Shoreline Dr.")
-# create_table("alameda", connection)
-# update_sql_table(dataset, "alameda", connection)
+connection = create_connection(database)
+delete_table(connection, "alameda")
+dataset = read_dataset(url_alameda, "Crown 2001 Shoreline Dr.")
+create_table("alameda", connection)
+update_sql_table(dataset, "alameda", connection)
 # write_csv(filename, dataset)
 
 #SF Aquatic Park
-connection = create_connection(database)
+# connection = create_connection(database)
 delete_table(connection, "aquatic_park_sf")
 dataset = read_dataset(url_aquatic_park_sf, "Aquatic Park")
 create_table("aquatic_park_sf", connection)
