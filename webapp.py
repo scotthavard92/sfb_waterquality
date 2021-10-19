@@ -1,10 +1,12 @@
 import sqlite3
+
+from datetime import datetime, timedelta
 from flask import g
 from flask import Flask
 from flask import render_template
 
 ### Local Testing
-# DATABASE = '/Users/scotthavard/desktop/sfb_waterquality/db.db'
+# DATABASE = '/Users/scotthavard/desktop/sfswiminfo/sfb_waterquality/db.db'
 
 ### Hosting Service 
 DATABASE = '/home/scotthavard92/sf_swim/sfb_waterquality/db.db'
@@ -104,6 +106,33 @@ def get_ap_ecoli_data():
 
 	return ret_object
 
+def get_ob_coliform_total_data():
+	sql = '''SELECT DISTINCT * FROM ocean_beach_sf_18 WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 1; '''
+	result = query_db(sql)
+	data = result[0]
+
+	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+
+	return ret_object
+
+def get_ob_enterococcus_data():
+	sql = '''SELECT DISTINCT * FROM ocean_beach_sf_18 WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 1; '''
+	result = query_db(sql)
+	data = result[0]
+
+	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+
+	return ret_object
+
+def get_ob_ecoli_data():
+	sql = '''SELECT DISTINCT * FROM ocean_beach_sf_18 WHERE analyte LIKE "E. Coli" ORDER BY sample_date DESC LIMIT 1; '''
+	result = query_db(sql)
+	data = result[0]
+
+	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+
+	return ret_object
+
 def clean_string_data(result_string):
 	result_string_v = str(result_string)
 	cleaned = result_string_v.split(" ", 1)[0]
@@ -126,24 +155,52 @@ def check_ecoli_safety(result_object_val):
 
 	return True
 
+def check_data_age(result_object_val):
+	measurement_date = datetime.strptime(result_object_val, '%Y-%m-%dT%H:%M:%S')
+	current_date = datetime.now()
+
+	if (measurement_date > (datetime.now() - timedelta(days=3))):
+		return 1
+	elif (measurement_date > (datetime.now() - timedelta(days=7))):
+		return 2
+	else:
+		return 3
+
 @app.route("/")
 def run_app():
+	#All sites unsafe unless measurements say otherwise
 	alameda_safe = False
 	sf_aquatic_park_safe = False
+	ob_safe = False
 
+	#Alameda
 	alameda_ent_obj = get_alameda_enterococcus_data()
 	alameda_col_tot_obj = get_alameda_coliform_total_data()
 	alameda_col_fec_obj = get_alameda_coliform_fecal_data()
 
+	alameda_safe = check_ent_safety(alameda_ent_obj.result)
+	alameda_data_age = check_data_age(alameda_ent_obj.sample_date)
+
+	#Aquatic Park
 	ap_ent_obj = get_ap_enterococcus_data()
 	ap_col_tot_obj = get_ap_coliform_total_data()
 	ap_ecoli_obj = get_ap_ecoli_data()
 
-	alameda_safe = check_ent_safety(alameda_ent_obj.result)
 	if (check_ent_safety(ap_ent_obj.result) and check_ecoli_safety(ap_ecoli_obj.result)):
 		sf_aquatic_park_safe = True
+	ap_data_age = check_data_age(ap_ent_obj.sample_date)
+
+	#Ocean Beach
+	ob_ent_obj = get_ob_enterococcus_data()
+	ob_col_tot_obj = get_ob_coliform_total_data()
+	ob_ecoli_obj = get_ob_ecoli_data()
+
+	ob_safe = check_ent_safety(ob_ent_obj.result)
+	ob_data_age = check_data_age(ob_ent_obj.sample_date)
 
 	return render_template('homepage.html',\
+	##Alameda##
+	###########
 	al_ent_stat_code=alameda_ent_obj.station_code,\
 	al_ent_sample_date=alameda_ent_obj.sample_date,\
 	al_ent_analyte=alameda_ent_obj.analyte,\
@@ -159,6 +216,8 @@ def run_app():
 	al_col_f_analyte=alameda_col_fec_obj.analyte,\
 	al_col_f_result=alameda_col_fec_obj.result,\
 	al_col_f_unit=alameda_col_fec_obj.unit,\
+	##Aquatic Park##
+	################
 	ap_col_t_stat_code=ap_col_tot_obj.station_code,\
 	ap_col_t_sample_date=ap_col_tot_obj.sample_date,\
 	ap_col_t_analyte=ap_col_tot_obj.analyte,\
@@ -174,8 +233,26 @@ def run_app():
 	ap_ecoli_analyte=ap_ecoli_obj.analyte,\
 	ap_ecoli_result=ap_ecoli_obj.result,\
 	ap_ecoli_unit=ap_ecoli_obj.unit,\
+	##Ocean Beach##
+	###############
+	ob_col_t_stat_code=ob_col_tot_obj.station_code,\
+	ob_col_t_sample_date=ob_col_tot_obj.sample_date,\
+	ob_col_t_analyte=ob_col_tot_obj.analyte,\
+	ob_col_t_result=ob_col_tot_obj.result,\
+	ob_col_t_unit=ob_col_tot_obj.unit,\
+	ob_ent_stat_code=ob_col_tot_obj.station_code,\
+	ob_ent_sample_date=ob_ent_obj.sample_date,\
+	ob_ent_analyte=ob_ent_obj.analyte,\
+	ob_ent_result=ob_ent_obj.result,\
+	ob_ent_unit=ob_ent_obj.unit,\
+	##Safe Results##
+	################
 	sf_aquatic_park_safe=sf_aquatic_park_safe,\
-	alameda_safe=alameda_safe)
+	ap_data_age=ap_data_age,\
+	alameda_safe=alameda_safe,\
+	alameda_data_age=alameda_data_age,\
+	ob_safe=ob_safe,\
+	ob_data_age=ob_data_age)
 
 if __name__ == '__main__':
     app.run()

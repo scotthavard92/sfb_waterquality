@@ -6,10 +6,11 @@ from sqlite3 import Error
 
 url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=alameda'
 url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=aquatic+park'
+url_ocean_beach_18 = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=ocean+beach+san+francisco+18'
 filename = 'water_output_alameda.csv'
 
 #local database
-# database = '/Users/scotthavard/desktop/sfb_waterquality/db.db'
+# database = '/Users/scotthavard/desktop/sfswiminfo/sfb_waterquality/db.db'
 
 #hosting database
 database = '/home/scotthavard92/sf_swim/sfb_waterquality/db.db'
@@ -144,3 +145,10 @@ delete_table(connection, "aquatic_park_sf")
 dataset = read_dataset(url_aquatic_park_sf, "Aquatic Park")
 create_table("aquatic_park_sf", connection)
 update_sql_table(dataset, "aquatic_park_sf", connection)
+
+#SF Ocean Beach
+# connection = create_connection(database)
+delete_table(connection, "ocean_beach_sf_18")
+dataset = read_dataset(url_ocean_beach_18, "OCEAN#18_SL")
+create_table("ocean_beach_sf_18", connection)
+update_sql_table(dataset, "ocean_beach_sf_18", connection)

@@ -1,5 +1,6 @@
 body {
 	background-color: #B3DFCB;
+	/*background: linear-gradient(160deg, #B3DFCB 60%, #236E2F 60%);*/
 }
 
 h1 {
@@ -73,9 +74,10 @@ footer {
 #results {
 	width: 35%;
 	float: left;
+	padding-top: 1px;
 }
 
-.result-summary{
+.result-summary-1{
 	font-size: 36px;
 }
 
@@ -84,7 +86,7 @@ footer {
 }
 
 #overview {
-	padding-top: 10px;
+	padding-top: 2px;
 	margin-left: 37%;
 	width: 60%;
 }
