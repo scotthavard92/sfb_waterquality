@@ -87,6 +87,7 @@ footer {
 
 .result-summary-1{
 	font-size: 36px;
+	padding-right: 7px;
 }
 
 #info{
@@ -137,6 +138,31 @@ footer {
 #footer-love {
 	text-align: center;
 	font-family: Helvetica;
+}
+
+#swimbug {
+	height: 300px;
+	text-align: center;
+	line-height: 0px;
+	margin-top: 5px;
+}
+
+#swimbug img{
+	height: 100%;
+	width: auto;
+}
+
+#tides {
+/*	display:flex;
+    flex-wrap: wrap;*/
+}
+
+#weather {
+
+}
+
+#ts_widget_34106159032346718f660a87632f8b02 {
+	width:80% !important;
 }
 
 .highlightit img{

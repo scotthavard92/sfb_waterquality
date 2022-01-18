@@ -14,6 +14,8 @@
   <link rel="manifest" href="{{ url_for('static', filename='favicon_io/site.webmanifest') }}">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js"></script>
   <script type="text/javascript">
 (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
 for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
@@ -30,69 +32,29 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
   <div id="body-content">
     <div id="results">
       <div class="bubble">
-        <h2>Active Alerts</h2>
+        <h2>Active Water Quality Alerts</h2>
         {% include 'alerts.html' %}
       </div>
       <div class="bubble">
         <div class="location-content">
-        <h2>Alameda</h2>
+        <h2>Alameda - Recent Water Quality</h2>
         <div class="result-summary-1">
-          {% if alameda_safe == True %}
-          <p> &#x1F3CA; + &#x1F4A7; = &#x1F44D; </p>
-          {% else %}
-          <p> &#x1F3CA; + &#x1F4A7; = &#x1F44E; </p>
-          {% endif %}
+          <canvas id="chart-alameda"></canvas>
        </div>
-       <div class="result-summary-2">
-          {% if alameda_data_age == 1 %}
-          <p> Measurement Age:  &#x2705; </p>
-          {% elif alameda_data_age == 2 %}
-          <p> Measurement Age:  &#x1F536; </p>
-          {% else %}
-          <p> Measurement Age:  &#x1F534; </p>
-          {% endif %}
-        </div>
         <button type="button" id="collapse-1" aria-expanded="false">Measurement Details</button>
           <div id="expand-1" hidden="">
           	<p>Location:</p>
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.3637510733533!2d-122.2614236490818!3d37.75806822079424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f86b167e16e0d%3A0x1a1e5e44836f21cc!2s2001%20Shore%20Line%20Dr%2C%20Alameda%2C%20CA%2094501!5e0!3m2!1sen!2sus!4v1625697557182!5m2!1sen!2sus" width="75%" height="90%" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <p>Analyte: {{al_ent_analyte}}</p>
-            <p>Result: {{al_ent_result}} {{al_ent_unit}}</p>
-            <p>Sample Location: {{al_ent_stat_code}}</p>
-            <p>Sample Date: {{al_ent_sample_date}}</p>
-            <hr width="100">
-            <p>Analyte: {{al_col_t_analyte}}</p>
-            <p>Result: {{al_col_t_result}} {{al_col_t_unit}}</p>
-            <p>Sample Location: {{al_col_t_stat_code}}</p>
-            <p>Sample Date: {{al_col_t_sample_date}}</p>
-            <hr width="100">
-            <p>Analyte: {{al_col_f_analyte}}</p>
-            <p>Result: {{al_col_f_result}} {{al_col_f_unit}}</p>
-            <p>Sample Location: {{al_col_f_stat_code}}</p>
-            <p>Sample Date: {{al_col_f_sample_date}}</p>
           </div>
         </div>
       </div>
       <div class="bubble">
         <div class="location-content">
-        <h2>Aquatic Park - SF</h2>
+        <h2>Aquatic Park - Recent Water Quality</h2>
         <div class="result-summary-1">
-          {% if sf_aquatic_park_safe == True %}
-          <p> &#x1F3CA; + &#x1F4A7; = &#x1F44D; </p>
-          {% else %}
-          <p> &#x1F3CA; + &#x1F4A7; = &#x1F44E; </p>
-          {% endif %}
-        </div>
-        <div class="result-summary-2">
-          {% if ap_data_age == 1 %}
-          <p> Measurement Age:  &#x2705; </p>
-          {% elif ap_data_age == 2 %}
-          <p> Measurement Age:  &#x1F536; </p>
-          {% else %}
-          <p> Measurement Age:  &#x1F534; </p>
-          {% endif %}
+          <canvas id="chart-sf-ap"></canvas>
         </div>
         <button type="button" id="collapse-2" aria-expanded="false">Measurement Details</button>
           <div id="expand-2" hidden="">
@@ -100,41 +62,14 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12609.209496231953!2d-122.4235308!3d37.8063859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cec836886978844!2sAquatic%20Park!5e0!3m2!1sen!2sus!4v1625800235047!5m2!1sen!2sus" width="75%" height="90%" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <p>Analyte: {{ap_col_t_analyte}}</p>
-            <p>Result: {{ap_col_t_result}} {{ap_col_t_unit}}</p>
-            <p>Sample Location: {{ap_col_t_stat_code}}</p>
-            <p>Sample Date: {{ap_col_t_sample_date}}</p>
-            <hr width="100">
-            <p>Analyte: {{ap_ent_analyte}}</p>
-            <p>Result: {{ap_ent_result}} {{ap_ent_unit}}</p>
-            <p>Sample Location: {{ap_ent_stat_code}}</p>
-            <p>Sample Date: {{ap_ent_sample_date}}</p>
-            <hr width="100">
-            <p>Analyte: {{ap_ecoli_analyte}}</p>
-            <p>Result: {{ap_ecoli_result}} {{ap_ecoli_unit}}</p>
-            <p>Sample Location: {{ap_ecoli_stat_code}}</p>
-            <p>Sample Date: {{ap_ecoli_sample_date}}</p>
           </div>
         </div>
       </div>
       <div class="bubble">
         <div class="location-content">
-        <h2>Ocean Beach - SF</h2>
+        <h2>Ocean Beach - Recent Water Quality</h2>
         <div class="result-summary-1">
-          {% if ob_safe == True %}
-          <p> &#x1F3C4; + &#x1F4A7; = &#x1F44D; </p>
-          {% else %}
-          <p> &#x1F3CA; + &#x1F4A7; = &#x1F44E; </p>
-          {% endif %}
-        </div>
-        <div class="result-summary-2">
-          {% if ob_data_age == 1 %}
-          <p> Measurement Age:  &#x2705; </p>
-          {% elif ob_data_age == 2 %}
-          <p> Measurement Age:  &#x1F536; </p>
-          {% else %}
-          <p> Measurement Age:  &#x1F534; </p>
-          {% endif %}
+          <canvas id="chart-sf-ob"></canvas>
         </div>
         <button type="button" id="collapse-3" aria-expanded="false">Measurement Details</button>
           <div id="expand-3" hidden="">
@@ -142,15 +77,6 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12616.820122056492!2d-122.5204378001439!3d37.76179042270467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085879469edc663%3A0x8a1e788f0b2d67fc!2sOcean%20Beach!5e0!3m2!1sen!2sus!4v1634260869384!5m2!1sen!2sus" width="75%" height="90%" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <p>Analyte: {{ob_ent_analyte}}</p>
-            <p>Result: {{ob_ent_result}} {{ob_ent_unit}}</p>
-            <p>Sample Location: {{ob_ent_stat_code}}</p>
-            <p>Sample Date: {{ob_ent_sample_date}}</p>
-            <hr width="100">
-            <p>Analyte: {{ob_col_t_analyte}}</p>
-            <p>Result: {{ob_col_t_result}} {{ob_col_t_unit}}</p>
-            <p>Sample Location: {{ob_col_t_stat_code}}</p>
-            <p>Sample Date: {{ob_col_t_sample_date}}</p>
           </div>
         </div>
       </div>
@@ -158,21 +84,27 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     <div id="overview">
       <div class="bubble">
         <div id="info">
-          <h2>How to Use This Page</h2>
-          <p><i>... with a grain of salt! </i></p>
-          <p> Monitoring water quality requires many inputs. This site analyzes data from California's open databases,
-          compares against the Environmental Protection Agency's recommended bacteria limits, and presents either a &#x1F44D; or &#x1F44E;. </p>
-          <h3> The Binary Emoji Scale </h3>
-          <p> The &#x1F44D; is currently given if the Enterococcus measurements are less than 60 cfu/ml or 60 MPN/ml, and the E. Coli amounts are less than 190 cfu/ml or 190 MPN/ml. If the most recent sample measurement is above any threshold, then it is given a &#x1F44E;.
+          <div id="swimbug">
+            <img src="{{url_for('static', filename='swimbug_blank.png')}}"/>
+          </div>
+          <h2>About This Page</h2>
+          <p> sfbayswim.info presents water quality data from California's open databases, surfaces active water quality advisories, and shares extra information regarding the San Francisco Bay. Use this website to gain quick insight into conditions before heading out to enjoy the beautiful bay. 
+          </p>
+          <h3> Tide and Weather </h3>
+          <div id="tides">
+          <script src="https://www.tidespro.com/scripts/34106159032346718f660a87632f8b02/tidechart/us/california/san-francisco-san-francisco-bay"></script>
+          </div>
+          <div id="weather">
+            <div id="ww_140e18" v='1.20' loc='id' a='{"t":"responsive","lang":"en","ids":["wl3935"],"cl_bkg":"#FFFFFF","cl_font":"#000000","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_tof":"5","sl_sot":"fahrenheit","sl_ics":"one_a","font":"Arial","cl_odd":"#0000000a"}'><a href="https://weatherwidget.org/" id="ww_140e18_u" target="_blank">Weather widget for website by Weatherwidget.org</a></div><script async src="https://srv2.weatherwidget.org/js/?id=ww_140e18"></script>
+          </div>
           <h3> Check the Details </h3>
-          <p> Click <b>Measurement Details</b> to see the raw data. This includes the analyte, the result amount from the sample, the location of the sample, and the date that the sample was taken.
+          <p>Use the water quality charts to understand recent trends. Rely on active alerts provided by the reporting agencies to gauge real-time water quality.
           <h3> Carefully Consider </h3>
           <p> There are <b>many</b> factors to consider when looking at the data. Some important ones include the date the sample was taken, the location of the sample, and what analytes the sample detects. </p>
           <ul>
-            <li>&#x1F4C5; <b>Sample Date</b> - Agencies do not pull samples daily. Realize that the data can be old. For a quick check, look at "Measurement Age". &#x1F534; means the data is older than 7 days. &#x1F536; means the data is between 3 and 7 days old. &#x2705; means the measurement occured within the last 3 days. </li>
-            <li>&#x1F30D; <b>Location</b> - Water quality can vary greatly in close areas. While one area's water quality can match the quality in a neighboring area,
-            it is also possible that they aren't the same. </li>
-            <li>&#x1F9A0; <b>Analytes</b> - There are many microorganisms and pollutants in the water. Many can make you ill. The emoji scale only looks at E. Coli and Enterococcus. The measurement details also have Fecal Coliform measurements. </li>
+            <li>&#x1F4C5; <b>Sample Date</b> - Agencies do not pull samples daily. Realize that the data can be old. </li>
+            <li>&#x1F30D; <b>Location</b> - Water quality can vary greatly in close areas. While one area's water quality can match the quality in a neighboring area, it is also possible that they aren't the same. </li>
+            <li>&#x1F9A0; <b>Analytes</b> - There are many microorganisms and pollutants in the water. Many can make you ill. The charts only looks at E. Coli, Enterococcus, and Coliforms. </li>
           </ul>
           <h3> Helpful + Cool Links </h3>
           <ul>
@@ -217,6 +149,205 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     </div>
   </footer>
 </body>
+
+{% block javascript %}
+  <script>
+  alameda_data = JSON.parse({{ alameda_chart_object | tojson }})
+  alameda_date_data = {{ alameda_date_range | safe }}
+  for (var i = 0; i < alameda_date_data.length; i++) { alameda_date_data[i].replace(/'/g, '"'); }
+
+  sf_ap_data = JSON.parse({{ sf_ap_chart_object | tojson }})
+  sf_ap_date_data = {{ sf_ap_date_range | safe }}
+  for (var i = 0; i < sf_ap_date_data.length; i++) { sf_ap_date_data[i].replace(/'/g, '"'); }
+
+  sf_ob_data = JSON.parse({{ sf_ob_chart_object | tojson }})
+  sf_ob_date_data = {{ sf_ob_date_range | safe }}
+  for (var i = 0; i < sf_ob_date_data.length; i++) { sf_ob_date_data[i].replace(/'/g, '"'); }
+
+  function makeAlamedaChart(measurements, dates) {
+    var chart = new Chart('chart-alameda', {
+      type: "line",
+      options: {
+        elements: {
+          line: {
+              tension: 0
+          }
+        },
+        plugins: {
+          legend: {
+            position: 'top',
+          },
+        },
+        scales: {
+          xAxes: [{
+              type: 'time',
+              afterTickToLabelConversion: function(data){
+                var xLabels = data.ticks;
+                xLabels.forEach(function (labels, i) {
+                    if (i % 2 == 1){
+                        xLabels[i] = '';
+                    }
+                });
+              }, 
+              ticks: {
+                maxTicksLimit: 10
+              },
+              time: {
+                unit: 'day',
+                displayFormats: {
+                  day: 'YYYY-MM-DD'
+                }
+              }
+          }]
+        }
+      },
+      data: {
+        labels: dates,
+        datasets: [
+          {
+            fill: false,
+            label: 'Coliform, Fecal (cfu/100mL)',
+            data: alameda_data.alameda_fecal_coli,
+            backgroundColor: 'rgb(54, 162, 235)',
+            borderColor: 'rgb(54, 162, 235)',
+          },
+          {
+            fill: false,
+            label: 'Enterococcus (cfu/100mL)',
+            data: alameda_data.alameda_enterococcus,
+            backgroundColor: 'rgb(64, 196, 16)',
+            borderColor: 'rgb(64, 196, 16)',
+          },
+        ]
+      }
+    });
+  }
+
+  function makeSFAPChart(measurements, dates) {
+    var chart = new Chart('chart-sf-ap', {
+      type: "line",
+      options: {
+        elements: {
+          line: {
+              tension: 0
+          }
+        },
+        plugins: {
+          legend: {
+            position: 'top',
+          },
+        },
+        scales: {
+          xAxes: [{
+              type: 'time',
+              afterTickToLabelConversion: function(data){
+                    var xLabels = data.ticks;
+                    xLabels.forEach(function (labels, i) {
+                        if (i % 2 == 1){
+                            xLabels[i] = '';
+                        }
+                    });
+              }, 
+              time: {
+                unit: 'day',
+                displayFormats: {
+                  day: 'YYYY-MM-DD'
+                }
+              }
+          }]
+        }
+      },
+      data: {
+        labels: dates,
+        datasets: [
+          {
+            fill: false,
+            label: 'Coliform, Total (MPN/100mL)',
+            data: sf_ap_data.ap_total_coli,
+            backgroundColor: 'rgb(54, 162, 235)',
+            borderColor: 'rgb(54, 162, 235)',
+          },
+          {
+            fill: false,
+            label: 'Enterococcus (MPN/100mL)',
+            data: sf_ap_data.ap_enterococcus,
+            backgroundColor: 'rgb(64, 196, 16)',
+            borderColor: 'rgb(64, 196, 16)',
+          },
+          {
+            fill: false,
+            label: 'E. Coli (MPN/100mL)',
+            data: sf_ap_data.ap_ecoli,
+            backgroundColor: 'rgb(255, 79, 66)',
+            borderColor: 'rgb(255, 79, 66)',
+          },
+        ]
+      }
+    });
+  }
+
+  function makeSFOBChart(measurements, dates) {
+    var chart = new Chart('chart-sf-ob', {
+      type: "line",
+      options: {
+        elements: {
+          line: {
+              tension: 0
+          }
+        },
+        plugins: {
+          legend: {
+            position: 'top',
+          },
+        },
+        scales: {
+          xAxes: [{
+              type: 'time',
+              afterTickToLabelConversion: function(data){
+                var xLabels = data.ticks;
+                xLabels.forEach(function (labels, i) {
+                    if (i % 2 == 1){
+                        xLabels[i] = '';
+                    }
+                });
+              }, 
+              time: {
+                unit: 'day',
+                displayFormats: {
+                  day: 'YYYY-MM-DD'
+                }
+              }
+          }]
+        }
+      },
+      data: {
+        labels: dates,
+        datasets: [
+          {
+            fill: false,
+            label: 'Coliform, Total (MPN/100mL)',
+            data: sf_ob_data.ob_total_coli,
+            backgroundColor: 'rgb(54, 162, 235)',
+            borderColor: 'rgb(54, 162, 235)',
+          },
+          {
+            fill: false,
+            label: 'Enterococcus (cfu/100mL)',
+            data: sf_ob_data.ob_enterococcus,
+            backgroundColor: 'rgb(64, 196, 16)',
+            borderColor: 'rgb(64, 196, 16)',
+          }
+        ]
+      }
+    });
+  }
+
+  makeAlamedaChart(alameda_data, alameda_date_data);
+  makeSFAPChart(sf_ap_data, sf_ap_date_data);
+  makeSFOBChart(sf_ob_data, sf_ob_date_data)
+
+</script>
+{% endblock %}
 
 <script>
 (function () {
@@ -316,5 +447,4 @@ function expandBottom($button1, $button2, $button3, $expand1, $expand2, $expand3
   $button1.attr('aria-expanded', false)
   $expand1.attr('hidden', true)
 }
-
 </script>

@@ -1,3 +1,4 @@
+import json
 import sqlite3
 
 from datetime import datetime, timedelta
@@ -6,20 +7,17 @@ from flask import Flask
 from flask import render_template
 
 ### Local Testing
-# DATABASE = '/Users/scotthavard/desktop/sfswiminfo/sfb_waterquality/db.db'
+# DATABASE = '/Users/scotthavard/desktop/test_flask_app/db.db'
 
 ### Hosting Service 
 DATABASE = '/home/scotthavard92/sf_swim/sfb_waterquality/db.db'
 
-class location_data_point:
-    def __init__(self, station_code, sample_date, analyte, result, unit): 
-	    self.station_code = station_code 
-	    self.sample_date = sample_date
-	    self.analyte = analyte
-	    self.result = result
-	    self.unit = unit
-
 app = Flask(__name__)
+
+class chart_data_point:
+    def __init__(self, x, y): 
+	    self.x = x 
+	    self.y = y
 
 def get_db():
     db = getattr(g, '_database', None)
@@ -43,217 +41,135 @@ def format_result(result):
 	res = str(result[0])
 	return res
 
-def get_alameda_enterococcus_data():
-	sql = '''SELECT DISTINCT * FROM alameda WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
+def get_alameda_chart_data():
+	sql_fecal_coli = '''SELECT DISTINCT sample_date, result FROM alameda WHERE analyte LIKE "Coliform, Fecal" ORDER BY sample_date DESC LIMIT 5; '''
+	result_fc = query_db(sql_fecal_coli)
 
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+	fecal_coli_array = format_chart_data(result_fc)
 
-	return ret_object
+	sql_entero = '''SELECT DISTINCT sample_date, result FROM alameda WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 5; '''
+	result_entero = query_db(sql_entero)
 
-def get_alameda_coliform_total_data():
-	sql = '''SELECT DISTINCT * FROM alameda WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
+	entero_array = format_chart_data(result_entero)
 
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+	return chart_data_json("alameda_fecal_coli", "alameda_enterococcus", None, fecal_coli_array, entero_array, None, 2), \
+		chart_data_object("alameda_fecal_coli", "alameda_enterococcus", None, fecal_coli_array, entero_array, None, 2)	
 
-	return ret_object
+def get_sf_ap_chart_data():
+	sql_total_coli = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 5; '''
+	result_tc = query_db(sql_total_coli)
 
-def get_alameda_coliform_total_data():
-	sql = '''SELECT DISTINCT * FROM alameda WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
+	total_coli_array = format_chart_data(result_tc)
 
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+	sql_entero = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 5; '''
+	result_entero = query_db(sql_entero)
 
-	return ret_object
+	entero_array = format_chart_data(result_entero)
 
-def get_alameda_coliform_fecal_data():
-	sql = '''SELECT DISTINCT * FROM alameda WHERE analyte LIKE "Coliform, Fecal" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
+	sql_ecoli = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "E. Coli" ORDER BY sample_date DESC LIMIT 5; '''
+	result_ecoli = query_db(sql_ecoli)
 
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+	ecoli_array = format_chart_data(result_ecoli)
 
-	return ret_object
+	return chart_data_json("ap_total_coli", "ap_enterococcus", "ap_ecoli", total_coli_array, entero_array, ecoli_array, 3), \
+		chart_data_object("ap_total_coli", "ap_enterococcus", "ap_ecoli", total_coli_array, entero_array, ecoli_array, 3)
 
-def get_ap_coliform_total_data():
-	sql = '''SELECT DISTINCT * FROM aquatic_park_sf WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
+def get_sf_ob_chart_data():
+	sql_total_coli = '''SELECT DISTINCT sample_date, result FROM ocean_beach_sf_18 WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 5; '''
+	result_tc = query_db(sql_total_coli)
 
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+	total_coli_array = format_chart_data(result_tc)
 
-	return ret_object
+	sql_entero = '''SELECT DISTINCT sample_date, result FROM ocean_beach_sf_18 WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 5; '''
+	result_entero = query_db(sql_entero)
 
-def get_ap_enterococcus_data():
-	sql = '''SELECT DISTINCT * FROM aquatic_park_sf WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
+	entero_array = format_chart_data(result_entero)
 
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+	return chart_data_json("ob_total_coli", "ob_enterococcus", None, total_coli_array, entero_array, None, 2), \
+		chart_data_object("ob_total_coli", "ob_enterococcus", None, total_coli_array, entero_array, None, 2)	
 
-	return ret_object
+def format_chart_data(query_results):
+	data_points = []
+	for r in query_results:
+		data_object = chart_data_point(r[0].replace("T00:00:00", ""), r[1])
+		data_points.append(data_object.__dict__)
 
-def get_ap_ecoli_data():
-	sql = '''SELECT DISTINCT * FROM aquatic_park_sf WHERE analyte LIKE "E. Coli" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
+	return_array = reverse_array(data_points)
 
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
+	return return_array
 
-	return ret_object
-
-def get_ob_coliform_total_data():
-	sql = '''SELECT DISTINCT * FROM ocean_beach_sf_18 WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
-
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
-
-	return ret_object
-
-def get_ob_enterococcus_data():
-	sql = '''SELECT DISTINCT * FROM ocean_beach_sf_18 WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
-
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
-
-	return ret_object
-
-def get_ob_ecoli_data():
-	sql = '''SELECT DISTINCT * FROM ocean_beach_sf_18 WHERE analyte LIKE "E. Coli" ORDER BY sample_date DESC LIMIT 1; '''
-	result = query_db(sql)
-	data = result[0]
-
-	ret_object = location_data_point(data[1], data[2], data[3], data[4], data[5])
-
-	return ret_object
-
-def clean_string_data(result_string):
-	result_string_v = str(result_string)
-	cleaned = result_string_v.split(" ", 1)[0]
-
-	return int(cleaned)
-
-def check_ent_safety(result_object_val):
-	value = clean_string_data(result_object_val)
-
-	if (value > 60):
-		return False
-
-	return True
-
-def check_ecoli_safety(result_object_val):
-	value = clean_string_data(result_object_val)
-
-	if (value > 190):
-		return False
-
-	return True
-
-def check_data_age(result_object_val):
-	measurement_date = datetime.strptime(result_object_val, '%Y-%m-%dT%H:%M:%S')
-	current_date = datetime.now()
-
-	if (measurement_date > (datetime.now() - timedelta(days=3))):
-		return 1
-	elif (measurement_date > (datetime.now() - timedelta(days=7))):
-		return 2
+def chart_data_object(key1, key2, key3, array1, array2, array3, bact_num):
+	if bact_num == 3:
+		ret_object = {key1 : array1, key2 : array2, key3 : array3}
+	elif bact_num == 2:
+		ret_object = {key1 : array1, key2 : array2}
 	else:
-		return 3
+		ret_object = None
+	
+	return ret_object
+
+def chart_data_json(key1, key2, key3, array1, array2, array3, bact_num):
+	if bact_num == 3: 
+		ret_object = {key1 : array1, key2 : array2, key3 : array3}
+		ret_json = json.dumps(ret_object, ensure_ascii=False)
+	elif bact_num == 2:
+		ret_object = {key1 : array1, key2 : array2}
+		ret_json = json.dumps(ret_object, ensure_ascii=False)
+	else:
+		ret_json = None
+	
+
+	return ret_json
+
+def reverse_array(array):
+	reversed_array = array[::-1]
+	return reversed_array
+
+def min_max_date(chart_obj):
+	dates = []
+
+	for item in chart_obj.values():
+		for obj in item:
+			for key, value in obj.items():
+				if key == 'x':
+					dates.append(datetime.strptime(value, '%Y-%m-%d'))				
+
+	min_date = min(dates)
+	max_date = max(dates)
+
+	return min_date, max_date
+
+def get_date_range(min_date, max_date):
+	dates = []
+	delta = max_date - min_date
+
+	for i in range(delta.days + 1):
+		day = min_date + timedelta(days=i)
+		dates.append(datetime.strftime(day, '%Y-%m-%d'))
+
+	return dates
 
 @app.route("/")
 def run_app():
-	#All sites unsafe unless measurements say otherwise
-	alameda_safe = False
-	sf_aquatic_park_safe = False
-	ob_safe = False
+	alameda_chart_json, alameda_chart_object = get_alameda_chart_data()
+	alameda_min_date, alameda_max_date = min_max_date(alameda_chart_object)
+	alameda_date_range = get_date_range(alameda_min_date, alameda_max_date)
 
-	#Alameda
-	alameda_ent_obj = get_alameda_enterococcus_data()
-	alameda_col_tot_obj = get_alameda_coliform_total_data()
-	alameda_col_fec_obj = get_alameda_coliform_fecal_data()
+	sf_ap_chart_json, sf_ap_chart_object = get_sf_ap_chart_data()
+	sf_ap_min_date, sf_ap_max_date = min_max_date(sf_ap_chart_object)
+	sf_ap_date_range = get_date_range(sf_ap_min_date, sf_ap_max_date)
 
-	alameda_safe = check_ent_safety(alameda_ent_obj.result)
-	alameda_data_age = check_data_age(alameda_ent_obj.sample_date)
-
-	#Aquatic Park
-	ap_ent_obj = get_ap_enterococcus_data()
-	ap_col_tot_obj = get_ap_coliform_total_data()
-	ap_ecoli_obj = get_ap_ecoli_data()
-
-	if (check_ent_safety(ap_ent_obj.result) and check_ecoli_safety(ap_ecoli_obj.result)):
-		sf_aquatic_park_safe = True
-	ap_data_age = check_data_age(ap_ent_obj.sample_date)
-
-	#Ocean Beach
-	ob_ent_obj = get_ob_enterococcus_data()
-	ob_col_tot_obj = get_ob_coliform_total_data()
-	ob_ecoli_obj = get_ob_ecoli_data()
-
-	ob_safe = check_ent_safety(ob_ent_obj.result)
-	ob_data_age = check_data_age(ob_ent_obj.sample_date)
+	sf_ob_chart_json, sf_ob_chart_object = get_sf_ob_chart_data()
+	sf_ob_min_date, sf_ob_max_date = min_max_date(sf_ob_chart_object)
+	sf_ob_date_range = get_date_range(sf_ob_min_date, sf_ob_max_date)
 
 	return render_template('homepage.html',\
-	##Alameda##
-	###########
-	al_ent_stat_code=alameda_ent_obj.station_code,\
-	al_ent_sample_date=alameda_ent_obj.sample_date,\
-	al_ent_analyte=alameda_ent_obj.analyte,\
-	al_ent_result=alameda_ent_obj.result,\
-	al_ent_unit=alameda_ent_obj.unit,\
-	al_col_t_stat_code=alameda_col_tot_obj.station_code,\
-	al_col_t_sample_date=alameda_col_tot_obj.sample_date,\
-	al_col_t_analyte=alameda_col_tot_obj.analyte,\
-	al_col_t_result=alameda_col_tot_obj.result,\
-	al_col_t_unit=alameda_col_tot_obj.unit,\
-	al_col_f_stat_code=alameda_col_fec_obj.station_code,\
-	al_col_f_sample_date=alameda_col_fec_obj.sample_date,\
-	al_col_f_analyte=alameda_col_fec_obj.analyte,\
-	al_col_f_result=alameda_col_fec_obj.result,\
-	al_col_f_unit=alameda_col_fec_obj.unit,\
-	##Aquatic Park##
-	################
-	ap_col_t_stat_code=ap_col_tot_obj.station_code,\
-	ap_col_t_sample_date=ap_col_tot_obj.sample_date,\
-	ap_col_t_analyte=ap_col_tot_obj.analyte,\
-	ap_col_t_result=ap_col_tot_obj.result,\
-	ap_col_t_unit=ap_col_tot_obj.unit,\
-	ap_ent_stat_code=ap_col_tot_obj.station_code,\
-	ap_ent_sample_date=ap_ent_obj.sample_date,\
-	ap_ent_analyte=ap_ent_obj.analyte,\
-	ap_ent_result=ap_ent_obj.result,\
-	ap_ent_unit=ap_ent_obj.unit,\
-	ap_ecoli_stat_code=ap_col_tot_obj.station_code,\
-	ap_ecoli_sample_date=ap_ecoli_obj.sample_date,\
-	ap_ecoli_analyte=ap_ecoli_obj.analyte,\
-	ap_ecoli_result=ap_ecoli_obj.result,\
-	ap_ecoli_unit=ap_ecoli_obj.unit,\
-	##Ocean Beach##
-	###############
-	ob_col_t_stat_code=ob_col_tot_obj.station_code,\
-	ob_col_t_sample_date=ob_col_tot_obj.sample_date,\
-	ob_col_t_analyte=ob_col_tot_obj.analyte,\
-	ob_col_t_result=ob_col_tot_obj.result,\
-	ob_col_t_unit=ob_col_tot_obj.unit,\
-	ob_ent_stat_code=ob_col_tot_obj.station_code,\
-	ob_ent_sample_date=ob_ent_obj.sample_date,\
-	ob_ent_analyte=ob_ent_obj.analyte,\
-	ob_ent_result=ob_ent_obj.result,\
-	ob_ent_unit=ob_ent_obj.unit,\
-	##Safe Results##
-	################
-	sf_aquatic_park_safe=sf_aquatic_park_safe,\
-	ap_data_age=ap_data_age,\
-	alameda_safe=alameda_safe,\
-	alameda_data_age=alameda_data_age,\
-	ob_safe=ob_safe,\
-	ob_data_age=ob_data_age)
+	alameda_chart_object=alameda_chart_json,\
+	alameda_date_range=alameda_date_range,\
+	sf_ap_chart_object=sf_ap_chart_json,\
+	sf_ap_date_range=sf_ap_date_range,\
+	sf_ob_chart_object=sf_ob_chart_json,\
+	sf_ob_date_range=sf_ob_date_range)
 
 if __name__ == '__main__':
     app.run()
-
