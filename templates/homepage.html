@@ -41,7 +41,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
         <div class="result-summary-1">
           <canvas id="chart-alameda"></canvas>
        </div>
-        <button type="button" id="collapse-1" aria-expanded="false">Measurement Details</button>
+        <button type="button" id="collapse-1" aria-expanded="false">Location Details</button>
           <div id="expand-1" hidden="">
           	<p>Location:</p>
             <div class="map">
@@ -56,7 +56,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
         <div class="result-summary-1">
           <canvas id="chart-sf-ap"></canvas>
         </div>
-        <button type="button" id="collapse-2" aria-expanded="false">Measurement Details</button>
+        <button type="button" id="collapse-2" aria-expanded="false">Location Details</button>
           <div id="expand-2" hidden="">
           	<p>Location:</p>
             <div class="map">
@@ -71,7 +71,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
         <div class="result-summary-1">
           <canvas id="chart-sf-ob"></canvas>
         </div>
-        <button type="button" id="collapse-3" aria-expanded="false">Measurement Details</button>
+        <button type="button" id="collapse-3" aria-expanded="false">Location Details</button>
           <div id="expand-3" hidden="">
           	<p>Location:</p>
             <div class="map">
@@ -184,7 +184,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               afterTickToLabelConversion: function(data){
                 var xLabels = data.ticks;
                 xLabels.forEach(function (labels, i) {
-                    if (i % 2 == 1){
+                    if (i % 3 != 0){
                         xLabels[i] = '';
                     }
                 });
@@ -195,7 +195,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               time: {
                 unit: 'day',
                 displayFormats: {
-                  day: 'YYYY-MM-DD'
+                  day: 'MM-DD'
                 }
               }
           }]
@@ -243,7 +243,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               afterTickToLabelConversion: function(data){
                     var xLabels = data.ticks;
                     xLabels.forEach(function (labels, i) {
-                        if (i % 2 == 1){
+                        if (i % 3 != 0){
                             xLabels[i] = '';
                         }
                     });
@@ -251,7 +251,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               time: {
                 unit: 'day',
                 displayFormats: {
-                  day: 'YYYY-MM-DD'
+                  day: 'MM-DD'
                 }
               }
           }]
@@ -306,7 +306,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               afterTickToLabelConversion: function(data){
                 var xLabels = data.ticks;
                 xLabels.forEach(function (labels, i) {
-                    if (i % 2 == 1){
+                    if (i % 3 != 0){
                         xLabels[i] = '';
                     }
                 });
@@ -314,7 +314,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               time: {
                 unit: 'day',
                 displayFormats: {
-                  day: 'YYYY-MM-DD'
+                  day: 'MM-DD'
                 }
               }
           }]
