@@ -1,5 +1,5 @@
 body {
-	background-color: #B3DFCB;
+	background-color: #DBF5F7;
 	/*background: linear-gradient(160deg, #B3DFCB 60%, #236E2F 60%);*/
 }
 
@@ -74,7 +74,8 @@ footer {
 	padding-bottom: 10px;
 	margin-bottom: 25px;
 	margin-top: 30px;
-	border: 1px solid #8ED3B4;
+	border: 1px solid #DBF5F7;
+	/*border: 1px solid #8ED3B4;*/
 	font-family: Helvetica;
 }
 
