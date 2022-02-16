@@ -32,6 +32,11 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
   <div id="body-content">
     <div id="results">
       <div class="bubble">
+        <h2>Current Conditions (NOAA Data)</h2>
+        <iframe src="https://www.ndbc.noaa.gov/widgets/station_page.php?station=AAMC1" style="border: hidden thin #3366ff; width:250px; height:274px; overflow: hidden;" scrolling="no"></iframe>
+        <iframe src="https://www.ndbc.noaa.gov/widgets/station_page.php?station=FTPC1" style="border: hidden thin #3366ff; width:250px; height:270px; overflow: hidden" scrolling="no"></iframe>
+      </div>
+      <div class="bubble">
         <h2>Active Water Quality Alerts</h2>
         {% include 'alerts.html' %}
       </div>
@@ -65,7 +70,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           </div>
         </div>
       </div>
-      <div class="bubble">
+<!--       <div class="bubble">
         <div class="location-content">
         <h2>Ocean Beach - Recent Water Quality</h2>
         <div class="result-summary-1">
@@ -79,7 +84,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div id="overview">
       <div class="bubble">
@@ -100,7 +105,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           <h3> Check the Details </h3>
           <p>Use the water quality charts to understand recent trends. Rely on active alerts provided by the reporting agencies to gauge real-time water quality.
           <h3> Why Care About Recreating in Dirty Water? </h3>
-          <p>According to the Environmental Protection Agency (EPA), "Swimming at beaches with pollution in the water or in the sand can make you ill". In short, it is important to track water quality in order to make informed decisions about your water recreation. <a href="https://www.epa.gov/beaches/learn-what-affects-human-health-beach#:~:text=The%20most%20common%20illness%20associated,%2C%20diarrhea%2C%20headache%20or%20fever."><b>The EPA has addition information here.</b></a></p>
+          <p>According to the Environmental Protection Agency (EPA), "Swimming at beaches with pollution in the water or in the sand can make you ill". In short, it is important to track water quality in order to make informed decisions about your water recreation. <a href="https://www.epa.gov/beaches/learn-what-affects-human-health-beach#:~:text=The%20most%20common%20illness%20associated,%2C%20diarrhea%2C%20headache%20or%20fever."><b>The EPA has additional information here.</b></a></p>
           <h3> Carefully Consider </h3>
           <p> There are <b>many</b> factors to consider when looking at the data. Some important ones include the date the sample was taken, the location of the sample, and what analytes the sample detects. </p>
           <ul>
