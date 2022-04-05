@@ -7,7 +7,7 @@ from flask import Flask
 from flask import render_template
 
 ### Local Testing
-# DATABASE = '/Users/scotthavard/desktop/test_flask_app/db.db'
+# DATABASE = '/Users/scotthavard/desktop/sfswiminfo/sfb_waterquality/db.db'
 
 ### Hosting Service 
 DATABASE = '/home/scotthavard92/sf_swim/sfb_waterquality/db.db'
