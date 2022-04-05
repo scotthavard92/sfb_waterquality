@@ -4,12 +4,19 @@ import csv
 import sqlite3
 from sqlite3 import Error
 
-url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=alameda'
-url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=aquatic+park'
-url_ocean_beach_18 = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=ocean+beach+san+francisco+18'
+#Cal Gov deprecated old DB
+# url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=alameda'
+# url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=aquatic+park'
+# url_ocean_beach_18 = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=ocean+beach+san+francisco+18'
+
+#New DB
+url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=1987c159-ce07-47c6-8d4f-4483db6e6460&limit=500&q=alameda'
+url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=1987c159-ce07-47c6-8d4f-4483db6e6460&limit=500&q=aquatic+park'
+url_ocean_beach_18 = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=1987c159-ce07-47c6-8d4f-4483db6e6460&limit=500&q=ocean+beach+san+francisco+18'
+
 filename = 'water_output_alameda.csv'
 
-#local database
+# local database
 # database = '/Users/scotthavard/desktop/sfswiminfo/sfb_waterquality/db.db'
 
 #hosting database
