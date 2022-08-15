@@ -72,16 +72,9 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
       </div>
 <!--       <div class="bubble">
         <div class="location-content">
-        <h2>Ocean Beach - Recent Water Quality</h2>
-        <div class="result-summary-1">
-          <canvas id="chart-sf-ob"></canvas>
-        </div>
-        <button type="button" id="collapse-3" aria-expanded="false">Location Details</button>
-          <div id="expand-3" hidden="">
-          	<p>Location:</p>
-            <div class="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12616.820122056492!2d-122.5204378001439!3d37.76179042270467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085879469edc663%3A0x8a1e788f0b2d67fc!2sOcean%20Beach!5e0!3m2!1sen!2sus!4v1634260869384!5m2!1sen!2sus" width="75%" height="90%" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+          <h2>Berkeley Marina Cam</h2>
+          <div class="result-summary-1">
+            <img id="berkeley-cam" src="http://cal-sailing.appspot.com/cam/dock"></img>
           </div>
         </div>
       </div> -->
@@ -132,6 +125,11 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           <div class="social-link">
             <a href="mailto: sfbayswim@gmail.com" class="highlightit">
               <img src="{{url_for('static', filename='gmail.svg')}}"/>
+            </a>
+          </div>
+          <div class="social-link">
+            <a href="https://www.reddit.com/user/sf-bay-safe-to-swim" class="highlightit">
+              <img id="reddit-link" src="{{url_for('static', filename='reddit.svg')}}"/>
             </a>
           </div>
         </div>

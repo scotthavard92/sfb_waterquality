@@ -136,6 +136,11 @@ footer {
 	bottom: 0px;
 }
 
+#reddit-link {
+	width:65px;
+	height:65px;
+}
+
 #footer-love {
 	text-align: center;
 	font-family: Helvetica;
@@ -191,6 +196,11 @@ opacity: 1;
 	width:250px;
 	height:274px;
 	overflow: hidden;
+}
+
+#berkeley-cam {
+	width:80%;
+	height:80%;
 }
 
 a { 
