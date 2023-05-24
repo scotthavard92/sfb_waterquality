@@ -15,7 +15,11 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@^2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@^1"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/2.2.1/chartjs-plugin-annotation.min.js"></script>
   <script type="text/javascript">
 (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
 for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
@@ -48,7 +52,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
        </div>
         <button type="button" id="collapse-1" aria-expanded="false">Location Details</button>
           <div id="expand-1" hidden="">
-          	<p>Location:</p>
+            <p>Location:</p>
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.3637510733533!2d-122.2614236490818!3d37.75806822079424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f86b167e16e0d%3A0x1a1e5e44836f21cc!2s2001%20Shore%20Line%20Dr%2C%20Alameda%2C%20CA%2094501!5e0!3m2!1sen!2sus!4v1625697557182!5m2!1sen!2sus" width="75%" height="90%" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
             </div>
@@ -63,21 +67,13 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
         </div>
         <button type="button" id="collapse-2" aria-expanded="false">Location Details</button>
           <div id="expand-2" hidden="">
-          	<p>Location:</p>
+            <p>Location:</p>
             <div class="map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12609.209496231953!2d-122.4235308!3d37.8063859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cec836886978844!2sAquatic%20Park!5e0!3m2!1sen!2sus!4v1625800235047!5m2!1sen!2sus" width="75%" height="90%" style="border:0.5;" allowfullscreen="" loading="lazy"></iframe>
             </div>
           </div>
         </div>
       </div>
-<!--       <div class="bubble">
-        <div class="location-content">
-          <h2>Berkeley Marina Cam</h2>
-          <div class="result-summary-1">
-            <img id="berkeley-cam" src="http://cal-sailing.appspot.com/cam/dock"></img>
-          </div>
-        </div>
-      </div> -->
     </div>
     <div id="overview">
       <div class="bubble">
@@ -136,21 +132,9 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     </div>
   </div>
   <footer>
-<!--    <div class="social-links">
-      <div class="social-link">
-        <a href="https://twitter.com/sfbaysafetoswim" class="highlightit">
-          <img src="{{url_for('static', filename='twitter.svg')}}" />
-        </a>
-      </div>
-      <div class="social-link">
-        <a href="mailto: sfbayswim@gmail.com" class="highlightit">
-          <img src="{{url_for('static', filename='gmail.svg')}}"/>
-        </a>
-      </div>
-    </div> -->
     <div id="footer-love">
       <p> Made by Scott. Enjoy the Bay!</p>
-      <p> Copyright 2022 </p>
+      <p> Copyright 2023 </p>
     </div>
   </footer>
 </body>
@@ -165,11 +149,9 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
   sf_ap_date_data = {{ sf_ap_date_range | safe }}
   for (var i = 0; i < sf_ap_date_data.length; i++) { sf_ap_date_data[i].replace(/'/g, '"'); }
 
-  sf_ob_data = JSON.parse({{ sf_ob_chart_object | tojson }})
-  sf_ob_date_data = {{ sf_ob_date_range | safe }}
-  for (var i = 0; i < sf_ob_date_data.length; i++) { sf_ob_date_data[i].replace(/'/g, '"'); }
-
   function makeAlamedaChart(measurements, dates) {
+    luxon.Settings.defaultLocale = "en-US";
+
     var chart = new Chart('chart-alameda', {
       type: "line",
       options: {
@@ -182,28 +164,42 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           legend: {
             position: 'top',
           },
+        annotation: {
+          annotations: {
+            label1: {
+              type: 'label',
+              yValue: 214,
+              // backgroundColor: 'rgba(255, 99, 132, 0.25)',
+              color: 'rgb(255, 99, 132)',
+              content: ['- healthy exposure limit -'],
+              font: {
+                size: 12
+              }
+            },
+            line1: {
+              type: 'line',
+              yMin: 200,
+              yMax: 200,
+              borderColor: 'rgb(255, 99, 132)',
+              borderWidth: 1,
+              borderDash: [3,3]
+              }  
+            }
+          }
         },
         scales: {
-          xAxes: [{
+          x: {
               type: 'time',
-              afterTickToLabelConversion: function(data){
-                var xLabels = data.ticks;
-                xLabels.forEach(function (labels, i) {
-                    if (i % 3 != 0){
-                        xLabels[i] = '';
-                    }
-                });
-              }, 
-              ticks: {
-                maxTicksLimit: 10
-              },
               time: {
                 unit: 'day',
                 displayFormats: {
-                  day: 'MM-DD'
+                  day: 'MM-dd'
                 }
-              }
-          }]
+              },
+              ticks: {
+                maxTicksLimit: 10
+              },
+          }
         }
       },
       data: {
@@ -241,25 +237,42 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           legend: {
             position: 'top',
           },
+        annotation: {
+          annotations: {
+            label1: {
+              type: 'label',
+              yValue: 214,
+              // backgroundColor: 'rgba(255, 99, 132, 0.25)',
+              color: 'rgb(255, 99, 132)',
+              content: ['- healthy exposure limit -'],
+              font: {
+                size: 12
+              }
+            },
+            line1: {
+              type: 'line',
+              yMin: 200,
+              yMax: 200,
+              borderColor: 'rgb(255, 99, 132)',
+              borderWidth: 1,
+              borderDash: [3,3]
+              }  
+            }
+          }
         },
         scales: {
-          xAxes: [{
+          x: {
               type: 'time',
-              afterTickToLabelConversion: function(data){
-                    var xLabels = data.ticks;
-                    xLabels.forEach(function (labels, i) {
-                        if (i % 3 != 0){
-                            xLabels[i] = '';
-                        }
-                    });
-              }, 
               time: {
                 unit: 'day',
                 displayFormats: {
-                  day: 'MM-DD'
+                  day: 'MM-dd'
                 }
-              }
-          }]
+              },
+              ticks: {
+                maxTicksLimit: 10
+              },
+          }
         }
       },
       data: {
@@ -268,6 +281,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           {
             fill: false,
             label: 'Coliform, Total (MPN/100mL)',
+            hidden: true,
             data: sf_ap_data.ap_total_coli,
             backgroundColor: 'rgb(54, 162, 235)',
             borderColor: 'rgb(54, 162, 235)',
@@ -291,65 +305,8 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     });
   }
 
-  function makeSFOBChart(measurements, dates) {
-    var chart = new Chart('chart-sf-ob', {
-      type: "line",
-      options: {
-        elements: {
-          line: {
-              tension: 0
-          }
-        },
-        plugins: {
-          legend: {
-            position: 'top',
-          },
-        },
-        scales: {
-          xAxes: [{
-              type: 'time',
-              afterTickToLabelConversion: function(data){
-                var xLabels = data.ticks;
-                xLabels.forEach(function (labels, i) {
-                    if (i % 3 != 0){
-                        xLabels[i] = '';
-                    }
-                });
-              }, 
-              time: {
-                unit: 'day',
-                displayFormats: {
-                  day: 'MM-DD'
-                }
-              }
-          }]
-        }
-      },
-      data: {
-        labels: dates,
-        datasets: [
-          {
-            fill: false,
-            label: 'Coliform, Total (MPN/100mL)',
-            data: sf_ob_data.ob_total_coli,
-            backgroundColor: 'rgb(54, 162, 235)',
-            borderColor: 'rgb(54, 162, 235)',
-          },
-          {
-            fill: false,
-            label: 'Enterococcus (cfu/100mL)',
-            data: sf_ob_data.ob_enterococcus,
-            backgroundColor: 'rgb(64, 196, 16)',
-            borderColor: 'rgb(64, 196, 16)',
-          }
-        ]
-      }
-    });
-  }
-
   makeAlamedaChart(alameda_data, alameda_date_data);
   makeSFAPChart(sf_ap_data, sf_ap_date_data);
-  makeSFOBChart(sf_ob_data, sf_ob_date_data)
 
 </script>
 {% endblock %}
@@ -368,7 +325,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
 
     return $button1.click(() => {
       if ($expand1.attr('hidden') === 'hidden') {
-      	mixpanel.track("Viewed Measurement Details", {"Testing Location": "Crown 2001 Shoreline"})
+        mixpanel.track("Viewed Measurement Details", {"Testing Location": "Crown 2001 Shoreline"})
         return expandTop($button1, $button2, $button3, $expand1, $expand2, $expand3)
       } else {         
         $expand1.attr('hidden', true)
@@ -390,15 +347,15 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     $expand3 = $('#expand-3')
 
 
-	return $button2.click(() => {
-	  if ($expand2.attr('hidden') === 'hidden') {
-	  	mixpanel.track("Viewed Measurement Details", {"Testing Location": "Aquatic Park"})
-	    return expandMiddle($button1, $button2, $button3, $expand1, $expand2, $expand3)
-	  } else {         
-	    $expand2.attr('hidden', true)
-	    return $button2.attr('aria-expanded', false)
-	  }
-	});
+  return $button2.click(() => {
+    if ($expand2.attr('hidden') === 'hidden') {
+      mixpanel.track("Viewed Measurement Details", {"Testing Location": "Aquatic Park"})
+      return expandMiddle($button1, $button2, $button3, $expand1, $expand2, $expand3)
+    } else {         
+      $expand2.attr('hidden', true)
+      return $button2.attr('aria-expanded', false)
+    }
+  });
 
   })
 }.call(this));
@@ -414,14 +371,14 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     $expand3 = $('#expand-3')
 
     return $button3.click(() => {
-	  if ($expand3.attr('hidden') === 'hidden') {
-	  	mixpanel.track("Viewed Measurement Details", {"Testing Location": "Ocean Beach"})
-	    return expandBottom($button1, $button2, $button3, $expand1, $expand2, $expand3)
-	  } else {         
-	    $expand3.attr('hidden', true)
-	    return $button3.attr('aria-expanded', false)
-	  }
-	});
+    if ($expand3.attr('hidden') === 'hidden') {
+      mixpanel.track("Viewed Measurement Details", {"Testing Location": "Ocean Beach"})
+      return expandBottom($button1, $button2, $button3, $expand1, $expand2, $expand3)
+    } else {         
+      $expand3.attr('hidden', true)
+      return $button3.attr('aria-expanded', false)
+    }
+  });
 
   })
 }.call(this));
