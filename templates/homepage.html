@@ -37,8 +37,49 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     <div id="results">
       <div class="bubble">
         <h2>Current Conditions (NOAA Data)</h2>
-        <iframe id="alameda-noaa" src="https://www.ndbc.noaa.gov/widgets/station_page.php?station=AAMC1" scrolling="no"></iframe>
-        <iframe id="sf-noaa" src="https://www.ndbc.noaa.gov/widgets/station_page.php?station=FTPC1" scrolling="no"></iframe>
+        <div id="noaa-container">
+          <div id="sf-noaa">
+            <h3 style="text-align: left; padding-left: 28px; text-decoration: underline;">San Francisco</h3>
+            <ul class="noaa-list">
+              <li>
+                <b>Report date:</b> {{ sf_conditions.month }}-{{ sf_conditions.day }}-{{ sf_conditions.year }}
+              </li>
+              <li>
+                <b>Wind:</b>  {{ sf_conditions.wind_dir }}° at {{ sf_conditions.wind_speed }} knots
+              </li>
+              <li>
+                <b>Wind Gusts:</b>  up to {{ sf_conditions.gust }} knots
+              </li>
+              <li>
+                <b>Air Temperature:</b>  {{ sf_conditions.air_temp}}°F
+              </li>
+              <li>
+                <b>Water Temperature:</b>  {{ sf_conditions.water_temp}}°F
+              </li>
+            </ul>
+          </div>
+          <div id="alameda-noaa"> 
+            <h3 style="text-align: left; padding-left: 28px; text-decoration: underline;">Alameda</h3>
+            <ul class="noaa-list">
+              <li>
+                <b>Report date:</b>  {{ alameda_conditions.month }}-{{ alameda_conditions.day }}-{{ alameda_conditions.year }}
+              </li>
+              <li>
+                <b>Wind:</b>  {{ alameda_conditions.wind_dir }}° at {{ alameda_conditions.wind_speed }} knots
+              </li>
+              <li>
+                <b>Wind Gusts:</b>  {{ alameda_conditions.gust }} knots
+              </li>
+              <li>
+                <b>Air Temperature:</b>  {{ alameda_conditions.air_temp}}°F
+              </li>
+              <li>
+                <b>Water Temperature:</b>  {{ alameda_conditions.water_temp}}°F
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>&#x26A0; A zero indicates that no measurement was recorded in the most recent report.</p>
       </div>
       <div class="bubble">
         <h2>Active Water Quality Alerts</h2>
@@ -128,13 +169,18 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               <img id="reddit-link" src="{{url_for('static', filename='reddit.svg')}}"/>
             </a>
           </div>
+          <div class="social-link">
+            <a href="google.com" class="highlightit">
+              <img id="reddit-link" src="{{url_for('static', filename='github-mark.svg')}}"/>
+            </a>
+          </div>
         </div>
     </div>
   </div>
   <footer>
     <div id="footer-love">
       <p> Made by Scott. Enjoy the Bay!</p>
-      <p> Copyright 2025 </p>
+      <p> Copyright 2026 </p>
     </div>
   </footer>
 </body>
@@ -171,7 +217,6 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               yValue: 214,
               // backgroundColor: 'rgba(255, 99, 132, 0.25)',
               color: 'rgb(255, 99, 132)',
-              content: ['- healthy exposure limit -'],
               font: {
                 size: 12
               }
@@ -244,7 +289,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
               yValue: 214,
               // backgroundColor: 'rgba(255, 99, 132, 0.25)',
               color: 'rgb(255, 99, 132)',
-              content: ['- healthy exposure limit -'],
+              // content: ['- healthy exposure limit -'],
               font: {
                 size: 12
               }

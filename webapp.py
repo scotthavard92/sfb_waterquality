@@ -1,4 +1,6 @@
+import csv
 import json
+import paths
 import sqlite3
 
 from datetime import datetime, timedelta
@@ -6,11 +8,10 @@ from flask import g
 from flask import Flask
 from flask import render_template
 
-### Local Testing
-# DATABASE = '/Users/scotthavard/desktop/sfswiminfo/sfb_waterquality/db.db'
-
-### Hosting Service 
-DATABASE = '/home/scotthavard92/sf_swim/sfb_waterquality/db.db'
+### File Access
+DATABASE = paths.DATABASE
+ALAMEDA_NOAA = paths.ALAMEDA_NOAA
+SF_NOAA = paths.SF_NOAA
 
 app = Flask(__name__)
 
@@ -149,6 +150,35 @@ def get_date_range(min_date, max_date):
 
 	return dates
 
+def csv_row_to_object(row: dict):
+    return {
+        "year" : str(row["YY"]),
+        "month" : str(row["MM"]),
+        "day" : str(row["DD"]),
+        "wind_dir" : str(row["WDIR"]),
+        "wind_speed" : str(row["WSPD"]),
+        "gust" : str(row["GST"]),
+        "air_temp" : str(row["ATMP"]),
+        "water_temp" : str(row["WTMP"])
+    }
+
+def format_conditions(csv_file):
+	with open(csv_file) as f:
+		reader = csv.DictReader(f)
+		obj = csv_row_to_object(next(reader))
+
+	return obj
+
+def empty_noaa_value_transfer(obj):
+	for k,v in obj.items():
+		if v == 'MM':
+			obj[k] = 0
+		else:
+			if "_temp" in k:
+				obj[k] = round((float(v) * 9/5) + 32,1)
+
+	return obj
+
 @app.route("/")
 def run_app():
 	alameda_chart_json, alameda_chart_object = get_alameda_chart_data()
@@ -163,13 +193,21 @@ def run_app():
 	sf_ob_min_date, sf_ob_max_date = min_max_date(sf_ob_chart_object)
 	sf_ob_date_range = get_date_range(sf_ob_min_date, sf_ob_max_date)
 
+	alameda_conditions_raw = format_conditions(ALAMEDA_NOAA)
+	alameda_conditions = empty_noaa_value_transfer(alameda_conditions_raw)
+	sf_conditions_raw = format_conditions(SF_NOAA)
+	sf_conditions = empty_noaa_value_transfer(sf_conditions_raw)
+
 	return render_template('homepage.html',\
 	alameda_chart_object=alameda_chart_json,\
 	alameda_date_range=alameda_date_range,\
 	sf_ap_chart_object=sf_ap_chart_json,\
 	sf_ap_date_range=sf_ap_date_range,\
 	sf_ob_chart_object=sf_ob_chart_json,\
-	sf_ob_date_range=sf_ob_date_range)
+	sf_ob_date_range=sf_ob_date_range,\
+	alameda_conditions=alameda_conditions,\
+	sf_conditions=sf_conditions)
+
 
 if __name__ == '__main__':
     app.run()

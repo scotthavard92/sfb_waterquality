@@ -1,32 +1,21 @@
-import json
-import requests
 import csv
+import json
+import paths
+import requests
+
 import sqlite3
 from sqlite3 import Error
 
-#Cal Gov deprecated old DB
-# url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=alameda'
-# url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=aquatic+park'
-# url_ocean_beach_18 = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=442a2628-92bd-4d83-aab6-6fde5eeeb56c&limit=500&q=ocean+beach+san+francisco+18'
 
-#New DB
+#California Water Quality DB
 url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=1987c159-ce07-47c6-8d4f-4483db6e6460&limit=500&q=alameda'
-url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=1987c159-ce07-47c6-8d4f-4483db6e6460&limit=500&q=aquatic+park'
+url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=15a63495-8d9f-4a49-b43a-3092ef3106b9&limit=500&q=aquatic+park'
 url_ocean_beach_18 = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=1987c159-ce07-47c6-8d4f-4483db6e6460&limit=500&q=ocean+beach+san+francisco+18'
 
 filename = 'water_output_alameda.csv'
 
 # local database
-# database = '/Users/scotthavard/desktop/sfswiminfo/sfb_waterquality/db.db'
-
-#hosting database
-database = '/home/scotthavard92/sf_swim/sfb_waterquality/db.db'
-
-# Crown 2001 Shoreline Dr.	
-# Aquatic Park  
-# CHINA CAMP
-# MB11 -> San Leandro bay
-# Keller North Beach
+database = paths.DATABASE
 
 class location_data_point:
     def __init__(self, station_code, sample_date, analyte, result, unit): 
@@ -144,7 +133,7 @@ delete_table(connection, "alameda")
 dataset = read_dataset(url_alameda, "Crown 2001 Shoreline Dr.")
 create_table("alameda", connection)
 update_sql_table(dataset, "alameda", connection)
-# write_csv(filename, dataset)
+write_csv(filename, dataset)
 
 #SF Aquatic Park
 # connection = create_connection(database)

@@ -184,18 +184,26 @@ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
 opacity: 1;
 }
 
+#noaa-container {
+  display: flex;
+/*  gap: 16px; optional spacing between the divs */
+}
+
 #alameda-noaa {
 	border: hidden thin #3366ff;
-	width:250px;
-	height:274px;
+	width:50%;
 	overflow: hidden;
 }
 
 #sf-noaa {
 	border: hidden thin #3366ff;
-	width:250px;
-	height:274px;
+	width:50%;
 	overflow: hidden;
+}
+
+.noaa-list {
+	margin-left: 0px;
+	list-style-type: circle;
 }
 
 #berkeley-cam {
