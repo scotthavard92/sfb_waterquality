@@ -5,7 +5,6 @@
 The site aggregates public testing data, highlights elevated bacteria levels, and provides environmental context (tides and weather) to support safer decision-making when recreating in open-water.
 
 <img src="static/swimbug_blank.png" height=349px width=160px/>
----
 
 ## Water Quality 
 
@@ -18,7 +17,6 @@ The application currently provides:
 - Visual flags for samples with elevated bacteria levels
 - Embedded tide and local weather data for additional context
 
----
 
 ### California Water Quality Data
 
@@ -29,7 +27,6 @@ The application:
 - Normalizes and stores relevant fields locally
 - Preserves historical test records for trend analysis
 
----
 
 ## Data Processing & Storage
 
@@ -42,7 +39,6 @@ To support fast queries and historical comparisons, the application:
 
 This approach keeps the front-end responsive while preserving a clear lineage back to the original public data.
 
----
 
 ## Bacteria Level Flags
 
@@ -54,7 +50,6 @@ These flags:
 - Are intended as an informational signal, not a guarantee of safety
 
 
----
 
 ## Charts & Visualizations
 
@@ -65,7 +60,6 @@ The front end includes charts that show:
 
 These visualizations are designed to provide **context**, rather than point-in-time judgments.
 
----
 
 ## Environmental Context
 
@@ -76,7 +70,6 @@ To complement water quality data, the site includes embedded third-party visuali
 
 These elements help swimmers understand broader conditions that may affect water movement, exposure, and comfort.
 
----
 
 ## Important Disclaimer
 
@@ -86,13 +79,11 @@ SF Bay Swim is an **informational resource only**.
 - Flagged or unflagged results do not guarantee safety
 - Always use personal judgment and local guidance before entering the water
 
----
 
 ## Project Status
 
 This project is actively evolving. Any input or interest in helping is welcome!
 
----
 
 ## Feedback
 
