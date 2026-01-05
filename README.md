@@ -4,7 +4,7 @@
 
 The site aggregates public testing data, highlights elevated bacteria levels, and provides environmental context (tides and weather) to support safer decision-making when recreating in open-water.
 
-<img src="static/swimbug_blank.png" height=50% width="50%"/>
+<img src="static/swimbug_blank.png" height=349px width=160px/>
 ---
 
 ## Water Quality 
