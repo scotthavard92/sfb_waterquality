@@ -1,6 +1,6 @@
 # SF Bay Swim
 
-**[SF Bay Swim](sfbayswim.info)** is a lightweight Python Flask web application that helps swimmers and open-water enthusiasts understand recent water quality conditions in the San Francisco Bay.
+**[SF Bay Swim](https://sfbayswim.info)** is a lightweight Python Flask web application that helps swimmers and open-water enthusiasts understand recent water quality conditions in the San Francisco Bay.
 
 The site aggregates public testing data, highlights elevated bacteria levels, and provides environmental context (tides and weather) to support safer decision-making when recreating in open-water.
 
