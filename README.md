@@ -87,4 +87,4 @@ This project is actively evolving. Any input or interest in helping is welcome!
 
 ## Feedback
 
-I welcome input and would love to hear from you if you have questions, feedback, or suggestions, 
+I welcome input and would love to hear from you if you have questions, feedback, or suggestions.
