@@ -165,7 +165,49 @@ def csv_row_to_object(row: dict):
 def format_conditions(csv_file):
 	with open(csv_file) as f:
 		reader = csv.DictReader(f)
-		obj = csv_row_to_object(next(reader))
+
+		# Initialize object with None values
+		obj = {
+			"year": None,
+			"month": None,
+			"day": None,
+			"wind_dir": None,
+			"wind_speed": None,
+			"gust": None,
+			"air_temp": None,
+			"water_temp": None
+		}
+
+		# Field mapping from CSV to object keys
+		field_map = {
+			"YY": "year",
+			"MM": "month",
+			"DD": "day",
+			"WDIR": "wind_dir",
+			"WSPD": "wind_speed",
+			"GST": "gust",
+			"ATMP": "air_temp",
+			"WTMP": "water_temp"
+		}
+
+		# Read through rows to find most recent non-missing value for each field
+		for row in reader:
+			for csv_key, obj_key in field_map.items():
+				# If we haven't found a value for this field yet
+				if obj[obj_key] is None:
+					value = row.get(csv_key, "MM")
+					# Check if value is not missing (not 'MM' and not empty)
+					if value and value != "MM":
+						obj[obj_key] = str(value)
+
+			# If all fields are filled, we can stop
+			if all(v is not None for v in obj.values()):
+				break
+
+		# Set any remaining None values to 'MM' so they get handled properly
+		for k, v in obj.items():
+			if v is None:
+				obj[k] = "MM"
 
 	return obj
 
