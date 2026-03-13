@@ -43,12 +43,12 @@ def format_result(result):
 	return res
 
 def get_alameda_chart_data():
-	sql_fecal_coli = '''SELECT DISTINCT sample_date, result FROM alameda WHERE analyte LIKE "Coliform, Fecal" ORDER BY sample_date DESC LIMIT 5; '''
+	sql_fecal_coli = '''SELECT DISTINCT sample_date, result FROM alameda WHERE analyte LIKE "Coliform, Fecal" ORDER BY sample_date DESC LIMIT 15; '''
 	result_fc = query_db(sql_fecal_coli)
 
 	fecal_coli_array = format_chart_data(result_fc)
 
-	sql_entero = '''SELECT DISTINCT sample_date, result FROM alameda WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 5; '''
+	sql_entero = '''SELECT DISTINCT sample_date, result FROM alameda WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 15; '''
 	result_entero = query_db(sql_entero)
 
 	entero_array = format_chart_data(result_entero)
@@ -57,17 +57,17 @@ def get_alameda_chart_data():
 		chart_data_object("alameda_fecal_coli", "alameda_enterococcus", None, fecal_coli_array, entero_array, None, 2)	
 
 def get_sf_ap_chart_data():
-	sql_total_coli = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 5; '''
+	sql_total_coli = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 15; '''
 	result_tc = query_db(sql_total_coli)
 
 	total_coli_array = format_chart_data(result_tc)
 
-	sql_entero = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 5; '''
+	sql_entero = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 15; '''
 	result_entero = query_db(sql_entero)
 
 	entero_array = format_chart_data(result_entero)
 
-	sql_ecoli = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "E. Coli" ORDER BY sample_date DESC LIMIT 5; '''
+	sql_ecoli = '''SELECT DISTINCT sample_date, result FROM aquatic_park_sf WHERE analyte LIKE "E. Coli" ORDER BY sample_date DESC LIMIT 15; '''
 	result_ecoli = query_db(sql_ecoli)
 
 	ecoli_array = format_chart_data(result_ecoli)
@@ -76,12 +76,12 @@ def get_sf_ap_chart_data():
 		chart_data_object("ap_total_coli", "ap_enterococcus", "ap_ecoli", total_coli_array, entero_array, ecoli_array, 3)
 
 def get_sf_ob_chart_data():
-	sql_total_coli = '''SELECT DISTINCT sample_date, result FROM ocean_beach_sf_18 WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 5; '''
+	sql_total_coli = '''SELECT DISTINCT sample_date, result FROM ocean_beach_sf_18 WHERE analyte LIKE "Coliform, Total" ORDER BY sample_date DESC LIMIT 15; '''
 	result_tc = query_db(sql_total_coli)
 
 	total_coli_array = format_chart_data(result_tc)
 
-	sql_entero = '''SELECT DISTINCT sample_date, result FROM ocean_beach_sf_18 WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 5; '''
+	sql_entero = '''SELECT DISTINCT sample_date, result FROM ocean_beach_sf_18 WHERE analyte LIKE "Enterococcus" ORDER BY sample_date DESC LIMIT 15; '''
 	result_entero = query_db(sql_entero)
 
 	entero_array = format_chart_data(result_entero)
@@ -224,16 +224,10 @@ def empty_noaa_value_transfer(obj):
 @app.route("/")
 def run_app():
 	alameda_chart_json, alameda_chart_object = get_alameda_chart_data()
-	alameda_min_date, alameda_max_date = min_max_date(alameda_chart_object)
-	alameda_date_range = get_date_range(alameda_min_date, alameda_max_date)
 
 	sf_ap_chart_json, sf_ap_chart_object = get_sf_ap_chart_data()
-	sf_ap_min_date, sf_ap_max_date = min_max_date(sf_ap_chart_object)
-	sf_ap_date_range = get_date_range(sf_ap_min_date, sf_ap_max_date)
 
 	sf_ob_chart_json, sf_ob_chart_object = get_sf_ob_chart_data()
-	sf_ob_min_date, sf_ob_max_date = min_max_date(sf_ob_chart_object)
-	sf_ob_date_range = get_date_range(sf_ob_min_date, sf_ob_max_date)
 
 	alameda_conditions_raw = format_conditions(ALAMEDA_NOAA)
 	alameda_conditions = empty_noaa_value_transfer(alameda_conditions_raw)
@@ -242,11 +236,8 @@ def run_app():
 
 	return render_template('homepage.html',\
 	alameda_chart_object=alameda_chart_json,\
-	alameda_date_range=alameda_date_range,\
 	sf_ap_chart_object=sf_ap_chart_json,\
-	sf_ap_date_range=sf_ap_date_range,\
 	sf_ob_chart_object=sf_ob_chart_json,\
-	sf_ob_date_range=sf_ob_date_range,\
 	alameda_conditions=alameda_conditions,\
 	sf_conditions=sf_conditions)
 

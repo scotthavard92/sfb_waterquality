@@ -188,14 +188,10 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
 {% block javascript %}
   <script>
   alameda_data = JSON.parse({{ alameda_chart_object | tojson }})
-  alameda_date_data = {{ alameda_date_range | safe }}
-  for (var i = 0; i < alameda_date_data.length; i++) { alameda_date_data[i].replace(/'/g, '"'); }
 
   sf_ap_data = JSON.parse({{ sf_ap_chart_object | tojson }})
-  sf_ap_date_data = {{ sf_ap_date_range | safe }}
-  for (var i = 0; i < sf_ap_date_data.length; i++) { sf_ap_date_data[i].replace(/'/g, '"'); }
 
-  function makeAlamedaChart(measurements, dates) {
+  function makeAlamedaChart(measurements) {
     luxon.Settings.defaultLocale = "en-US";
 
     var chart = new Chart('chart-alameda', {
@@ -248,7 +244,6 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
         }
       },
       data: {
-        labels: dates,
         datasets: [
           {
             fill: false,
@@ -269,7 +264,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     });
   }
 
-  function makeSFAPChart(measurements, dates) {
+  function makeSFAPChart(measurements) {
     var chart = new Chart('chart-sf-ap', {
       type: "line",
       options: {
@@ -321,7 +316,6 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
         }
       },
       data: {
-        labels: dates,
         datasets: [
           {
             fill: false,
@@ -334,6 +328,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           {
             fill: false,
             label: 'Enterococcus (MPN/100mL)',
+            hidden: true,
             data: sf_ap_data.ap_enterococcus,
             backgroundColor: 'rgb(64, 196, 16)',
             borderColor: 'rgb(64, 196, 16)',
@@ -350,8 +345,8 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
     });
   }
 
-  makeAlamedaChart(alameda_data, alameda_date_data);
-  makeSFAPChart(sf_ap_data, sf_ap_date_data);
+  makeAlamedaChart(alameda_data);
+  makeSFAPChart(sf_ap_data);
 
 </script>
 {% endblock %}
