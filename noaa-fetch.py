@@ -1,12 +1,13 @@
 import csv
 import requests
+import paths
 from typing import List
 
 
 ALAMEDA_SOURCE_URL = "https://www.ndbc.noaa.gov/data/realtime2/AAMC1.txt"
-ALAMEDA_OUTPUT_FILE = "AAMC1.csv"
+ALAMEDA_OUTPUT_FILE = paths.ALAMEDA_NOAA
 SF_SOURCE_URL = "https://www.ndbc.noaa.gov/data/realtime2/FTPC1.txt"
-SF_OUTPUT_FILE = "FTPC1.csv"
+SF_OUTPUT_FILE = paths.SF_NOAA
 MAX_ROWS = 5
 
 
@@ -16,7 +17,7 @@ def fetch_text(url: str) -> str:
     return response.text
 
 
-def parse_ndbc_text(text: str, max_rows: int = MAX_ROWS) -> tuple[list[str], list[list[str]]]:
+def parse_ndbc_text(text: str, max_rows: int = MAX_ROWS):
     """
     Parse NDBC realtime text format.
 

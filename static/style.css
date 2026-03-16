@@ -206,6 +206,17 @@ opacity: 1;
 	list-style-type: circle;
 }
 
+@media (max-width: 768px) {
+  #noaa-container {
+    flex-direction: column;
+  }
+
+  #sf-noaa,
+  #alameda-noaa {
+    width: 100%;
+  }
+}
+
 #berkeley-cam {
 	width:80%;
 	height:80%;
@@ -242,28 +253,5 @@ a:hover { text-decoration: none; color:#236E2F; }
     #header {
     	height: 64px;
     }
-
-    #sf-noaa {
-		border: hidden thin #3366ff;
-		width:250px;
-		height:272px;
-		overflow: hidden;
-	}
-}
-
-@-moz-document url-prefix() {
-	#alameda-noaa {
-		border: hidden thin #3366ff;
-		width:250px;
-		height:268px;
-		overflow: hidden;
-	}
-
-	#sf-noaa {
-		border: hidden thin #3366ff;
-		width:250px;
-		height:252px;
-		overflow: hidden;
-	}
 }
 
