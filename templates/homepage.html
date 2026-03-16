@@ -1,3 +1,4 @@
+{% macro wind_cardinal(deg) %}{% set d = deg | int %}{% set dirs = ['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'] %}{{ dirs[((d + 11) // 22) % 16] }}{% endmacro %}
 <!doctype html>
 
 <html lang="en">
@@ -45,7 +46,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
                 <b>Report date:</b> {{ sf_conditions.month }}-{{ sf_conditions.day }}-{{ sf_conditions.year }}
               </li>
               <li>
-                <b>Wind:</b>  {{ sf_conditions.wind_dir }}° at {{ sf_conditions.wind_speed }} knots
+                <b>Wind:</b>  {{ wind_cardinal(sf_conditions.wind_dir) }} {{ sf_conditions.wind_dir }}° at {{ sf_conditions.wind_speed }} knots
               </li>
               <li>
                 <b>Wind Gusts:</b>  up to {{ sf_conditions.gust }} knots
@@ -65,7 +66,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
                 <b>Report date:</b>  {{ alameda_conditions.month }}-{{ alameda_conditions.day }}-{{ alameda_conditions.year }}
               </li>
               <li>
-                <b>Wind:</b>  {{ alameda_conditions.wind_dir }}° at {{ alameda_conditions.wind_speed }} knots
+                <b>Wind:</b>  {{ wind_cardinal(alameda_conditions.wind_dir) }} {{ alameda_conditions.wind_dir }}° at {{ alameda_conditions.wind_speed }} knots
               </li>
               <li>
                 <b>Wind Gusts:</b>  {{ alameda_conditions.gust }} knots
@@ -172,6 +173,11 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           <div class="social-link">
             <a href="https://github.com/scotthavard92/sfb_waterquality" class="highlightit">
               <img id="reddit-link" src="{{url_for('static', filename='github-mark.svg')}}"/>
+            </a>
+          </div>
+          <div class="social-link">
+            <a href="https://docfixpro.com/about" class="highlightit">
+              <img id="reddit-link" src="{{url_for('static', filename='df-logo.svg')}}"/>
             </a>
           </div>
         </div>
@@ -320,7 +326,6 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           {
             fill: false,
             label: 'Coliform, Total (MPN/100mL)',
-            hidden: true,
             data: sf_ap_data.ap_total_coli,
             backgroundColor: 'rgb(54, 162, 235)',
             borderColor: 'rgb(54, 162, 235)',
@@ -336,6 +341,7 @@ MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mix
           {
             fill: false,
             label: 'E. Coli (MPN/100mL)',
+            hidden: true,
             data: sf_ap_data.ap_ecoli,
             backgroundColor: 'rgb(255, 79, 66)',
             borderColor: 'rgb(255, 79, 66)',
