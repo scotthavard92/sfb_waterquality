@@ -123,22 +123,33 @@ footer {
 .social-links {
 	margin: auto;
 	width: 100%;
-	text-align: center;
-	position: static;
-	height: 75px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 8px 0;
 }
 
 .social-link {
-	display: inline-block;
-	width:65px;
-	height:65px;
-	padding-right: 10px;
-	bottom: 0px;
+	width: 65px;
+	height: 65px;
 }
 
-#reddit-link {
-	width:65px;
-	height:65px;
+.social-link img, #reddit-link {
+	width: 65px;
+	height: 65px;
+}
+
+@media (max-width: 480px) {
+	.social-link {
+		width: 48px;
+		height: 48px;
+	}
+	.social-link img, #reddit-link {
+		width: 48px;
+		height: 48px;
+	}
 }
 
 #footer-love {
