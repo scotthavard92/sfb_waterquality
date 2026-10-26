@@ -92,7 +92,7 @@ def get_sf_ob_chart_data():
 def format_chart_data(query_results):
 	data_points = []
 	for r in query_results:
-		data_object = chart_data_point(r[0].replace("T00:00:00", ""), r[1])
+		data_object = chart_data_point(r[0][:10], r[1])
 		data_points.append(data_object.__dict__)
 
 	return_array = reverse_array(data_points)

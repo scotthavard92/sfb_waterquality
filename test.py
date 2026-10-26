@@ -8,9 +8,9 @@ from sqlite3 import Error
 
 
 #California Water Quality DB
-url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=1987c159-ce07-47c6-8d4f-4483db6e6460&limit=500&q=alameda'
+url_alameda = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=15a63495-8d9f-4a49-b43a-3092ef3106b9&limit=500&q=alameda'
 url_aquatic_park_sf = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=15a63495-8d9f-4a49-b43a-3092ef3106b9&limit=500&q=aquatic+park'
-url_ocean_beach_18 = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=1987c159-ce07-47c6-8d4f-4483db6e6460&limit=500&q=ocean+beach+san+francisco+18'
+url_ocean_beach_18 = 'https://data.ca.gov/api/3/action/datastore_search?resource_id=15a63495-8d9f-4a49-b43a-3092ef3106b9&limit=500&q=ocean+beach+san+francisco+18'
 
 filename = 'water_output_alameda.csv'
 
@@ -27,6 +27,8 @@ class location_data_point:
 
 def read_dataset(url, station_code):
 	data_points = []
+	base_url = url
+	offset = 0
 
 	while url:
 		response = requests.get(url)
@@ -46,11 +48,11 @@ def read_dataset(url, station_code):
 				data_points.append(lcp)
 		
 		result = data['result']
-		links = result['_links']
-		url_next = links['next']
 
+		# API no longer returns _links; page manually with offset
 		if len(result['records']) != 0:
-			url = 'https://data.ca.gov' + url_next
+			offset += len(result['records'])
+			url = base_url + '&offset=' + str(offset)
 		else:
 			url = None
 			return data_points
